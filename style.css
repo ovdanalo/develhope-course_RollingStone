@@ -1,12 +1,19 @@
-.logo-pmc-wrap{
+.logo-pmc-wrap {
     height: 12px;
     width: 73.8px;
 }
-.svg-first-most-popular{
+
+.svg-first-most-popular {
     height: 12px;
     width: 73.8px;
 }
-.svg-also-like{
+
+.svg-also-like {
+    height: 12px;
+    width: 73.8px;
+}
+
+.flickity-button-icon {
     height: 12px;
     width: 73.8px;
 }
