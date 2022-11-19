@@ -1,0 +1,240 @@
+:root {
+    font-size: 16px;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+#navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 10px 0;
+    border-bottom: 4px solid black;
+}
+
+#navbar-primary {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-navbar-primary {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    width: 36px;
+    height: 36px;
+}
+
+.menu_close {
+    display: none;
+}
+
+#logo-primary {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
+
+.st0 {
+    fill: #bcbec0;
+}
+
+.gl-st1 {
+    fill: #d71920;
+}
+
+#Layer_1 {
+    width: 80%;
+}
+
+#subscribe,
+#subscribe:visited {
+    color: #8c8c8c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+
+#subscribe:hover {
+    color: rgb(192, 192, 192);
+}
+
+#left-nav-primary {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#right-nav-primary {
+    display: flex;
+    height: 20px;
+    justify-content: flex-end;
+}
+
+#right-nav:hover {
+    color: rgb(192, 192, 192);
+    border-bottom: 1px solid grey;
+}
+
+.menu-primary {
+    position: relative;
+}
+
+#mobile {
+    display: none;
+}
+
+.dropdown {
+    display: flex;
+    position: absolute;
+    width: 473px;
+    top: 100px;
+    left: 0;
+    flex-direction: column;
+}
+
+.upper-dropdown {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    height: 735px;
+}
+
+.down-dropdown {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.dropdown-item {
+    height: auto;
+    width: 50%;
+    min-height: 60px;
+    margin: 5px 0 5px 5px;
+}
+
+#left-dropdown,
+#right-dropdown {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    padding-top: 20px;
+}
+
+#left-dropdown {
+    margin-right: -20px;
+}
+
+hr {
+    margin: 10% 3% 4% 10%;
+}
+
+.dropdown a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.dropdown ul {
+    list-style: none;
+    padding: 0.1rem 0 0.1rem 0;
+}
+
+.dropdown li {
+    padding: 0.1rem;
+}
+
+.dropdown-item>a>h5,
+.dropdown-item>ul>li>a {
+    font-size: 0.81rem;
+    margin: 2px;
+}
+
+.dropdown-item>ul>li>a:hover {
+    color:rgb(102, 102, 102);
+}
+
+.dropdown-item>ul>li>a {
+    margin: 1px;
+}
+
+.follow-section {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.follow {
+    width: 86%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.subscribe-section {
+    display: none;
+}
+
+.social {
+    fill: currentColor;
+    color: rgb(0, 0, 0);
+    width: 36px;
+    height: 36px;
+}
+
+.social:hover {
+    fill: currentColor;
+    color: rgb(102, 102, 102);
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+form {
+    display: flex;
+}
+
+label[for="email"] {
+    display: block;
+}
+
+input[type="email"] {
+    border: 0px;
+    border-bottom: 1px solid black;
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#signup-button {
+    cursor: pointer; 
+    width: 100px;
+    background-color: white;
+    font-size: 1.1rem;
+    margin-left: -5px;
+    border: 0px;
+    border-left: 1px solid black;
+    padding-top: 20px;
+    padding-left: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
