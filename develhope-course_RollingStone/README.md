@@ -1,1 +1,0 @@
-RollingStone homepage replication
