@@ -102,6 +102,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
 
 }
 
@@ -121,4 +125,42 @@ body {
 
 .no-margin-also-like-text {
     margin: 0px;
+}
+
+footer {
+    width: 100%;
+}
+
+footer,
+.backblack,
+.border3-padding050,
+.border1,
+{
+background-color: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.backblack {
+    height: 476px;
+    width: 100%;
+    padding: 20px 24px;
+
+}
+
+.border3-padding050 {
+    height: 450px;
+    width: 430px;
+
+
+    padding: 8px;
+    border: 3px solid white;
+}
+
+.border1 {
+    border: 1px solid white;
+    height: 430px;
+    width: 410px;
 }
