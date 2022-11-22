@@ -1,0 +1,111 @@
+body {
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 0px;
+}
+
+.container {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.upper-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrap-pmc-mostpopular {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.most-popular {
+  display: flex;
+}
+
+#most-popular-title {
+  margin-top: 0px;
+}
+
+.text-of-firts-most-popular {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.first-most-popular-card {
+  padding-left: 20px;
+}
+
+.first-popular-wrap {
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+}
+
+.first-popular-wrap::before {
+  content: "1";
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.first-popular {
+  border-bottom: 1px dotted black;
+}
+
+#ultimus {
+  padding-bottom: 30px;
+  border-bottom: 2px solid black;
+}
+
+.all-list-you-might-also-like {
+  display: flex;
+  gap: 30px;
+  overflow: auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-386-183 {
+  width: 326px;
+  height: 183px;
+}
+
+.more-specific-list-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-to-also-like {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content-of-also-like {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text-content-of-also-like {
+  display: flex;
+  flex-direction: column;
+}
+
+.no-margin-also-like-text {
+  margin: 0px;
+}
+
+/*# sourceMappingURL=footerscss.css.map */
