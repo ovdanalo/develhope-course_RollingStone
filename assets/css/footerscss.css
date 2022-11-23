@@ -5,7 +5,6 @@ body {
 }
 
 .container {
-  max-width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,11 +48,33 @@ body {
   padding-left: 12px;
 }
 
-.first-popular-wrap::before {
+/*.first-popular-wrap::before {
+    content: "1";
+    display: block;
+    font-size: 16px;
+    font-weight: 400;}*/
+.first-popular-wrap:nth-child(1)::before {
   content: "1";
-  display: block;
-  font-size: 16px;
-  font-weight: 400;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.first-popular-wrap:nth-child(2)::before {
+  content: "2";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.first-popular-wrap:nth-child(3)::before {
+  content: "3";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.first-popular-wrap:nth-child(4)::before {
+  content: "4";
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .first-popular {
