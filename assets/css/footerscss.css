@@ -174,10 +174,16 @@ footer,
 .final-button {
   text-decoration: none;
   background-color: white;
-  color: black;
   height: 28px;
   width: 347px;
   padding: 6px 4px 8px 4px;
+}
+
+#give-a-gift,
+#customer-service {
+  color: rgb(200, 26, 26);
+  background-color: black;
+  border: 1pc solid black;
 }
 
 .final-button:hover {

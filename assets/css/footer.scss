@@ -204,7 +204,12 @@ footer,
     padding: 6px 4px 8px 4px
 }
 
-#give-a-gift {}
+#give-a-gift,
+#customer-service {
+    color: white;
+    background-color: black;
+    border: 1pc solid black;
+}
 
 .final-button:hover {
     background-color: red;
