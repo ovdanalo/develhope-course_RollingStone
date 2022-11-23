@@ -1,0 +1,227 @@
+/* Responsivity for 768px */
+
+@media (min-width: 768px) {
+    body {
+        padding: 0px 24px;
+    }
+
+    .latest-news > .header-latest {
+        padding: 12px 0px;
+    }
+
+    .exclusive-stories {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+    .latest-news .news-list {
+        padding: 0;
+    }
+
+    .latest-news #hidden {
+        display: contents;
+    }
+
+    .main-story {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 24px;
+    }
+
+    .exclusive-stories .main-story .card-story {
+        padding: 0px;
+        width: 90%;
+    }
+    
+    .main-story > a  {
+        margin-right: 28px;
+        width: 100%;
+    }
+
+    .main-story > a > img {
+        width: 100%;
+    }
+
+    .exclusive-stories .main-story > .card-story {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        top: 35px;
+        padding-left: 0px;
+        
+    }
+
+    .main-story > .card-story > .text-story p {
+        margin: 0px;
+    }
+
+    .card-story > .text-story > h3, a {
+        padding-top: 0px;
+        margin: 0px;
+    }
+
+    .card-story > .little-div {
+        display: flex;
+        align-items: unset;
+        padding: 0;
+        margin: 0;
+    }
+
+    .card-story > .little-div > .absolute-div {
+        position: inherit;
+        top: 10px;
+    }
+
+    .first-secondary-story {
+        border-top: none;
+        margin-top: none;
+    }
+
+    .first-secondary-story > .card-story {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card-story {
+        display: flex;
+        padding: 0px;
+    }
+
+    .text-story > h3 {
+        padding-bottom: 4px;
+        padding-top: 0px;
+        line-height: 1.5rem;
+    }
+
+    .card-story > .text-story > h3 > a {
+        padding-top: 0px;
+    }
+
+    .exclusive-stories > .secondary-stories {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+
+    .border-top {
+        display: flex;
+        flex-direction: row;
+        padding-top: 24px;
+        border-top: 1px black solid;
+    }
+
+    .first-secondary-story {
+        order: 2;
+    }
+
+    .secondary-stories .first-secondary-story {
+        border: none;
+        padding-top: 0px;
+    }
+
+   .first-secondary-story #hidden {
+        display: none;
+   }
+
+   .element-card-1 {
+    margin-right: 20px;
+   }
+
+   .element-card-1 img {
+    width: 115px;
+   }
+
+   .element-card-2 {
+    position: relative;
+    top: -10px;
+   }
+
+   .second-secondary-story {
+    padding-right: 32px;
+   }
+
+   .second-secondary-story > .card-news {
+    border: none;
+    padding-top: 0px;
+   }
+
+   .exclusive-stories .content-bottom {
+    display: flex;
+    padding-top: 28px;
+   }
+
+   .content-bottom {
+    display: flex;
+    justify-content: center;
+    
+   }
+   .content-bottom .first-bottom-news .card-story {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+   }
+
+   .first-bottom-news {
+    border-right: 1px black solid;
+    padding-right: 32px;
+    flex-basis: 50%;
+   }
+
+   .first-bottom-news .little-div-bottom-up {
+    display: flex;
+    left: 0px;
+    top: -40px;
+   }
+
+   .first-bottom-news .little-div-bottom-up p {
+    margin-bottom: 5px;
+   }
+
+
+   .content-bottom .bottom-second-story {
+    border: none;
+    padding-top: 0px;
+    padding-left: 8px;
+   }
+
+   .content-bottom .bottom-second-story .text-story {
+    margin-top: 10px;
+   }
+
+   .content-bottom .bottom-second-story p:nth-child(2) {
+    margin-top: 12px;
+    margin-bottom: 16px;
+   }
+
+   .second-bottom-news {
+    position: relative;
+    top: -20px;
+    flex-basis: 50%;
+   }
+
+   .content-bottom .second-bottom-news {
+    padding-right: 0px;
+   }
+
+   .second-container .border-recommends {
+    border-left: 0px;
+    border-right: 0px;
+    top: -40px;
+   }
+
+   .border-recommends .recommends {
+    margin-top: 40px;
+   }
+
+   .border-recommends .header-recommends {
+    position: relative;
+    top: 30px;
+
+   }
+
+   .quote {
+    border-bottom: 1px black solid;
+   }
+}
