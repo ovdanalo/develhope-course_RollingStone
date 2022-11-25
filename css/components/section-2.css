@@ -1,5 +1,3 @@
-@import "section-2-responsive.css";
-
 body {
     margin: 0;
 }
@@ -126,7 +124,11 @@ a:hover {
     position: relative;
 }
 
-
+.stories {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
 
 .main-story > .card-story  {
     padding: 0px 24px;
@@ -142,14 +144,6 @@ a:hover {
     position: absolute;
     top: -55px;
     
-}
-
-.absolute-div {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    white-space: nowrap;
-    height: 35px;
 }
 
 .absolute-div > p {
@@ -225,7 +219,6 @@ a:hover {
 .secondary-stories {
     margin: 10px 0px 10px 0px;
     padding: 0px 24px;
-    
 }
 
 .cards-column {
@@ -238,6 +231,7 @@ a:hover {
     margin-bottom: 20px;
     padding-top: 24px;
     border-top: 1px black solid;
+    flex-basis: 100%;
 }
 
 .element-card-2 > h3 {
@@ -256,6 +250,10 @@ a:hover {
 
 .first-secondary-story, .second-secondary-story > h3 > a {
     font-size: 22px;
+}
+
+.second-secondary-story {
+    flex-basis: 100%;
 }
 
 .card-news {

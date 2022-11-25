@@ -27,11 +27,12 @@
         display: flex;
         flex-direction: row;
         padding-bottom: 24px;
+        flex-basis: 50%;
+        font-size: 16px;
     }
 
     .exclusive-stories .main-story .card-story {
         padding: 0px;
-        width: 90%;
     }
     
     .main-story > a  {
@@ -46,10 +47,12 @@
     .exclusive-stories .main-story > .card-story {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         top: 35px;
         padding-left: 0px;
-        
+    }
+
+    .main-story > .card-story > .text-story h3 {
+        margin-top: 12px;
     }
 
     .main-story > .card-story > .text-story p {
@@ -64,8 +67,6 @@
     .card-story > .little-div {
         display: flex;
         align-items: unset;
-        padding: 0;
-        margin: 0;
     }
 
     .card-story > .little-div > .absolute-div {
@@ -118,7 +119,13 @@
 
     .secondary-stories .first-secondary-story {
         border: none;
-        padding-top: 0px;
+        padding-top: 0;
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+
+    .border-top {
+        padding-top: 0;
     }
 
    .first-secondary-story #hidden {
@@ -225,3 +232,79 @@
     border-bottom: 1px black solid;
    }
 }
+
+/* Responsivity for 1000px */
+
+@media (min-width: 1000px) {
+    .second-container{
+        display: flex;
+        gap: 2.75rem;
+    }
+
+    .second-container .latest-news > .header-latest {
+        padding-left: 0px;
+    }
+
+    .latest-news .border-double {
+        display: none;
+    }
+
+    .latest-news .news-list > div {
+        display: flex;
+        flex-direction: column;
+        border-bottom: none;
+        font-size: 15px;
+    }
+
+    time {
+        margin-top: 5px;
+    }
+
+    .header-latest h2 {
+        margin: 0;
+    }
+
+    .news-list .read-more {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 10px;
+        width: 120px;
+        border-bottom: none;
+        border-top: 1px black solid;
+        text-transform: uppercase;
+    }
+
+    .news-list .read-more > a {
+        margin: 0;
+    }
+    .second-container .main-story {
+        margin-bottom: 20px;
+    } 
+    .stories .main-story img {
+        width: 90%;
+    }
+
+    .stories .main-story a {
+        margin: 0;
+    }
+
+    .stories .secondary-stories {
+        padding: 0;
+    }
+
+    .secondary-stories .second-secondary-story {
+        max-width: 16.25rem;
+    }
+
+    .secondary-stories .second-secondary-story .card-news {
+        font-size: 1.7rem;
+        margin-top: 0;
+    }
+
+    .secondary-stories .first-secondary-story {
+        font-size: 13px;
+    }
+
+} 
+
+/* Responsivity for 1300px */
