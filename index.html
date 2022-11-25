@@ -19,22 +19,20 @@
     <meta property="og:url" content="https://www.rollingstone.com/">
     <meta property="og:site_name" content="rollingstone.com">
     <meta property="og:article:author" content="Danilo Candida">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/reusable.css">
-    <link rel="stylesheet" href="/css/navbar-secondary.css">
+    <link rel="stylesheet" href="css/base/base.css">
 </head>
 
 <body>
 
-    <nav id="navbar">
-        <div id="navbar-secondary">
-            <div id="container-navbar-secondary">
-                <div id="left-nav-secondary">
+    <nav class="navbar flex flex-justify-center flex-dir-col">
+        <div class="navbar-secondary flex-justify-center">
+            <div class="container-navbar-secondary">
+                <div class="left-nav-secondary">
                     <p class="header-link">RS SHOP</p>
                     <div class="divider-xs divider-left"></div>
                     <p class="header-link">GOT A TIP?</p>
                 </div>
-                <div class="logo">
+                <div class="logo flex flex-justify-center">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0"
                         viewBox="45 20 680 150" xml:space="preserve">
                         <path
@@ -82,22 +80,40 @@
                         </g>
                     </svg>
                 </div>
-                <div id="right-nav-secondary">
+                <div class="right-nav-secondary">
                     <p class="header-link">LOGIN</p>
                     <div class="divider-xs divider-right"></div>
-                    <p class="header-link">SUBSCRIBE</p>
+                    <div class="right-nav-subscribe-secondary flex">
+                        <p class="header-link">SUBSCRIBE</p>
+                        <div class="popup-subscribe-secondary flex flex-justify-center">
+                            <div class="popup-subscribe-img-container">
+                                <img class="popup-subscribe-img" src="assets/images/popup-subscribe-image.jpg"
+                                    alt="subscribe image">
+                            </div>
+                            <div class="popup-subscribe-content">
+                                <h2 class="popup-subscribe-title">Journalism That Matters. Music That Inspires.
+                                </h2>
+                                <h3 class="popup-subscribe-subtitle">Subscriptions from just $7.99 a month.</h3>
+                                <button class="popup-subscribe-button">
+                                    <div class=popup-subscribe-button-central>
+                                        SEE MY OPTIONS
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="mobile" class="divider-full"></div>
-        <div id="navbar-primary">
-            <div id="container-navbar-primary">
-                <div class="left-nav-primary">
+        <div class="divider-full mobile"></div>
+        <div class="navbar-primary flex flex-justify-center">
+            <div class="container-navbar-primary flex flex-justify-center">
+                <div class="left-nav-primary flex flex-justify-center">
                     <div class="menu-primary">
-                        <img class="menu menu_open" src="assets/menu_open.png" alt="open-menu">
-                        <img class="menu menu_close" src="assets/menu_close.png" alt="close-menu">
-                        <div class="dropdown">
-                            <div class="upper-dropdown">
+                        <img class="menu menu_open" src="assets/images/menu_open.png" alt="open-menu">
+                        <img class="menu menu_close" src="assets/images/menu_close.png" alt="close-menu">
+                        <div class="dropdown flex flex-dir-col">
+                            <div class="upper-dropdown up-dropdown-secondary flex flex-dir-col">
                                 <div class="dropdown-item menu-login">
                                     <a href="#" class="left-menu-primary">
                                         <h5>LOG IN</h5>
@@ -142,6 +158,7 @@
                                     <div class="divider-xl left-menu-primary"></div>
                                     <div class="divider-xl left-menu-primary"></div>
                                 </div>
+                                <div class="vl vl-secondary"></div>
                                 <div class="dropdown-item menu-movies">
                                     <a href="#" class="left-menu-primary">
                                         <h5>TV & MOVIES</h5>
@@ -156,6 +173,7 @@
                                         <li><a href="#">Reviews</a></li>
                                     </ul>
                                 </div>
+                                <div class="vl vl-primary"></div>
                                 <div class="dropdown-item menu-video">
                                     <a href="#">
                                         <h5>VIDEO & PHOTOS</h5>
@@ -171,6 +189,7 @@
                                         <li><a href="#">Rolling Stone on Twitch</a></li>
                                     </ul>
                                 </div>
+                                <div class="vl vl-secondary"></div>
                                 <div class="dropdown-item menu-subculture">
                                     <a href="#">
                                         <h5>(SUB)CULTURE</h5>
@@ -211,7 +230,7 @@
                             </div>
                             <div class="down-dropdown">
                                 <div class="subscribe-section">
-                                    <img id="subscribe-cover" src="assets/subscribe-image.png" alt="subscribe image">
+                                    <img id="subscribe-cover" src="assets/images/subscribe-image.png" alt="subscribe image">
                                 </div>
                                 <div class="follow-section">
                                     <div class="follow">
@@ -251,7 +270,13 @@
                                     </div>
                                 </div>
                                 <div class="signup">
-                                    <p id="alerts">ALERTS & NEWSLETTERS</p>
+                                    <div class="alerts-newsletters flex flex-justify-center">
+                                        <img class="newsletter-divider" src="assets/images/newsletter-divider-left.png"
+                                            alt="divider left">
+                                        <p id="alerts">ALERTS & NEWSLETTERS</p>
+                                        <img class="newsletter-divider" src="assets/images/newsletter-divider-right.png"
+                                            alt="divider right">
+                                    </div>
                                     <form id="signup-form">
                                         <div id="email">
                                             <label for="email">Email Address</label>
@@ -271,7 +296,7 @@
                     <a class="center-nav-link" href="#">(SUB)CULTURE</a>
                     <a class="center-nav-link" href="#">RS RECOMMENDS</a>
                 </div>
-                <div class="primary" id="logo-primary">
+                <div class="logo-primary flex flex-justify-center">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0"
                         viewBox="0 0 690.6 135.8" xml:space="preserve">
                         <path class="st0"
@@ -296,22 +321,38 @@
                         </g>
                     </svg>
                 </div>
-                <div class="primary" id="right-nav-primary">
+                <div class="right-nav-primary">
                     <a id="subscribe" href="#">SUBSCRIBE</a>
+                    <div class="popup-subscribe-primary flex flex-justify-center">
+                        <div class="popup-subscribe-img-container">
+                            <img class="popup-subscribe-img" src="assets/images/popup-subscribe-image.jpg"
+                                alt="subscribe image">
+                        </div>
+                        <div class="popup-subscribe-content">
+                            <h2 class="popup-subscribe-title">Journalism That Matters. Music That Inspires.
+                            </h2>
+                            <h3 class="popup-subscribe-subtitle">Subscriptions from just $7.99 a month.</h3>
+                            <button class="popup-subscribe-button">
+                                <div class=popup-subscribe-button-central>
+                                    SEE MY OPTIONS
+                                </div>
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div class="right-nav-secondary">
                     <div class="parent-search">
-                        <img class="search-icon" src="assets/search.png" alt="search icon">
-                        <div id="popup-search">
+                        <img class="search-icon" src="assets/images/search.png" alt="search icon">
+                        <div class="popup-search">
                             <input type="search" placeholder="Search...">
-                            <img class="search-icon" src="assets/search-active.png" alt="search icon">
+                            <img class="search-icon" src="assets/images/search-active.png" alt="search icon">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
-    <div class="divider-full primary"></div>
+    <div class="divider-full divider-primary"></div>
 </body>
 
 </html>

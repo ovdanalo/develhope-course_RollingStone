@@ -1,0 +1,42 @@
+.popup-subscribe-secondary,
+.popup-subscribe-primary {
+    position: absolute;
+    background-color: white;
+    border: 2px solid black;
+    top: 120%;
+    width: 400px;
+    height: auto;
+    z-index: 3;
+}
+
+.popup-subscribe-secondary {
+    display:none;
+}
+
+.popup-subscribe-title {
+    font-family: "publico banner web ultra";
+}
+.popup-subscribe-subtitle {
+    font-size: 0.9rem;
+}
+
+.popup-subscribe-button {
+    background-color: black;
+    height: 35px;
+}
+
+.popup-subscribe-button-central {
+    color: white;
+    padding: 5px;
+    border: 0.5px solid white;
+}
+
+.popup-subscribe-img-container {
+    height: 100%;
+    width: auto;
+}
+
+.popup-subscribe-img {
+    height: 210px;
+    padding: 20px;
+}
