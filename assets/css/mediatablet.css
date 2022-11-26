@@ -1,0 +1,22 @@
+@import "root.css";
+@import "components.css";
+
+#wide-container {
+    width: 985px;
+    width: 1243px;
+    height: 501px;
+}
+
+#wide-container2 {
+    border: 3px solid white;
+
+    margin-top: 10px;
+
+}
+
+#wide-container3 {
+    border: 2px solid white;
+
+    margin-top: 10px;
+
+}
