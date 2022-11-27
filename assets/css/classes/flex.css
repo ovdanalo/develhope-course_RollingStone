@@ -8,6 +8,11 @@
     justify-content: center;
 }
 
+.c-flex-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
 .c-flex-center-center {
     display: flex;
     justify-content: center;
@@ -39,6 +44,13 @@
     display: flex;
     align-items: center;
 
+    flex-direction: column;
+}
+
+.c-flex-column-jsstart-center {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     flex-direction: column;
 }
 

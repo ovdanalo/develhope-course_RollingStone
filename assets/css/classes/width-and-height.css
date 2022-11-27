@@ -13,6 +13,14 @@
     height: 70%;
 }
 
+.c-width100 {
+    width: 100%;
+}
+
 .c-height70 {
     height: 70%;
+}
+
+.c-width100px {
+    width: 100px;
 }

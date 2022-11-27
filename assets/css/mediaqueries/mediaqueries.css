@@ -1,0 +1,25 @@
+@media (min-width: 1000px) {
+    .upper-footer {
+        flex-direction: row;
+        gap: 30px;
+
+    }
+
+    .you-might-also-like {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        overflow: auto;
+
+
+
+    }
+
+    .buttons {
+        display: none;
+    }
+
+    #wide-container {
+        display: block;
+    }
+}

@@ -2,14 +2,16 @@
 @import "components.css";
 
 #wide-container {
-    width: 985px;
-    width: 1243px;
+    width: 100%;
+    display: none;
+
     height: 501px;
+    font-weight: 500;
 }
 
 #wide-container2 {
     border: 3px solid white;
-
+    margin-left: 10px;
     margin-top: 10px;
 
 }
@@ -19,4 +21,15 @@
 
     margin-top: 10px;
 
+}
+
+#upper-wide-section {
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+#bottom-wide-section {
+    margin-left: 9px;
+    margin-right: 9px;
+    padding-top: 15px;
 }

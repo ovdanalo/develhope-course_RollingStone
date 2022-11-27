@@ -5,4 +5,8 @@
 @import "root.css";
 @import "reusable.css";
 @import "classes/flex.css";
-@import "classes/width-and-height.css"
+@import "classes/width-and-height.css";
+@import "classes/paddings.css";
+@import "classes/margins.css";
+@import "classes/borders.css";
+@import "mediaqueries/mediaqueries.css";

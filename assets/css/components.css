@@ -19,22 +19,10 @@
 
 
 
-.margintop-40 {
-    margin-top: 40px;
-}
-
-.margintop-60 {
-    margin-top: 60px;
-}
-
-.margintop-10 {
-    margin-top: 10px;
-}
-
-.padding-right90 {
-    padding-right: 90px;
 
 
+.textstart {
+    text-align: start;
 }
 
 
@@ -44,4 +32,14 @@
     width: 10px;
     font-size: 8px;
 
+}
+
+.link-footer {
+    text-decoration: none;
+    color: white;
+}
+
+.link-footer:hover {
+    text-decoration: underline;
+    color: grey;
 }
