@@ -1,66 +1,13 @@
 @import "root.css";
+@import "reusable.css";
 
 .c-back-black {
     background-color: var(--backgroundf);
 }
 
-.c-flex {
-    display: flex;
-    justify-content: center;
-}
-
-.c-flex-jstart {
-    display: flex;
-    justify-content: flex-start;
-
-}
-
-.c-flex-wrap {
-    display: flex;
-
-    flex-wrap: wrap;
-}
-
-.c-flex-column-wrap-jstart {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
 
 
-.c-flex-column-wrap {
-    display: flex;
-    flex-direction: column;
 
-    flex-wrap: wrap;
-}
-
-.c-flex-column {
-    display: flex;
-    justify-content: center;
-
-    flex-direction: column;
-}
-
-.c-height-width-boxinbox {
-    width: 98%;
-    height: 95%;
-}
-
-.c-height70-width100 {
-    height: 70%;
-    width: 100%;
-}
-
-.c-width30 {
-    width: 30%;
-    height: 70%;
-}
-
-.c-height70 {
-    height: 70%;
-}
 
 .displayinline {
     display: inline;
@@ -70,33 +17,27 @@
     color: white;
 }
 
-.gap10 {
-    gap: 10px;
-}
 
-.gap40 {
-    gap: 40px;
-}
 
 .margintop-40 {
     margin-top: 40px;
+}
+
+.margintop-60 {
+    margin-top: 60px;
 }
 
 .margintop-10 {
     margin-top: 10px;
 }
 
-.svg-followus {
-    height: 16px;
-    width: 16px;
-    color: red;
-    fill: red;
+.padding-right90 {
+    padding-right: 90px;
 
-
-    line-height: 21.6px;
-    text-align: left;
 
 }
+
+
 
 .path-followus {
     height: 10px;

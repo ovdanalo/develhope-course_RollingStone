@@ -1,0 +1,66 @@
+.divider-full {
+    border-top: 1px solid black;
+    margin-top: 4px;
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+.divider-xl {
+    border-top: 1px solid black;
+    margin: 4px 5px 0 5px;
+    width: 99%;
+}
+
+.bordered-button-white {
+    color: black;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.bordered-button-black {
+    color: white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+    border: 1px solid white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.white-button-bordered-anchor {
+    text-decoration: none;
+    background-color: white;
+    height: 34px;
+    width: 263px;
+    padding: 6px 4px 8px 4px;
+}
+
+.black-button-bordered-anchor {
+    text-decoration: none;
+    background-color: black;
+    height: 34px;
+    width: 263px;
+    padding: 6px 4px 8px 4px;
+    border: 1px solid white;
+}
+
+.svg-followus {
+    height: 16px;
+    width: 16px;
+    color: red;
+    fill: red;
+
+
+    line-height: 21.6px;
+    text-align: left;
+
+}
+
+.buttonhover:hover {
+    background-color: red;
+}
