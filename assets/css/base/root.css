@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Public-Banner-Web-Ultra";
+    src: url("../../font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.eot");
+    src: url("../../font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.woff")
+        format("woff"),
+      url("../../font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.otf")
+        format("opentyp../e"),
+      url("../../font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.svg")
+        format("svg");
+  }
+  
+  @font-face {
+    font-family: "Public-Headline-Web-Bold";
+    src: url("../../font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.eot");
+    src: url("../../font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.woff")
+        format("woff"),
+      url("../../font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.otf")
+        format("opentype"),
+      url("../../font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.svg")
+        format("svg");
+  }
+  
+  body {
+    margin: 0;
+  }

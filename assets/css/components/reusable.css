@@ -1,0 +1,30 @@
+.border-xl {
+    margin-top: 3px;
+    border-bottom: 4px solid black;
+    width: 100%;
+  }
+  
+  .border {
+    margin-top: 2px;
+    border: 1px solid black;
+    width: 99.6%;
+  }
+
+  .border-right {
+    border-right: 1px solid black;
+    margin-right: 20px;
+  }
+
+.border-desktop{
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+.border-desktop-small{
+  border:1px solid black;
+  margin-bottom: 45px;
+}
+
+.border-desktop-square{
+  border:1px solid black;
+}

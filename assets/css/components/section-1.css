@@ -1,43 +1,22 @@
-@import "section-1-responsive";
-
-@font-face {
-  font-family: "Public-Banner-Web-Ultra";
-  src: url("../font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.eot");
-  src: url("../font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.woff")
-      format("woff"),
-    url("../font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.otf")
-      format("opentype"),
-    url("../font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.svg")
-      format("svg");
-}
-
-@font-face {
-  font-family: "Public-Headline-Web-Bold";
-  src: url("../font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.eot");
-  src: url("../font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.woff")
-      format("woff"),
-    url("../font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.otf")
-      format("opentype"),
-    url("../font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.svg")
-      format("svg");
-}
-
-body {
-  margin: 0;
-}
-
-.container-section1 {
+.container-generale {
   display: flex;
-  width: 100vw;
   flex-direction: column;
+  width: 100%;
+  max-width: 768px;
 }
 
 .immagini {
   width: 100%;
   margin: 0;
+  margin-top: 12px;
 }
-.square-container {
+
+.square-container{
   position: relative;
+}
+.square-container-2 {
+  position: relative;
+  padding-top: 8px;
 }
 .square-text-1 {
   position: absolute;
@@ -57,44 +36,60 @@ body {
 }
 
 .article-section {
-  padding: 0.5rem;
+  padding: 1rem;
   margin-left:5%;
   margin-right: 5%;
+  margin-top: 6px;
 }
-
+.contenuto-1{
+  width: 100%;
+  padding:0;
+}
 .contenuto {
   padding-top: 1rem;
 }
+.container-section-small{
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
+.border-desktop{
+  display: none;
+}
+.border-desktop-square{
+  display: none;
+}
+.border-desktop-bottom{
+  display: none;
+}
+
+.border-desktop-small{
+  display: none;
+}
 .contenuto-small{
-  margin-left:6%;
-  margin-right: 6%;
-  margin-top:5%;
+  margin-left:2%;
+  margin-top:2%;
+  margin-right: 2%;
 }
-
-.border-xl {
-  border-bottom: 4px solid black;
+.contenuto-trump{
+  padding-top: 1rem;
+  width: 100%;
 }
-
-.border {
-  margin-top: 4px;
-  border: 1px solid black;
-}
-
 blockquote{
-  margin:0;
-  margin-bottom:5%;
+  margin:10px 0;
+  text-transform: uppercase;
+  font-size: 11px;
 }
 
 .container-section2 {
   display: flex;
   flex-direction: column;
-  margin-left:5%;
+  margin-left: 5%;
   margin-right: 5%;
 }
 
 .article-section2 {
-  padding: 2%;
+  padding: 16px;
   font-size: 1rem;
 }
 
@@ -108,7 +103,10 @@ blockquote{
 
 .article-section2 > h2 {
   margin-top: 3px;
-  font-size: 1.3rem;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 17px;
 }
 
 .h2-section-big {
@@ -127,12 +125,12 @@ blockquote{
   font-size: 1rem;
 }
 
-.container-section3 {
+.section3 {
   padding: 0.7rem;
   display: flex;
   flex-direction: row;
-  overflow-x: scroll;
-  height: 20%;
+  overflow: auto;
+  height: 120px;
 }
 .image-card {
   width: 100px;
@@ -146,10 +144,7 @@ blockquote{
   flex-shrink: 0;
   width: 350px;
 }
-.border-right {
-  border-right: 1px solid black;
-  margin-right: 20px;
-}
+
 .card-text > p {
   margin: 7px;
 }
