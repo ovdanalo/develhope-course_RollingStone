@@ -61,6 +61,10 @@
 
 }
 
+.link-svg {
+    text-decoration: none;
+}
+
 .buttonhover:hover {
     background-color: red;
 }

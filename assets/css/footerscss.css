@@ -1,7 +1,12 @@
+* {
+  box-sizing: unset;
+}
+
 body {
   padding-left: 24px;
   padding-right: 24px;
   margin: 0px;
+  line-height: normal;
 }
 
 .container {
