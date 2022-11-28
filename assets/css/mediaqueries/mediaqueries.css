@@ -22,4 +22,8 @@
     #wide-container {
         display: block;
     }
+
+    #hiddenindesk {
+        display: none;
+    }
 }
