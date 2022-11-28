@@ -1,5 +1,6 @@
 .popup-subscribe-secondary,
 .popup-subscribe-primary {
+    display:none; /* uncomment */
     position: absolute;
     background-color: white;
     border: 2px solid black;

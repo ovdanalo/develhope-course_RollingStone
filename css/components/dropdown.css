@@ -35,6 +35,10 @@
     margin: 0 5px 0 -5px;
 }
 
+.input-icon {
+    width: 12px;
+}
+
 .dropdown a {
     text-decoration: none;
     color: black;
@@ -43,7 +47,7 @@
 .dropdown ul {
     list-style: none;
     margin-top: 0.4rem;
-    padding: 0.1rem 0 0.1rem 0;
+    padding: 0.1rem 0;
 }
 
 .dropdown li {
@@ -169,6 +173,10 @@ input[type="email"] {
         width: 28%;
         min-height: 60px;
         margin: 5px;
+    }
+
+    .input-icon {
+        display: none;
     }
 
     .subscribe-section {
