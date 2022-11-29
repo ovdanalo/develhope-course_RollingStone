@@ -1,0 +1,18 @@
+@import url("root.css");
+@import url("../components/reusable.css");
+@import url("../components/popup-subscribe.css");
+@import url("../components/navbar-primary.css");
+@import url("../components/dropdown.css");
+@import url("../components/navbar-secondary.css");
+@import url("../components/popup-search.css");
+
+* {
+    box-sizing: unset;
+}
+@media (min-width: 1300px) {
+
+    .container-navbar-secondary,
+    .container-navbar-primary {
+        width: 1300px;
+    }
+}

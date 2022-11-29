@@ -1,0 +1,272 @@
+.dropdown {
+    position: absolute;
+    width: 100vw;
+    background-color: white;
+    border: 2px solid black;
+    padding-top: 30px;
+    top: 54px;
+    left: -4px;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.upper-dropdown {
+    flex-wrap: wrap;
+    height: 800px;
+}
+
+.down-dropdown {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.dropdown-item {
+    height: auto;
+    width: 48%;
+    min-height: 60px;
+    margin: 5px 0 5px 5px;
+}
+
+.vl {
+    height: 95%;
+    border-left: 1px solid black;
+    margin: 0 5px 0 -5px;
+}
+
+.input-icon {
+    width: 12px;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown ul {
+    list-style: none;
+    margin-top: 0.4rem;
+    padding: 0.1rem 0;
+}
+
+.dropdown li {
+    padding: 0.1rem;
+}
+
+
+.dropdown-item>a>h5,
+.dropdown-item>ul>li>a {
+    font-size: 0.75rem;
+    margin: 2px;
+}
+
+.dropdown-item>ul>li>a:hover {
+    color: rgb(102, 102, 102);
+}
+
+.dropdown-item>ul>li>a {
+    margin: 1px;
+}
+
+.follow-section {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+#follow-us {
+    text-align: center;
+    margin: 0;
+    padding-right: 6px;
+}
+
+.follow {
+    width: 86%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-section {
+    display: none;
+}
+
+.social {
+    fill: currentColor;
+    color: rgb(0, 0, 0);
+    width: 20px;
+    height: 20px;
+}
+
+.social:hover {
+    fill: currentColor;
+    color: rgb(102, 102, 102);
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+form {
+    display: flex;
+}
+
+label[for="email"] {
+    display: block;
+}
+
+input[type="email"] {
+    border: 0px;
+    border-bottom: 1px solid black;
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#signup-button {
+    cursor: pointer;
+    width: 100px;
+    background-color: white;
+    font-size: 1.1rem;
+    margin-left: -5px;
+    border: 0px;
+    border-left: 1px solid black;
+    padding-top: 20px;
+    padding-left: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 500px) {
+    .dropdown {
+        width: 479px;
+        left: -14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .dropdown {
+        width: 540px;
+        top: 98%;
+        left: 2%;
+        padding-top: 10px;
+        border: 2px solid black;
+        background-color: white;
+    }
+
+    .down-dropdown {
+        flex-direction: row;
+        flex-grow: 1;
+    }
+
+    .upper-dropdown {
+        height: 600px;
+        padding-top: 30px;
+    }
+
+    .dropdown-item {
+        width: 28%;
+        min-height: 60px;
+        margin: 5px;
+    }
+
+    .input-icon {
+        display: none;
+    }
+
+    .subscribe-section {
+        position: relative;
+        display: block;
+        height: 140px;
+        width: 160px;
+        border-top: 2px solid black;
+        flex-shrink: 0;
+    }
+
+    #subscribe-cover {
+        position: absolute;
+        object-fit: contain;
+        height: 100%;
+    }
+
+    .follow {
+        flex-direction: column;
+        width: 100px;
+        align-content: flex-start;
+    }
+
+    .follow-logos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #follow-us {
+        text-align: center;
+        margin: 0;
+    }
+
+    .social {
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+    }
+
+    .alert-newsletters {
+        align-content: center;
+        margin-bottom: 10px;
+    }
+
+    .signup,
+    #signup-form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .signup {
+        padding: 5px;
+        justify-content: space-around;
+        border-top: 2px solid black;
+        flex-grow: 1;
+    }
+
+    #signup-form label,
+    #signup-form input,
+    #signup-button {
+        font-size: 1rem;
+    }
+
+    #signup-button {
+        border: 0;
+        padding: 5px;
+    }
+
+    input[type="email"] {
+        width: 200px;
+        height: 30px;
+        border-right: 1px solid black;
+    }
+
+    .newsletter-divider {
+        display: block;
+        height: 30px;
+    }
+
+    #alerts {
+        margin: 5px;
+        font-size: 0.9rem;
+        line-height: 20px;
+    }
+
+    .follow-section {
+        width: 100px;
+        border-bottom: 0;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+    }
+}

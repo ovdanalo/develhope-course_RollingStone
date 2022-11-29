@@ -1,0 +1,43 @@
+.divider-full {
+    border-top: 1px solid black;
+    margin-top: 4px;
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+.divider-xl {
+    border-top: 1px solid black;
+    padding: 4px 5px 0 5px;
+    width: 90%;
+    align-self: center;
+}
+
+.divider-xs {
+    border-top: 1px solid black;
+    width: 10px;
+    margin: 6px 0;
+}
+
+.flex {
+    display: flex;
+}
+.flex-justify-center {
+    justify-content: center;
+}
+.flex-align-center {
+    align-items: center;
+}
+.flex-dir-col {
+    flex-direction: column;
+}
+.mobile {
+    display:none;
+}
+@media (min-width: 768px) {
+    .divider-primary {
+        display:none;
+    }
+    .mobile {
+        display: block;
+    }
+}
