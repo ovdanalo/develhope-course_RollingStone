@@ -1,3 +1,29 @@
+.divider-double-basic {
+    border: 2px black double;
+    margin-top: 3px;
+}
+
+.divider-basic {
+    border: 1px black solid;
+    width: 100%;
+    margin-top: 3px;
+}
+
+.divider-exclusive-basic {
+    border: 1px black solid;
+    margin-top: 3px;
+}
+
+.border-double {
+    border: 3px black solid;
+    margin-top: 10px;
+}
+
+.border-caption {
+    border-bottom: 0.015rem solid;
+    padding-bottom: 4px;
+}
+
 .divider-full {
     border-top: 1px solid black;
     margin-top: 4px;
@@ -32,4 +58,48 @@
 }
 .mobile {
     display:none;
+}
+
+small {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+time {
+    font-size: 12px;
+    color: gray;
+    font-weight: bold;
+}
+
+#hidden {
+    display: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+#author {
+    display: flex;
+}
+
+#author * {
+    margin-right: 4px;
+    margin-top: 4px;
+    font-size: 15px;
+}
+
+#author > a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.graphik-font {
+    font-family: "graphik", sans-serif;
 }

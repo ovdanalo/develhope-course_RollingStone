@@ -6,65 +6,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Section 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/base/base.css">
 </head>
 
 <body>
-    <div class="second-container">
-        <section class="latest-news">
+    <div class="second-container flex-column-sm container-xl container-sizing-box">
+        <section class="latest-news col-xl-2">
             <div class="header-latest">
-                <h2> THE LATEST </h2>
+                <h2 class="latest-article-header"> THE LATEST </h2>
             </div>
             <div class="news-list">
                 <div>
                     <div> <small class="border-caption"> Label lawsuit</small> </div> <!-- titolo didascalico -->
-                    <h3> <a href="#">Megan thee stallion granted restraining order against label over AMAs</a> </h3>
-                    <p id="hidden">The rapper, who is up for "Favorite Female Hip-Hop Artist," claims 1501 took steps
+                    <a href="#">
+                        <h3 class="latest-article-title"> Megan thee stallion granted restraining order against label
+                            over AMAs</h3>
+                    </a>
+                    <p class="latest-article-subtitle" id="hidden">The rapper, who is up for "Favorite Female Hip-Hop
+                        Artist," claims 1501 took steps
                         "to block" the
                         use of her music for the AMAs</p>
-                    <time datetime="01:33">1:33 AM</time>
+                    <time class="flex" datetime="01:33">1:33 AM</time>
                 </div>
                 <div>
                     <div> <small class="border-caption"> Hobbs wins Arizona</small> </div> <!-- titolo didascalico -->
-                    <h3> <a href="#"> Democrat Katie Hobbs defeats Trump-backed Kari Lake in Arizona Governor's race
-                        </a> </h3>
+                    <a href="#">
+                        <h3 class="latest-article-title"> Democrat Katie Hobbs defeats Trump-backed Kari Lake in Arizona
+                            Governor's race
+                        </h3>
+                    </a>
                     <p id="hidden"> Hobbs was elected Arizona governor on Monday, defeating a MAGA favorite who falsely
                         claimed the
                         2020 election was rigged </p>
-                    <time datetime="03:25">8 hours ago</time>
+                    <time class="flex" datetime="03:25">8 hours ago</time>
                 </div>
                 <div>
                     <div> <small class="border-caption"> Weinstein Trial</small> </div> <!-- titolo didascalico -->
-                    <h3> <a href="#">Jennifer Siebel Newsom testifies against former "Kingmaker" Harvey Weinstein</a>
-                    </h3>
+                    <a href="#">
+                        <h3 class="latest-article-title">Jennifer Siebel Newsom testifies against former "Kingmaker"
+                            Harvey Weinstein
+                        </h3>
+                    </a>
                     <p id="hidden"> Siebel Newsom, filmmaker and the wife of California Gov. Gavin Newsom, burst into
                         tears during
                         her testimony on Monday </p>
-                    <time datetime="11/14/2022 7:40PM">NOV 14, 2022 7:40 PM</time>
+                    <time class="flex" datetime="11/14/2022 7:40PM">NOV 14, 2022 7:40 PM</time>
                 </div>
                 <div>
                     <div> <small class="border-caption"> Stable genius</small> </div> <!-- titolo didascalico -->
-                    <h3> <a href="#">Trump's lawyers compare him to Galileo in new filing</a> </h3>
+                    <a href="#">
+                        <h3 class="latest-article-title"> Trump's lawyers compare him to Galileo in new filing</h3>
+                    </a>
                     <p id="hidden"> The former president does think the earth revolved around something: himself</p>
-                    <time datetime="11/14/2022 5:51PM">NOV 14, 2022 5:51 PM</time>
+                    <time class="flex" datetime="11/14/2022 5:51PM">NOV 14, 2022 5:51 PM</time>
                 </div>
                 <div>
                     <div> <small class="border-caption"> Masterson trial</small> </div> <!-- titolo didascalico -->
-                    <h3> <a href="#">Danny Masterson declines to testify in rape trial as final attempt to dismiss is
-                            denied</a> </h3>
+                    <a href="#">
+                        <h3 class="latest-article-title"> Danny Masterson declines to testify in rape trial as final
+                            attempt to dismiss is
+                            denied </h3>
+                    </a>
                     <p id="hidden">Closing arguments are set to begin Tuesday</p>
-                    <time datetime="11/14/22 5:13PM">NOV 14, 2022 5:13 PM</time>
+                    <time class="flex" datetime="11/14/22 5:13PM">NOV 14, 2022 5:13 PM</time>
                 </div>
                 <span class="read-more">
-                    <a href="#">" Read More "</a>
+                    <img class="d-block d-lg-none d-xl-none" src="assets/images/input-triangle-black.png"
+                        alt="little triangle">
+                    <a href="#"> Read More </a>
+                    <img src="assets/images/input-triangle-black.png" alt="little triangle">
                 </span>
 
             </div>
-
-            <div class="border-double"></div>
         </section>
 
-        <section class="exclusive-stories">
+        <section class="exclusive-stories container-l col-xl-10">
             <div class="stories">
                 <div class="main-story">
                     <a href="#"> <img src="assets/images/Kanye_West.jpg" alt=""> </a>
@@ -72,15 +90,19 @@
                         <div class="little-div">
                             <div class="absolute-div">
                                 <p> Exclusive </p>
-                                <div class="border"></div>
-                                <div class="border-thin"></div>
+                                <div class="divider-double-basic"></div>
+                                <div class="divider-exclusive-basic"></div>
                             </div>
                         </div>
                         <div class="text-story">
-                            <h3><a href="#">Inside Kanye West’s Yeezy: Abrupt Firings, Alleged Nazi Inspiration and
-                                    ‘Pure Chaos’</a></h3>
-                            <p>More than a dozen staffers describe Kanye's company as both a creative haven and
-                                cult-like place where you could get intimidated and humiliated — and fired for liking
+                            <a href="#">
+                                <h3 class="dimension-texts exclusive-text-main-story">Inside Kanye West’s Yeezy: Abrupt Firings, Alleged Nazi
+                                    Inspiration and
+                                    ‘Pure Chaos’</h3>
+                            </a>
+                            <p class="text-main-story">More than a dozen staffers describe Kanye's company as both a
+                                creative haven and
+                                cult-like place where you could get intimidated and humiliated and fired for liking
                                 Drake</p>
                             <span id="author">
                                 <p> BY </p> <a href="#"> CHEYENNE ROUNDTREE </a>
@@ -89,48 +111,57 @@
                     </div>
                 </div>
                 <div class="secondary-stories">
-                    <div class="border-top">
-                        <div class="first-secondary-story">
-                            <div class="card-story">
-                                <div class="element-card-1">
-                                    <a href="#"> <img src="assets/images/SceneWakandaForever.jpg" alt="Wakanda Forever"> </a>
-                                </div>
-                                <div class="element-card-2">
-                                    <div class="caption"> 
-                                    <small class="border-caption"> More Review</small>
-                                    </div>
-                                    <h3><a href="#">‘Black Panther: Wakanda Forever’ Is a Grief-Stricken Tribute and a
-                                            Mostly Super MCU Sequel</a></h3>
-                                    <p id="hidden">Be prepared to weep as Ryan Coogler and his cast mourn a character and the actor
-                                        who
-                                        played him — while resetting the power dynamic in the franchise</p>
-                                    <span id="author">
-                                        <p> BY </p> <a href="#"> K. AUSTIN COLLINS </a>
-                                    </span>
-                                </div>
+                    <div class="first-secondary-story">
+                        <div class="card-story">
+                            <div class="element-card-1">
+                                <a href="#"> <img src="assets/images/SceneWakandaForever.jpg" alt="Wakanda Forever">
+                                </a>
                             </div>
-                            <div class="card-story">
-                                    <div class="element-card-1">
-                                        <a href="#"> <img src="assets/images/Musicians2022.gif" alt="Musicians Gif"> </a>
-                                    </div>
-                                    <div class="element-card-2">
-                                    <h3><a href="#">Musicians on Musicians 2022</a></h3>
-                                    <p id="hidden"> Welcome to Rolling Stone’s 2022 Musicians on Musicians package where two
-                                        great artists come together for a free, open conversation about life and
-                                        music. </p>
-                                    <span id="author">
-                                        <p> BY </p> <a href="#"> ROLLING STONE </a>
-                                    </span>
+                            <div class="element-card-2">
+                                <div class="caption">
+                                    <small class="border-caption"> More Review</small>
                                 </div>
+                                <a href="#">
+                                    <h3 class="text-title-card-story dimension-texts">‘Black Panther: Wakanda Forever’
+                                        Is a Grief-Stricken Tribute and a
+                                        Mostly Super MCU Sequel</h3>
+                                </a>
+                                <p class="d-none d-xl-block">Be prepared to weep as Ryan Coogler and his cast mourn a
+                                    character
+                                    and the actor
+                                    who
+                                    played him — while resetting the power dynamic in the franchise</p>
+                                <span id="author">
+                                    <p> BY </p> <a href="#"> K. AUSTIN COLLINS </a>
+                                </span>
                             </div>
                         </div>
-                        <div class="second-secondary-story">
-                            <div class="card-news">
-                                <span> Red Card </span>
-                                <a href="#"> 'A World Cup Built on Modern Slavery': Stadium Workers Blow the Whistle on Qatar’s
-                                    'Coverup' of Migrant Deaths and Suffering </a>
-                                <span> By <a href="#"> Andy Greene</a> </span>
+                        <div class="card-story">
+                            <div class="element-card-1">
+                                <a href="#"> <img src="assets/images/Musicians2022.gif" alt="Musicians Gif"> </a>
                             </div>
+                            <div class="element-card-2">
+                                <a href="#">
+                                    <h3 class="text-title-card-story dimension-texts">Musicians on Musicians 2022</h3>
+                                </a>
+                                <p class="d-none d-xl-block"> Welcome to Rolling Stone’s 2022 Musicians on Musicians
+                                    package where
+                                    two
+                                    great artists come together for a free, open conversation about life and
+                                    music. </p>
+                                <span id="author">
+                                    <p> BY </p> <a href="#"> ROLLING STONE </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-secondary-story">
+                        <div class="card-news dimension-texts">
+                            <span> Red Card </span>
+                            <a href="#"> 'A World Cup Built on Modern Slavery': Stadium Workers Blow the Whistle on
+                                Qatar’s
+                                'Coverup' of Migrant Deaths and Suffering </a>
+                            <span> By <a href="#"> Andy Greene</a> </span>
                         </div>
                     </div>
                 </div>
@@ -144,13 +175,14 @@
                         <div class="little-div-bottom-up">
                             <div class="absolute-div-bottom">
                                 <p> Cover Story </p>
-                                <div class="border"></div>
-                                <div class="border-thin"></div>
+                                <div class="divider-basic"></div>
+                                <div class="divider-basic"></div>
                             </div>
                         </div>
                         <div class="text-story">
                             <h3><a href="#">Selena Gomez Wasn’t Sure She Was Ready To Tell This Story</a></h3>
-                            <p>She’s wrestled with bipolar disorder, life-threatening illness, and tabloid hell. Now, she’s
+                            <p>She’s wrestled with bipolar disorder, life-threatening illness, and tabloid hell. Now,
+                                she’s
                                 opening up about all of it in incredible ways</p>
                             <span id="author">
                                 <p> BY </p> <a href="#"> ALEX MORRIS </a>
@@ -163,104 +195,124 @@
                         <div class="little-div-bottom-down">
                             <div class="absolute-div-bottom">
                                 <p> Our Anti-Hero </p>
-                                <div class="border"></div>
-                                <div class="border-thin"></div>
+                                <div class="divider-basic"></div>
+                                <div class="divider-basic"></div>
                             </div>
                         </div>
                         <div class="text-story">
                             <h3><a href="#">All 229 of Taylor Swift’s Songs, Ranked</a></h3>
-                            <p>From teen country tracks to synth-pop anthems and rare covers, a comprehensive assessment of
+                            <p>From teen country tracks to synth-pop anthems and rare covers, a comprehensive assessment
+                                of
                                 her one-of-a-kind songbook through the Midnights era.</p>
                             <span id="author">
                                 <p> BY </p> <a href="#"> ROB SHEFFIELD </a>
                             </span>
                         </div>
                     </div>
-            </div>
+                </div>
         </section>
+
     </div> <!-- End Second Container-->
-    <div class="border-recommends">
-        <div class="header-recommends">
-            <img src="assets/images/Rs_icon_logo.png" alt="Logo RS">
-            <h2> Recommends </h2>
-        </div>
-        <section class="recommends">
-            <div class="news-carousel">
-                <div class="item-carousel">
-                    <div class="circle-border">
-                        <a href="#"><img src="assets/images/backstreet-boys-campaign.jpg"
-                                alt="backstreeboys"></a>
+    <section class="recommends">
+        <div class="border-recommends">
+            <div class="border-recommends">
+                <div class="border-recommends">
+                    <div class="header-recommends flex justify-content-center">
+                        <div class="title-header-recommends">
+                            <img class="logo-recommends" src="assets/images/Rs_icon_logo.png" alt="Logo RS">
+                            <h2 class="graphik-font"> Recommends </h2>
+                        </div>
                     </div>
-                    <div class="text-item-carousel">
-                        <div> <small class="border-caption-carousel"> GIFT IDEA</small></div>
-                        <a href="#">The Backstreet Boys Strip Down to Their Skivvies in New MeUndies Campaign</a>
-                    </div>
-                </div>
-                <div class="item-carousel">
-                    <div class="circle-border">
-                        <a href="#"><img src="assets/images/rolling-stoned.jpg"
-                                alt="Rolling Stoned"></a>
-                    </div>
-                    <div class="text-item-carousel">
-                        <div> <small class="border-caption-carousel"> ROLLING STONED</small></div>
-                        <a href="#"> #1 Stan: Get First Dibs on Rolling Stone’s New Merch Capsule</a>
-                    </div>
-                </div>
-                <div class="item-carousel">
-                    <div class="circle-border">
-                        <a href="#"><img src="assets/images/Mariah-Carey.jpg"
-                                alt="Mariah Carey"></a>
-                    </div>
-                    <div class="text-item-carousel">
-                        <div> <small class="border-caption-carousel"> MEET LITTLE MARIAH</small></div>
-                        <a href="#">It’s Time! Mariah Carey Officially Rings in Christmas With Launch of New Children’s
-                            Book</a>
-                    </div>
-                </div>
-                <div class="item-carousel">
-                    <div class="circle-border">
-                        <a href="#"><img src="assets/images/black-friday-sales.jpg"
-                                alt="black friday sales"></a>
-                    </div>
-                    <div class="text-item-carousel">
-                        <div> <small class="border-caption-carousel"> BLACK FRIDAY DEALS</small></div>
-                        <a href="#">From AirPods to 4K TVs, These Are The Best Early Black Friday Deals at Walmart</a>
-                    </div>
-                </div>
-                <div class="item-carousel" id="hidden">
-                    <div class="circle-border">
-                        <a href="#"><img src="assets/images/Meet-The-Meats.jpg"
-                                alt="Meat Picture"></a>
-                    </div>
-                    <div class="text-item-carousel">
-                        <div> <small class="border-caption-carousel"> MEET THE MEATS</small></div>
-                        <a href="#">The Best Meat Delivery Services to Get Butcher-Quality Cuts Straight to Your
-                            Door</a>
+                    <div class="news-carousel d-flex">
+                        <div class="item-carousel">
+                            <div class="circle-border">
+                                <a href="#"><img src="assets/images/backstreet-boys-campaign.jpg"
+                                        alt="backstreeboys"></a>
+                            </div>
+                            <div class="text-item-carousel">
+                                <div> <small class="border-caption-carousel"> GIFT IDEA</small></div>
+                                <a href="#">The Backstreet Boys Strip Down to Their Skivvies in New MeUndies
+                                    Campaign</a>
+                            </div>
+                        </div>
+                        <div class="item-carousel">
+                            <div class="circle-border">
+                                <a href="#"><img src="assets/images/rolling-stoned.jpg" alt="Rolling Stoned"></a>
+                            </div>
+                            <div class="text-item-carousel">
+                                <div> <small class="border-caption-carousel"> ROLLING STONED</small></div>
+                                <a href="#"> #1 Stan: Get First Dibs on Rolling Stone’s New Merch Capsule</a>
+                            </div>
+                        </div>
+                        <div class="item-carousel">
+                            <div class="circle-border">
+                                <a href="#"><img src="assets/images/Mariah-Carey.jpg" alt="Mariah Carey"></a>
+                            </div>
+                            <div class="text-item-carousel">
+                                <div> <small class="border-caption-carousel"> MEET LITTLE MARIAH</small></div>
+                                <a href="#">It’s Time! Mariah Carey Officially Rings in Christmas With Launch of New
+                                    Children’s
+                                    Book</a>
+                            </div>
+                        </div>
+                        <div class="item-carousel">
+                            <div class="circle-border">
+                                <a href="#"><img src="assets/images/black-friday-sales.jpg"
+                                        alt="black friday sales"></a>
+                            </div>
+                            <div class="text-item-carousel">
+                                <div> <small class="border-caption-carousel"> BLACK FRIDAY DEALS</small></div>
+                                <a href="#">From AirPods to 4K TVs, These Are The Best Early Black Friday Deals at
+                                    Walmart</a>
+                            </div>
+                        </div>
+                        <div class="item-carousel d-flex flex-column d-none d-xl-block">
+                            <div class="circle-border">
+                                <a href="#"><img src="assets/images/Meet-The-Meats.jpg" alt="Meat Picture"></a>
+                            </div>
+                            <div class="text-item-carousel">
+                                <div> <small class="border-caption-carousel"> MEET THE MEATS</small></div>
+                                <a href="#">The Best Meat Delivery Services to Get Butcher-Quality Cuts Straight to Your
+                                    Door</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <div class="picks">
-            <div class="border-more-picks">
+        </div>
+        <div class="blank-picks">
+            <div class="picks">
                 <div class="more-picks">
-                    <p> MORE EDITORS' PICKS > </p>
+                    <a href="#">
+                        <p> MORE EDITORS' PICKS <span> <img src="assets/images/input-triangle.png"
+                                    alt="little triangle"></span> </p>
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
-    <!--First border rectangular-->
-    <div class="border-double"></div>
-    <div class="quote">
-        <div class="text-story">
-            <h3><a href="#"> "It was like exposure therapy for what a nightmare I think I am: When they say it, they
-                    seem, like, great! Maybe I’m not horrible! It would adjust my self-loathing a little bit”</a></h3>
+        </div>
+    </section>
+
+
+    <div class="quote d-flex flex-column align-items-center">
+        <div class="divider-basic"></div>
+        <div class="quote-story">
+            <a href="#">
+                <h3 class="quote-text quote-spacing"> "It was like exposure therapy for what a nightmare I think I am: When they say it, they
+                    seem, like, great! Maybe I’m not horrible! It would adjust my self-loathing a little bit”</h3>
+            </a>
             <div class="quote-link">
-                <a href="#"> Sex And The Single Jewish Doctor: How ‘Fleishman Is In Trouble’ Turned A Writer’s Life
-                        Into Prestige TV</a>
-                <span id="author"> <p> BY </p> <a href="#"> ALAN SEPINWALL </a> </span>
+                <a class="quote-link-spacing" href="#"> Sex And The Single Jewish Doctor: How ‘Fleishman Is In Trouble’ Turned A Writer’s Life
+                    Into Prestige TV</a>
+                <span id="author">
+                    <p> BY </p> <a href="#"> ALAN SEPINWALL </a>
+                </span>
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
