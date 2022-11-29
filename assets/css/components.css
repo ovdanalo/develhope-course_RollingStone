@@ -43,3 +43,6 @@
     text-decoration: underline;
     color: grey;
 }
+.boxsize-borderbox{
+    box-sizing: border-box;
+}
