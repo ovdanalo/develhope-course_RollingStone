@@ -6,6 +6,9 @@
 @import url("../components/navbar-secondary.css");
 @import url("../components/popup-search.css");
 
+* {
+    box-sizing: unset;
+}
 @media (min-width: 1300px) {
 
     .container-navbar-secondary,

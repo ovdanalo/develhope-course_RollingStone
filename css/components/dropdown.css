@@ -12,7 +12,7 @@
 
 .upper-dropdown {
     flex-wrap: wrap;
-    height: 708px;
+    height: 800px;
 }
 
 .down-dropdown {
@@ -165,7 +165,7 @@ input[type="email"] {
     }
 
     .upper-dropdown {
-        height: 570px;
+        height: 600px;
         padding-top: 30px;
     }
 

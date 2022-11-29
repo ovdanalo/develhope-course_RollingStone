@@ -67,6 +67,11 @@
 
 @media (min-width: 768px) {
 
+    .navbar-primary {
+        border-top: 0;
+        border-bottom: 1px solid black;
+    }
+    
     .logo-primary,
     .vl-primary {
         display: none;
