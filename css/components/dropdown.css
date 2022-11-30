@@ -1,11 +1,11 @@
 .dropdown {
     position: absolute;
-    width: 100vw;
+    width: 99vw;
     background-color: white;
     border: 2px solid black;
     padding-top: 30px;
     top: 54px;
-    left: -4px;
+    left: -24px;
     flex-wrap: wrap;
     overflow: auto;
 }
@@ -145,7 +145,7 @@ input[type="email"] {
 @media (min-width: 500px) {
     .dropdown {
         width: 479px;
-        left: -14px;
+        left: -30px;;
     }
 }
 
