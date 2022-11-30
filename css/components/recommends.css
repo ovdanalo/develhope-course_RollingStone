@@ -1,5 +1,4 @@
 .recommends {
-    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -17,22 +16,11 @@
     width: 100%;
 }
 
-.border-triple-recommends {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 4px solid black;
-    width: 100%;
-}
-
 .header-recommends {
     align-items: center;
-    font-size: 22px;
     font-weight: bold;
     background-color: white;
-    position: relative;
-    padding: 0 20px;
+    text-transform: uppercase;
 }
 
 .title-header-recommends {
@@ -42,42 +30,27 @@
     margin-top: 15px;
 }
 
-
-.logo-recommends {
-    width: 64px;
-    height: 64px;
-    margin-right: 10px;
-}
-
 .news-carousel {
     overflow: auto;
     width: 100%;
+    height: 380px;
     margin-bottom: 10px;
-    margin-top: 7%;
     margin-bottom: 4%;
+    padding-top: 5px;
 }
 
 .item-carousel {
     padding: 0 16px;
-    display: flex;
     flex-direction: column;
-    align-content: center;
-    width: 230px; 
 }
 
-.news-carousel >  .item-carousel > .circle-border > a > img {
-    width: 200px;
-    height: 200px;
+.img-carousel {
+    width: 210px;
+    height: 210px;
     border-radius: 50%;
-}
-
-.news-carousel > .item-carousel > .circle-border {
     border: 1px black solid;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    padding: 4px;
-
+    padding: 5px;
+    outline: 2px black solid;
 }
 
 .text-item-carousel {
@@ -88,7 +61,7 @@
     margin-top: 12px;
 }
 
-.text-item-carousel > a {
+.publico-head {
     text-align: center;
     margin-top: 10px;
     font-weight: 700;
@@ -97,8 +70,11 @@
 
 .border-caption-carousel {
     border-bottom: 1px solid;
-    margin-bottom: 8px;
     padding-bottom: 4px;
+}
+
+.display-item-carousel {
+    display: none;
 }
 
 .blank-picks {
@@ -188,18 +164,42 @@
 }
 
 @media (min-width: 1000px) {
-    
+    .border-recommends {
+        border: 4px black solid;
+        width: 98.8%;
+    }
+
+    .header-recommends {
+        position: relative;
+        top: -50px;
+        padding: 0 20px;
+    }
+
+    .publico-head {
+        font-size: 1rem;
+    }
+
     .recommends {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100%;
-        flex-shrink: 1;
         margin-top: 0;
     }
 
+    .news-carousel {
+        margin-bottom: 40px;
+        height: fit-content;
+    }
+
     .item-carousel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         border-right: 1px solid black;
         margin-right: 5px;
+        width: 80%;
     }
 
     .item-carousel:nth-child(4) {
@@ -210,15 +210,18 @@
         border: unset;
     }
 
-    .border-recommends {
-        border: 4px black solid;
-        margin: 3px 3px;
-        width: 98.5%;
+    .img-carousel {
+        width: 120px;
+        height: 120px;
     }
 
-    .header-recommends {
-        position: relative;
-        top: -50px;
+    .display-item-carousel {
+        display: none;
+    }
+
+    .blank-picks {
+        display: flex;
+        flex-direction: column;
     }
     
     .quote-spacing {
@@ -226,22 +229,20 @@
     }
 }
 
+@media (min-width: 1150px) {
+    .news-carousel {
+        overflow: hidden;
+        width: 97%;
+    }
+}
 
 @media (min-width: 1200px) {
     .quote-text{
-        font-size: 1.5rem;
-    }
-
-    .item-carousel:nth-child(4) {
-        border: initial;
+        font-size: 1.9rem;
     }
 
     .item-carousel:last-child {
         border: none;
-    }
-
-    .border-recommends {
-        max-width: 1300px;
     }
 
     .quote-link {
@@ -257,5 +258,22 @@
     .quote-link #author *{
         margin-top: 0;
         margin-right: 3px;
+    }
+}
+
+@media (min-width: 1260px) {
+
+    .item-carousel:nth-child(4) {
+        border-right: 1px black solid;
+    }
+    .display-item-carousel{
+        display: flex;
+        border: none;
+    }
+}
+
+@media (min-width: 1400px) {
+    .item-carousel:nth-child(4) {
+        border-right: 1px black solid;
     }
 }

@@ -194,15 +194,15 @@
 
 .bottom-second-story > .text-story {
     margin-bottom: 10px;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
-.bottom-second-story > .text-story > h3 > a {
-    font-size: 45px;
+.dimension-texts-bigger {
+    font-size: 3rem;
 }
 
 .bottom-second-story > .text-story > p {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 5px;
 }
 
@@ -212,6 +212,10 @@
         flex-direction: row;
         margin-bottom: 10px;
         padding-bottom: 24px;
+    }
+
+    .exclusive-stories {
+        margin-bottom: 0;
     }
 
     .exclusive-stories .main-story .card-story {
@@ -230,7 +234,7 @@
     .exclusive-stories .main-story > .card-story {
         display: flex;
         flex-direction: column;
-        top: 35px;
+        top: 25px;
     }
 
     .exclusive-text-main-story {
@@ -271,10 +275,6 @@
         padding-bottom: 4px;
         padding-top: 0px;
         line-height: 2.5rem;
-    }
-
-    .card-story > .text-story > a > h3 {
-        padding-top: 0px;
     }
 
     .exclusive-stories > .secondary-stories {
@@ -404,6 +404,10 @@
         margin-top: 0;
     }
 
+    .card-story {
+        margin-top: 10px;
+    }
+
     .stories .main-story img {
         width: 90%;
     }
@@ -467,6 +471,13 @@
         top: -15px;
     }
 
+    .exclusive-text-main-story{
+        padding-right: 15px;
+    }
+
+    .text-main-story {
+        padding-right: 15px;
+    }
     .stories .secondary-stories {
         flex-direction: column-reverse;
         align-items: center;

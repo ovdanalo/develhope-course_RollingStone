@@ -25,6 +25,11 @@ body {
     src: url("../../assets/font/graphik-bold/Graphik-Black-Trial.otf") format("opentype");
 }
 
+@font-face {
+    font-family: "publico-headline";
+    src: url("../../assets/font/publico-headline-web-bold/Publico-Headline-Web-Bold.ttf");
+}
+
 * {
     font-family: Georgia, Helvetica, sans-serif;
     box-sizing: unset;  
