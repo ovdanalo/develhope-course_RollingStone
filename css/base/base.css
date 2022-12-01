@@ -1,5 +1,5 @@
 @import url(root.css);
-@import url(/develhope-course_RollingStone/css/scss/footer.scss);
+
 @import url(/develhope-course_RollingStone/css/components/bottom-footer.css);
 @import url(/develhope-course_RollingStone/css/components/menu-desktop-tablet.css);
 @import url(/develhope-course_RollingStone/css/components/reusable.css);
@@ -14,12 +14,28 @@
         gap: 30px;
 
     }
+    
 
     .you-might-also-like {
-        width: 90%;
+        max-width: 70%;
         display: flex;
         align-items: center;
     }
+    .wrap-you-might-also-like{
+        max-width: 100%;
+    }
+    .all-list-you-might-also-like{
+        max-width: 100%;
+    }
+    .img-386-183{
+        width: 202px;
+        height: 113px;
+    }
+    .more-specific-list-element{
+        width: 202px;
+        height: 263px;
+    }
+    
 
     .buttons {
         display: none;
@@ -32,5 +48,9 @@
     #hiddenindesk {
         display: none;
     }
+    .buttons-desktop{
+        display: flex;
+    }
+    
 }
  

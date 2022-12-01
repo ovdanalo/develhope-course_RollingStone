@@ -65,8 +65,26 @@
     display: flex;
     gap: 30px;
     overflow: auto;
+    
+    
   }
   .buttons {
     display: flex;
     justify-content: space-between;
+  }
+  .buttons-desktop{
+    
+    padding-top: 10px;
+    display: none;
+    gap: 40px;
+    
+  }
+  .section-1000px{
+    display: flex;
+    justify-content: space-between;
+    
+    
+  }
+  .flickity-button-icon-desktop{
+    height: 20px;
   }
