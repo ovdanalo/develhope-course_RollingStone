@@ -4,6 +4,10 @@
 @import url(/develhope-course_RollingStone/css/components/menu-desktop-tablet.css);
 @import url(/develhope-course_RollingStone/css/components/reusable.css);
 @import url(/develhope-course_RollingStone/css/components/upper-footer.css);  
+@font-face {
+    font-family: Georgia;
+    src: url(/develhope-course_RollingStone/assets/font/Georgia.ttf)format(ttf);
+}
 
 * {
     box-sizing: unset;

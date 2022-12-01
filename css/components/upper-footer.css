@@ -31,6 +31,8 @@
   }
   #most-popular-title {
     margin-top: 0px;
+    font-family: Georgia,Helvetica,sans-serif;
+    font-size: 20px;
   }
  
   .first-popular-wrap:nth-child(1)::before {

@@ -1,3 +1,4 @@
+
 .border-right-1pxwhite {
     border-right: 1px solid white;
 }
@@ -247,7 +248,7 @@
 }
 /*elementi poco puliti upper-footer*/ 
 .text-of-first-most-popular {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: Georgia,Helvetica,sans-serif;
     font-size: 13px;
     font-weight: 400;
     margin-top: 0px;
@@ -296,9 +297,13 @@
   .text-content-of-also-like {
     display: flex;
     flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
   }
   .no-margin-also-like-text {
     margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
   }
   /* fine elementi poco puliti upper-footer*/ 
   /*elementi poco puliti bottom-footer*/ 
