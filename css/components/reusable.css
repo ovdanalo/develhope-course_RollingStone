@@ -238,16 +238,31 @@
 .text-white {
     color: white;
 }
+.font-weight700{
+    font-weight: 700
+}
+.inline{
+    display: inline;
+}
 
 
-
-
+.georgia{
+    font-family: Georgia;
+}
+.font-size14{
+    font-size: 14px;
+}
 
 .textstart {
     text-align: start;
 }
 .boxsize-borderbox{
     box-sizing: border-box;
+}
+.fontcustom-button{
+    font-family: Georgia;
+    font-weight: 700;
+    font-size: 13px;
 }
 /*elementi poco puliti upper-footer*/ 
 .text-of-first-most-popular {
