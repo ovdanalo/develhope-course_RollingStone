@@ -105,6 +105,15 @@ a:hover {
     text-decoration: underline;
 }
 
+.main-content-img {
+    width: 100%;
+}
+
+.text-spacing {
+    margin-top: unset;
+    margin-bottom: unset;
+}
+
 .graphik-font {
     font-family: "graphik", sans-serif;
 }
@@ -119,7 +128,7 @@ a:hover {
 }
 
 .publico-head-main-stories {
-    margin-top: 10px;
+    margin-top: 20px;
     font-weight: 700;
     font-size: 1.2rem;
 }

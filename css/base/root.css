@@ -35,14 +35,4 @@ body {
     box-sizing: unset;  
 }
 
-img {
-    width: 100%;
-}
 
-.container-lg {
-    padding: 0;
-}
-
-p {
-    margin-bottom: 0;
-}
