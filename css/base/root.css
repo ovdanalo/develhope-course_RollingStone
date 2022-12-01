@@ -35,4 +35,7 @@ body {
     box-sizing: unset;  
 }
 
+.second-container {
+    padding: 0;
+}
 
