@@ -8,6 +8,7 @@
     left: -24px;
     flex-wrap: wrap;
     overflow: auto;
+    z-index: 3;
 }
 
 .upper-dropdown {

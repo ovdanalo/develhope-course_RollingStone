@@ -4,6 +4,7 @@
 
 .latest-article-subtitle {
     font-size: 0.9rem;
+    padding-right: 15px;
 }
 
 .latest-article-title {
@@ -72,9 +73,6 @@
 }
 
 @media (min-width: 768px) {
-    body {
-        padding: 0px 24px;
-    }
 
     .header-latest {
         padding: 12px 0px;

@@ -43,7 +43,9 @@
 
 .right-nav-secondary,
 .left-nav-secondary {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .right-nav-secondary {

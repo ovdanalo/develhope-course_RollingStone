@@ -34,7 +34,9 @@ body {
     font-family: Georgia, Helvetica, sans-serif;
     box-sizing: unset;  
 }
-
+.navbar {
+    padding: 0;
+}
 .second-container {
     padding: 0;
 }
