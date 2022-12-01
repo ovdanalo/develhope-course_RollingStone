@@ -132,3 +132,12 @@ a:hover {
     font-weight: 700;
     font-size: 1.2rem;
 }
+
+@media (min-width: 768px) {
+    .divider-primary {
+        display:none;
+    }
+    .mobile {
+        display: block;
+    }
+}
