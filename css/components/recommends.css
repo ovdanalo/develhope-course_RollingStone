@@ -1,0 +1,268 @@
+.recommends {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: auto;
+    padding: 0;
+}
+
+.border-recommends {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    border-left: unset;
+    border-right: unset;
+    margin: 4px 4px;
+    width: 100%;
+}
+
+.header-recommends {
+    align-items: center;
+    font-weight: bold;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+.title-header-recommends {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.news-carousel {
+    overflow: auto;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-bottom: 4%;
+    padding-top: 5px;
+}
+
+.item-carousel {
+    padding: 0 16px;
+    flex-direction: column;
+}
+
+.img-carousel {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    border: 1px black solid;
+    padding: 5px;
+    outline: 2px black solid;
+}
+
+.text-item-carousel {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+
+.border-caption-carousel {
+    border-bottom: 1px solid;
+    padding-bottom: 4px;
+}
+
+.display-item-carousel {
+    display: none;
+}
+
+.blank-picks {
+    position: relative;
+    background-color: white;
+    padding: 0 20px;
+    top: -28px;
+}
+
+.picks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 2px;
+    width: 220px;
+    border: 1px solid black;
+    outline: 1px solid black;
+    margin: 0;
+    position: relative;
+    background-color: white;
+    top: -10px;
+}
+
+.more-picks {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    outline: 2px solid black;
+}
+
+.more-picks img {
+    width: 10px;
+    vertical-align: unset;
+}
+
+.more-picks a {
+    color: white;
+}
+
+.quote  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.quote-text {
+    padding: 0px 20px;
+    margin: 14px 0px 18px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.quote-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+    margin: 8px 0px 16px;
+}
+
+.quote-link > #author > a:hover {
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+
+   .border-recommends .recommends {
+    margin-top: 40px;
+   }
+
+   .quote {
+    border-bottom: 1px black solid;
+   }
+
+   .news-carousel {
+    margin-top: 0;
+    padding-top: 5px;
+
+   }
+
+}
+
+@media (min-width: 1000px) {
+    .border-recommends {
+        border: 4px black solid;
+        width: 98.8%;
+    }
+
+    .header-recommends {
+        position: relative;
+        top: -50px;
+        padding: 0 20px;
+    }
+
+    .publico-head {
+        font-size: 1rem;
+    }
+
+    .recommends {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .news-carousel {
+        margin-bottom: 40px;
+        height: fit-content;
+    }
+
+    .item-carousel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-right: 1px solid black;
+        margin-right: 5px;
+        width: 80%;
+    }
+
+    .item-carousel:nth-child(4) {
+        border: none;
+    }
+    
+    .item-carousel:last-child {
+        border: unset;
+    }
+
+    .img-carousel {
+        width: 140px;
+        height: 140px;
+    }
+
+    .display-item-carousel {
+        display: none;
+    }
+
+    .blank-picks {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .quote-spacing {
+        padding: 0 90px;
+    }
+}
+
+@media (min-width: 1150px) {
+    .news-carousel {
+        overflow: hidden;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .quote-text{
+        font-size: 1.9rem;
+    }
+
+    .item-carousel:last-child {
+        border: none;
+    }
+
+    .quote-link {
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+    }
+
+    .quote-link-spacing {
+        margin-right: 15px;
+    }
+
+    .quote-link #author *{
+        margin-top: 0;
+        margin-right: 3px;
+    }
+}
+
+@media (min-width: 1260px) {
+
+    .item-carousel:nth-child(4) {
+        border-right: 1px black solid;
+    }
+    .display-item-carousel{
+        display: flex;
+        border: none;
+    }
+}

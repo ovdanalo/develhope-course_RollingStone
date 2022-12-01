@@ -7,7 +7,9 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    line-height: unset;
 }
+
 
 @font-face {
     font-family: "publico banner web ultra";
@@ -18,6 +20,21 @@ body {
         url("../../assets/font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.svg") format("svg");
 }
 
+@font-face {
+    font-family: "graphik";
+    src: url("../../assets/font/graphik-bold/Graphik-Black-Trial.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "publico-headline";
+    src: url("../../assets/font/publico-headline-web-bold/Publico-Headline-Web-Bold.ttf");
+}
+
 * {
     font-family: Georgia, Helvetica, sans-serif;
+    box-sizing: unset;  
+}
+
+.second-container {
+    padding: 0;
 }
