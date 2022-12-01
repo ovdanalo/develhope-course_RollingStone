@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center; 
+    margin: auto;
 }
 
 .border-recommends {
@@ -61,12 +62,6 @@
     margin-top: 12px;
 }
 
-.publico-head {
-    text-align: center;
-    margin-top: 10px;
-    font-weight: 700;
-    font-size: 18px;
-}
 
 .border-caption-carousel {
     border-bottom: 1px solid;
@@ -211,8 +206,8 @@
     }
 
     .img-carousel {
-        width: 120px;
-        height: 120px;
+        width: 140px;
+        height: 140px;
     }
 
     .display-item-carousel {
@@ -232,7 +227,7 @@
 @media (min-width: 1150px) {
     .news-carousel {
         overflow: hidden;
-        width: 97%;
+        width: 100%;
     }
 }
 
@@ -269,11 +264,5 @@
     .display-item-carousel{
         display: flex;
         border: none;
-    }
-}
-
-@media (min-width: 1400px) {
-    .item-carousel:nth-child(4) {
-        border-right: 1px black solid;
     }
 }

@@ -1,7 +1,7 @@
 .exclusive-stories {
     margin-bottom: 40px;
     padding-top: 8px;
-    border-top: 0.3rem black solid;
+    border-top: 0.4rem black solid;
     margin-top: 4px;
 }
 
@@ -16,7 +16,6 @@
 .stories {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
     font-size: 0.5rem;
     border-top: 1px black solid;
 }
@@ -29,10 +28,9 @@
     padding: 20px 24px 0px 24px;
 }
 
-.little-div {
+.exclusive-div {
     display: flex;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
     background-color: white;
     width: 105px;
@@ -41,10 +39,9 @@
     top: -35px;
 }
 
-.absolute-div > p {
+.text-exclusive-div {
     text-align: center;
-    width: 95px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -59,9 +56,8 @@
     text-transform: uppercase;
     width: 125px;
     height: 40px;
-    position: relative;
-    top: -25px;
-    left: -24px;
+    position: absolute;
+    top: -50px;
 }
 
 .little-div-bottom-down {
@@ -83,6 +79,10 @@
     align-items: center;
     flex-direction: column;
     padding: 5px 5px 0px 5px
+}
+
+.cover-story-text {
+    padding-top: 10px;
 }
 
 .text-story > h3 {
@@ -197,8 +197,8 @@
     padding-top: 20px;
 }
 
-.dimension-texts-bigger {
-    font-size: 3rem;
+.dimension-text-anti-hero {
+    font-size: 3.2rem;
 }
 
 .bottom-second-story > .text-story > p {
@@ -245,12 +245,13 @@
         margin: 0px;
     }
 
-    .card-story > .little-div {
+    .exclusive-div {
         display: flex;
         align-items: unset;
+        padding-left: 0;
     }
 
-    .card-story > .little-div > .absolute-div {
+    .exclusive-dimension-div {
         position: inherit;
         top: 10px;
         left: 0px;
@@ -396,6 +397,10 @@
         background-color: white;
         padding-top: 10px;
     }
+
+    .exclusive-dimension-div {
+        top: 0;
+    }
     .second-container  {
         margin-bottom: 10px;
     } 
@@ -410,10 +415,6 @@
 
     .stories .main-story img {
         width: 90%;
-    }
-
-    .exclusive-text-main-story {
-        margin-top: 0;
     }
 
     .stories .main-story a {
@@ -437,9 +438,6 @@
         font-size: 13px;
     }
 
-    .dimension-texts {
-        font-size: 1.5rem;
-    }
 }
 
 @media (min-width: 1200px) {
@@ -469,6 +467,28 @@
         flex-basis: 240%;
         position: relative;
         top: -15px;
+    }
+
+    .exclusive-dimension-div {
+        top: -30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+
+    .divider-double-basic {
+        border: 2px black double;
+        margin-top: 3px;
+        width: 90%;
+    }
+
+    .divider-exclusive-basic {
+        border: 1px black solid;
+        margin-top: 3px;
+        width: 92%;
     }
 
     .exclusive-text-main-story{
