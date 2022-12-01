@@ -9,9 +9,7 @@
     src: url(/develhope-course_RollingStone/assets/font/Georgia.ttf)format(ttf);
 }
 
-* {
-    box-sizing: unset;
-  }
+
   @media (min-width: 992px) {
     .upper-footer {
         flex-direction: row;
