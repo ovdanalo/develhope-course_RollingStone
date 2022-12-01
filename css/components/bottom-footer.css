@@ -1,0 +1,149 @@
+.path-followus {
+    height: 10px;
+    width: 10px;
+    font-size: 8px;
+
+}
+
+.link-footer {
+    text-decoration: none;
+    color: white;
+}
+
+.link-footer:hover {
+    text-decoration: underline;
+    color: grey;
+}
+.boxsize-borderbox{
+    box-sizing: border-box;
+}
+footer,
+.backblack,
+.border3-padding050,
+.border1 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.backblack {
+    height: 450px;
+    width: 100%;
+    padding: 20px 24px;
+  }
+  
+  .border3-padding050 {
+    height: 430px;
+    width: 430px;
+    padding: 8px;
+    border: 3px solid white;
+  }
+  
+  .border1 {
+    border: 1px solid white;
+    height: 410px;
+    width: 410px;
+  }
+  .wrap-final-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  #customer-service,
+#give-a-gift {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+#wrap-give-gift,
+#wrap-customer {
+  background-color: black;
+  border: 1px solid white;
+}
+
+.final-button:hover {
+  background-color: red;
+}
+
+#wrap-give-gift:hover,
+#wrap-customer:hover {
+  background-color: red;
+}
+
+#customer-service:hover,
+#give-a-gift:hover {
+  background-color: red;
+}
+
+#wrap-rolling,
+#wrap-legal {
+  border: 1px solid white;
+  height: 28px;
+  width: 347px;
+  padding: 6px 4px 6px 4px;
+}
+
+.list-button {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding-bottom: 10px;
+  }
+  #svs-down {
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+  }
+  
+  .down {
+    fill: white;
+  }
+  .pmc-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-final-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 38px;
+    width: 360px;
+    border: 1px solid black;
+  }
+  
+  #pmc-final-footer {
+    height: 20px;
+    width: 120px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  
+  #another-down {
+    fill: black;
+  }
+  
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    justify-content: center;
+    color: gray;
+    font-weight: 900;
+  }
+  
+  .copyright-p {
+    margin: 10px 0px 0px 0px;
+  }
+  
+  .link-wordpress {
+    text-decoration: none;
+    color: gray;
+  }

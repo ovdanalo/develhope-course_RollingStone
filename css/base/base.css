@@ -1,0 +1,9 @@
+* {
+    box-sizing: unset;
+  }
+  @import url(root.css);
+  @import url(/develhope-course_RollingStone/css/components/bottom-footer.css);
+@import url(/develhope-course_RollingStone/css/components/menu-desktop-tablet.css);
+@import url(/develhope-course_RollingStone/css/components/reusable.css);
+@import url(/develhope-course_RollingStone/css/components/upper-footer.css);  
+  
