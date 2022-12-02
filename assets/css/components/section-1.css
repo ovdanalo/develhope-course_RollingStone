@@ -1,27 +1,23 @@
-.container-generale {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 768px;
+.container-xl{
+ padding:0;
 }
-
+.row{
+  margin: 0;
+}
 .immagini {
   width: 100%;
   margin: 0;
   margin-top: 12px;
 }
 
-.square-container{
+.square-contain{
   position: relative;
 }
-.square-container-2 {
-  position: relative;
-  padding-top: 8px;
-}
+
 .square-text-1 {
   position: absolute;
   bottom: -3%;
-  left: 3%;
+  left: 5%;
   background-color: white;
   padding: 15px;
 }
@@ -30,27 +26,29 @@
     font-weight: bold;
 
 }
+/* .square-text-1 > span ::before,
+.square-text-1 > span ::after {
+  box-sizing: content-box;
+} */
 .immagini-sq {
   width: 100%;
   margin: 0;
 }
 
 .article-section {
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin-left:5%;
   margin-right: 5%;
-  margin-top: 6px;
+  margin-top: 8px;
 }
 .contenuto-1{
-  width: 100%;
   padding:0;
+  margin: 0;
 }
 .contenuto {
   padding-top: 1rem;
-}
-.container-section-small{
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 .border-desktop{
@@ -66,6 +64,8 @@
 .border-desktop-small{
   display: none;
 }
+
+
 .contenuto-small{
   margin-left:2%;
   margin-top:2%;
@@ -74,6 +74,8 @@
 .contenuto-trump{
   padding-top: 1rem;
   width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 blockquote{
   margin:10px 0;
@@ -81,16 +83,20 @@ blockquote{
   font-size: 11px;
 }
 
+.article-section-small{
+  width: 100%;
+}
 .container-section2 {
   display: flex;
   flex-direction: column;
-  margin-left: 5%;
-  margin-right: 5%;
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
 }
 
 .article-section2 {
-  padding: 16px;
-  font-size: 1rem;
+
+  padding-bottom: 1rem;
+  font-size: 0.8rem;
 }
 
 .article-section2 > p {
@@ -118,6 +124,7 @@ blockquote{
  font-family: "Public-Headline-Web-Bold", serif;
  font-size: 1.25rem;
  font-weight: 700;
+ margin-top: 12px;
 }
 
 .p-section {
@@ -126,27 +133,31 @@ blockquote{
 }
 
 .section3 {
-  padding: 0.7rem;
   display: flex;
   flex-direction: row;
   overflow: auto;
   height: 120px;
+  padding:10px;
+
 }
 .image-card {
   width: 100px;
   height: 100px;
 }
 
-.card {
+.card-general {
   display: flex;
   flex-direction: row;
   align-items: center;
   flex-shrink: 0;
-  width: 350px;
+  width: 300px;
+  align-items: center;
+  font-size: 13px;
 }
 
 .card-text > p {
   margin: 7px;
+  margin-right: 0;
 }
 
 .card-text-title {
