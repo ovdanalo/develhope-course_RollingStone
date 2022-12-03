@@ -1,5 +1,30 @@
 @import url("root.css");
+@import url("../components/reusable.css");
 
+/* navbar */
+@import url("../components/popup-subscribe.css");
+@import url("../components/navbar-primary.css");
+@import url("../components/dropdown.css");
+@import url("../components/navbar-secondary.css");
+@import url("../components/popup-search.css");
+
+/*section 1*/
+@import url("../components/section-1.css");
+@import url("../components/section-1-responsive.css");
+
+/*section 2*/
+@import url("../components/the-latest.css");
+@import url("../components/exclusive-stories.css");
+@import url("../components/recommends.css");
+@import url("../components/section-2.css");
+
+/*section 3*/
+@import url("../components/reports.css");
+@import url("../components/adverts.css");
+@import url("../components/more-news.css");
+@import url("../components/content-by-rs.css");
+
+/*footer*/
 @import url("../components/footer-classes.css");
 @import url("../components/upper-footer.css");
 @import url("../components/menu-desktop-tablet.css");

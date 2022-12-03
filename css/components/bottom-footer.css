@@ -5,6 +5,11 @@
 
 }
 
+#rolling-wide,
+#legal-wide {
+  display: none;
+}
+
 .link-footer {
     text-decoration: none;
     color: white;
@@ -148,4 +153,11 @@ footer,
   .link-wordpress {
     text-decoration: none;
     color: gray;
+  }
+
+  @media (min-width: 992px) {
+    #rolling-wide,
+#legal-wide {
+  display: flex;
+}
   }
