@@ -1,33 +1,57 @@
-@font-face {
-    font-family: "Public-Banner-Web-Ultra";
-    src: url("../../font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.eot");
-    src: url("../../font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.woff")
-        format("woff"),
-      url("../../font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.otf")
-        format("opentyp../e"),
-      url("../../font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.svg")
-        format("svg");
-  }
-  
-  @font-face {
-    font-family: "Public-Headline-Web-Bold";
-    src: url("../../font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.eot");
-    src: url("../../font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.woff")
-        format("woff"),
-      url("../../font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.otf")
-        format("opentype"),
-      url("../../font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.svg")
-        format("svg");
-  }
-  
-  body {
+:root {
+    font-size: 16px;
+}
+
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100%;
     line-height: unset;
-  }
+}
 
-  * {
+
+@font-face {
+    font-family: "publico banner web ultra";
+    src: url("../../assets/font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.eot");
+    src: url("../../assets/font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.eot") format("embedded-opentype"),
+        url("../../assets/font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.woff") format("woff"),
+        url("../../assets/font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.otf") format("opentype"),
+        url("../../assets/font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.svg") format("svg");
+}
+
+@font-face {
+    font-family: "graphik";
+    src: url("../../assets/font/graphik-bold/Graphik-Black-Trial.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "publico-headline";
+    src: url("../../assets/font/publico-headline-web-bold/Publico-Headline-Web-Bold.ttf");
+}
+@font-face {
+  font-family: "Public-Banner-Web-Ultra";
+  src: url("../../font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.eot");
+  src: url("../../font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.woff")
+      format("woff"),
+    url("../../font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.otf")
+      format("opentyp../e"),
+    url("../../font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.svg")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Public-Headline-Web-Bold";
+  src: url("../../font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.eot");
+  src: url("../../font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.woff")
+      format("woff"),
+    url("../../font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.otf")
+      format("opentype"),
+    url("../../font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.svg")
+      format("svg");
+}
+
+* {
     font-family: Georgia, Helvetica, sans-serif;
     box-sizing: unset;  
 }

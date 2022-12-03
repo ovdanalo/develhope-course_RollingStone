@@ -1,4 +1,27 @@
 @import url("root.css");
 @import url("../components/reusable.css");
+
+/* navbar */
+@import url("../components/popup-subscribe.css");
+@import url("../components/navbar-primary.css");
+@import url("../components/dropdown.css");
+@import url("../components/navbar-secondary.css");
+@import url("../components/popup-search.css");
+
+/*section 1*/
 @import url("../components/section-1.css");
 @import url("../components/section-1-responsive.css");
+
+/*section 2*/
+@import url("../components/the-latest.css");
+@import url("../components/exclusive-stories.css");
+@import url("../components/recommends.css");
+@import url("../components/section-2.css");
+
+@media (min-width: 1300px) {
+
+    .container-navbar-secondary,
+    .container-navbar-primary {
+        width: 1300px;
+    }
+}
