@@ -49,7 +49,20 @@
     border-bottom: 4px solid black;
     width: 100%;
   }
-  
+  .border-bottom {
+    margin-top: 2px;
+    border: 1px solid #dee2e6;
+    width: 95%;
+    margin-bottom: 5px;
+    justify-self: center;
+  }
+  .border-bottom2 {
+    margin-top: 2px;
+    border: 1px solid #dee2e6;
+    width: 99%;
+    margin-bottom: 5px;
+    justify-self: center;
+  }
   .border {
     margin-top: 2px;
     border: 1px solid black;

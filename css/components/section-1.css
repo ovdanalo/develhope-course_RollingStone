@@ -137,7 +137,7 @@ blockquote{
   flex-direction: row;
   overflow: auto;
   height: 120px;
-  padding:10px;
+  padding:10px 0;
 
 }
 .image-card {
