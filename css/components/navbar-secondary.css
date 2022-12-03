@@ -1,0 +1,121 @@
+.navbar-secondary {
+    display: none;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+    border-bottom: 6px solid black;
+}
+
+.container-navbar-secondary {
+    display: none;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.center-nav-secondary {
+    display: none;
+}
+
+.right-nav-secondary {
+    display: none;
+}
+
+.header-link {
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+}
+.header-link:hover {
+    color: rgb(192, 192, 192);
+}
+
+.rslogo-st0 {
+    fill: #fff
+}
+
+.rslogo-st1 {
+    fill: #e60019;
+}
+
+#Layer_1 {
+    max-height: 92px;
+}
+
+.right-nav-secondary,
+.left-nav-secondary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-nav-secondary {
+    align-items: flex-end;
+}
+
+.center-nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-bottom: 6px solid white;
+}
+
+.center-nav-link:hover {
+    color: rgb(215, 25, 32);
+    border-color: rgb(215, 25, 32);
+    transition: 0.1s;
+}
+
+.center-nav {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.parent-search {
+    position: relative;
+}
+
+.vl-secondary {
+    display: none;
+}
+
+.newsletter-divider {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        border-bottom: 0;
+    }
+
+    .navbar-secondary,
+    .container-navbar-secondary {
+        display: flex;
+    }
+
+    .center-nav-secondary {
+        display: flex;
+    }
+
+    .right-nav-secondary {
+        display: flex;
+    }
+
+    .right-nav-subscribe-secondary {
+        position: relative;
+        height: 20px;
+        justify-content: flex-end;
+    
+    }
+    .logo {
+        width: 45%;
+        max-height: 92px;
+    }
+
+    .popup-subscribe-secondary {
+        display: flex;
+    }
+    .vl-secondary {
+        display: block;
+    }
+}
