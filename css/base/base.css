@@ -18,10 +18,8 @@
 @import url("../components/recommends.css");
 @import url("../components/section-2.css");
 
-@media (min-width: 1300px) {
-
-    .container-navbar-secondary,
-    .container-navbar-primary {
-        width: 1300px;
-    }
-}
+/*section 3*/
+@import url("../components/reports.css");
+@import url("../components/adverts.css");
+@import url("../components/more-news.css");
+@import url("../components/content-by-rs.css");
