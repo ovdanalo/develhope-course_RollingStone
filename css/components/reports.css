@@ -1,6 +1,4 @@
-
-
-.reports{
+.reports {
     flex-direction: column;
     display: flex;
     padding-right: var(--spacing-150, 1.5rem);
@@ -9,58 +7,59 @@
     padding-bottom: var(--spacing-00, 0);
 }
 
-.first-title{
+.first-title {
     color: rgb(236, 28, 36);
-    font-family: "Publico Banner Ultra",serif;
+    font-family: "Publico Banner Ultra", serif;
     font-size: 34px;
     margin-bottom: 0;
-   
+
 }
 
-.second-title{
+.second-title {
     color: black;
-    font-family: "Publico Banner Ultra",serif;
+    font-family: "Publico Banner Ultra", serif;
     font-size: 34px;
     margin-top: 0;
-    margin-bottom: 20px; ;
+    margin-bottom: 20px;
+    ;
 }
 
-.reports-image{
+.reports-image {
     width: 155px;
-    height:103px;
+    height: 103px;
     margin-bottom: 20px;
     margin-right: 10px;
- }
- 
- .reports-content{
+}
+
+.reports-content {
     display: flex;
     left: 0;
     margin-bottom: 3px;
     border-bottom: 1px solid;
     margin-top: 15px;
- }
+}
 
- .last-reports-content{
+.last-reports-content {
     display: flex;
     left: 0;
     margin-bottom: 3px;
     margin-top: 15px;
- }
- 
- a.a-reports-content{
+}
+
+a.a-reports-content {
     font-family: Publico Headline Bold;
     font-size: 18px;
     text-decoration: none;
     color: black;
- }
+}
 
-.report-more-link{
-    display: flex; 
-    border: 1px solid black; 
+.report-more-link {
+    display: flex;
+    border: 1px solid black;
     color: black;
     text-decoration: none;
     font-size: 12px;
-    font-family: Georgia, 'Helvetia',sans-serif;
+    font-family: Georgia, 'Helvetia', sans-serif;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 12px;
@@ -68,13 +67,13 @@
     margin-left: 222px;
 }
 
-.triangle-right-img{
-    margin: 3px; 
+.triangle-right-img {
+    margin: 3px;
     width: 10px;
-    height: 10px ;
+    height: 10px;
 }
 
-.more-container{
+.more-container {
     display: flex;
     flex-direction: row;
 }

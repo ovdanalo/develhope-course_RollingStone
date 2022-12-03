@@ -24,7 +24,7 @@
     margin-bottom: 20px;
 }
 
-reports-line{
+.reports-line{
     height:1px; 
     background-color:black; 
     margin-bottom: 20px;
@@ -54,7 +54,7 @@ reports-line{
     margin-bottom: 2px;
     width: 178%;
 }
-hr-more{
+.hr-more{
     width: 100%;
     height: 1px;
     background-color: black;
