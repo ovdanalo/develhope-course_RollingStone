@@ -22,4 +22,28 @@
   
   body {
     margin: 0;
+    padding: 0;
+    height: 100%;
+    line-height: unset;
   }
+
+  * {
+    font-family: Georgia, Helvetica, sans-serif;
+    box-sizing: unset;  
+}
+.navbar {
+    padding: 0;
+}
+.second-container {
+    padding: 0;
+}
+
+.contenuto-1,
+.square-contain,
+.article-section,
+.contenuto-small,
+.immagini-sq,
+.container-section-small,
+.container-section2 {
+  box-sizing: border-box;
+}
