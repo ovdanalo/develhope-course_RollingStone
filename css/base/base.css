@@ -2,33 +2,33 @@
 @import url("../components/reusable.css");
 
 /* navbar */
-@import url("../components/popup-subscribe.css");
-@import url("../components/navbar-primary.css");
-@import url("../components/dropdown.css");
-@import url("../components/navbar-secondary.css");
-@import url("../components/popup-search.css");
+@import url("../components/navbar/popup-subscribe.css");
+@import url("../components/navbar/navbar-primary.css");
+@import url("../components/navbar/dropdown.css");
+@import url("../components/navbar/navbar-secondary.css");
+@import url("../components/navbar/popup-search.css");
 
 /*section 1*/
-@import url("../components/section-1.css");
-@import url("../components/section-1-responsive.css");
+@import url("../components/section-1/section-1.css");
+@import url("../components/section-1/section-1-responsive.css");
 
 /*section 2*/
-@import url("../components/the-latest.css");
-@import url("../components/exclusive-stories.css");
-@import url("../components/recommends.css");
-@import url("../components/section-2.css");
+@import url("../components/section-2/the-latest.css");
+@import url("../components/section-2/exclusive-stories.css");
+@import url("../components/section-2/recommends.css");
+@import url("../components/section-2/section-2.css");
 
 /*section 3*/
-@import url("../components/reports.css");
-@import url("../components/adverts.css");
-@import url("../components/more-news.css");
-@import url("../components/content-by-rs.css");
+@import url("../components/section-3/reports.css");
+@import url("../components/section-3/adverts.css");
+@import url("../components/section-3/more-news.css");
+@import url("../components/section-3/content-by-rs.css");
 
 /*footer*/
-@import url("../components/footer-classes.css");
-@import url("../components/upper-footer.css");
-@import url("../components/menu-desktop-tablet.css");
-@import url("../components/bottom-footer.css");
+@import url("../components/footer/footer-classes.css");
+@import url("../components/footer/upper-footer.css");
+@import url("../components/footer/menu-desktop-tablet.css");
+@import url("../components/footer/bottom-footer.css");
 
 
 .wrap-you-might-also-like {

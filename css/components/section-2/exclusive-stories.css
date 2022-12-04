@@ -1,0 +1,547 @@
+.exclusive-stories {
+    margin-bottom: 40px;
+    padding-top: 8px;
+    border-top: 0.4rem black solid;
+    margin-top: 4px;
+}
+
+.text-main-story {
+    font-size: 1rem;
+}
+
+.card-story {
+    position: relative;
+}
+
+.stories {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.5rem;
+    border-top: 1px black solid;
+}
+
+.main-story {
+    margin-top: 15px;
+}
+
+.main-story > .card-story  {
+    padding: 20px 24px 0px 24px;
+}
+
+.exclusive-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 105px;
+    padding: 10px;
+    position: absolute;
+    top: -35px;
+}
+
+.text-exclusive-div {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.little-div-bottom-up {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 125px;
+    height: 40px;
+    position: absolute;
+    top: -50px;
+}
+
+.little-div-bottom-down {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 155px;
+    height: 40px;
+    position: relative;
+    top: 15px;    
+}
+
+.absolute-div-bottom {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 5px 0px 5px
+}
+
+.text-story > h3 {
+    padding-bottom: 4px;
+}
+
+.text-story > h3 > a {
+    font-size: 30px;
+    padding: 16px 0px 4px;
+    text-decoration: none;
+}
+
+.secondary-stories {
+    margin: 10px 0px 10px 0px;
+    padding: 0px 24px;
+}
+
+.cards-column {
+    margin-top: 20px;
+    border-top: 1px black solid;
+}
+
+.first-secondary-story {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 24px;
+    border-top: 1px black solid;
+    flex-basis: 100%;
+}
+
+.element-card-2 h3 {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.first-secondary-story .card-story .element-card-2 {
+    padding-bottom: 10px;
+}
+
+.first-secondary-story > .card-story > .caption {
+   padding-bottom: 12px;
+}
+
+.first-secondary-story > .card-story:nth-child(2) {
+    border-top: 1px black solid;
+    padding-top: 24px;
+}
+
+.first-secondary-story, .second-secondary-story > h3 > a {
+    font-size: 22px;
+}
+
+.second-secondary-story {
+    flex-basis: 100%;
+}
+
+.card-news {
+    padding: 20px 0px;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    border-top: 1px black solid;
+}
+
+.card-news > span:first-child {
+    color: red;
+}
+
+.card-news > span {
+    color: gray;
+}
+
+.card-news > span > a {
+    color: gray;
+}
+
+.card-news > span > a:hover {
+    text-decoration: underline;
+}
+
+.content-bottom {
+    border-top: 1px black solid;
+    padding-top: 15px;
+    margin-top: 5px;    
+}
+
+.first-bottom-news > .card-story > .text-story {
+    position: relative;
+    top: -15px;
+}
+
+.first-bottom-news > .card-story > .text-story > span {
+    padding-top: 5px;
+}
+
+.first-bottom-news > .card-story{
+    padding: 0px 24px;
+}
+
+.second-bottom-news {
+    padding: 0px 24px;
+}
+
+.bottom-second-story {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    margin-bottom: 32px;
+}
+
+.bottom-second-story > .text-story {
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.dimension-text-anti-hero {
+    font-size: 3.2rem;
+}
+
+.bottom-second-story > .text-story > p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+    .main-story {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+        padding-bottom: 24px;
+    }
+
+    .exclusive-stories {
+        margin-bottom: 0;
+    }
+
+    .exclusive-stories .main-story .card-story {
+        padding: 0px;
+    }
+    
+    .main-story > a  {
+        margin-right: 28px;
+        width: 100%;
+    }
+
+    .main-story > a > img {
+        width: 100%;
+    }
+
+    .exclusive-stories .main-story > .card-story {
+        display: flex;
+        flex-direction: column;
+        top: 25px;
+    }
+
+    .exclusive-text-main-story {
+        margin-top: 12px;
+    }
+
+    .main-story > .card-story > .text-story p {
+        margin: 0px;
+    }
+
+    .exclusive-div {
+        display: flex;
+        align-items: unset;
+        padding-left: 0;
+    }
+
+    .exclusive-dimension-div {
+        position: inherit;
+        top: 10px;
+        left: 0px;
+    }
+
+    .first-secondary-story {
+        border-top: none;
+        margin-top: none;
+    }
+
+    .first-secondary-story > .card-story {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card-story {
+        display: flex;
+        padding: 0px;
+    }
+
+    .text-story > h3 {
+        padding-bottom: 4px;
+        padding-top: 0px;
+        line-height: 2.5rem;
+    }
+
+    .exclusive-stories > .secondary-stories {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+
+    .secondary-stories {
+        display: flex;
+        flex-direction: row;
+        border-top: 1px black solid;
+    }
+
+    .first-secondary-story {
+        order: 2;
+    }
+
+    .secondary-stories .first-secondary-story {
+        border: none;
+        padding-top: 0;
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+
+   .first-secondary-story #hidden {
+        display: none;
+   }
+
+   .element-card-1 {
+    margin-right: 20px;
+   }
+
+   .element-card-1 img {
+    width: 115px;
+   }
+
+   .element-card-2 {
+    position: relative;
+    top: -10px;
+   }
+
+   .second-secondary-story {
+    padding-right: 32px;
+   }
+
+   .second-secondary-story > .card-news {
+    border: none;
+    padding-top: 0px;
+   }
+
+   .exclusive-stories .content-bottom {
+    display: flex;
+    padding-top: 28px;
+   }
+
+   .content-bottom {
+    display: flex;
+    justify-content: center;
+   }
+   
+   .content-bottom .first-bottom-news .card-story {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+   }
+
+   .first-bottom-news {
+    border-right: 1px black solid;
+    padding-right: 32px;
+    flex-basis: 50%;
+   }
+
+   .first-bottom-news .little-div-bottom-up {
+    display: flex;
+    left: 0px;
+    top: -40px;
+   }
+
+   .first-bottom-news .little-div-bottom-up p {
+    margin-bottom: 5px;
+   }
+   
+   .content-bottom .bottom-second-story {
+    border: none;
+    padding-top: 0px;
+    padding-left: 8px;
+   }
+
+   .content-bottom .bottom-second-story .text-story {
+    margin-top: 2px;
+   }
+
+   .content-bottom .bottom-second-story p:nth-child(2) {
+    margin-top: 12px;
+    margin-bottom: 16px;
+   }
+
+   .second-bottom-news {
+    position: relative;
+    top: -20px;
+    flex-basis: 50%;
+   }
+
+   .content-bottom .second-bottom-news {
+    padding-right: 0px;
+   }
+}
+
+@media (min-width: 1000px) {
+    .exclusive-stories {
+        display: flex;
+    }
+
+    .little-div {
+        top: -45px;
+        width: 80px;
+        background-color: white;
+        padding-top: 10px;
+    }
+
+    .exclusive-dimension-div {
+        top: 0;
+    }
+    .second-container  {
+        margin-bottom: 10px;
+    } 
+
+    .second-container .exclusive-stories {
+        margin-top: 0;
+    }
+
+    .card-story {
+        margin-top: 10px;
+    }
+
+    .stories .main-story img {
+        width: 90%;
+    }
+
+    .stories .main-story a {
+        margin: 0;
+    }
+
+    .stories .secondary-stories {
+        padding: 0;
+    }
+
+    .secondary-stories .second-secondary-story {
+        max-width: 18.25rem;
+    }
+
+    .secondary-stories .second-secondary-story .card-news {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .secondary-stories .first-secondary-story {
+        font-size: 13px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .second-container .exclusive-stories{
+        margin-top: 0;
+    }
+
+    .exclusive-stories .stories {
+        flex-basis: unset;
+    }
+
+    .stories {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        border: unset;
+        padding-top: 20px;
+    }
+
+    .text-title-card-story {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .main-story {
+        flex-direction: column;
+        flex-basis: 240%;
+        position: relative;
+        top: -15px;
+    }
+
+    .exclusive-dimension-div {
+        top: -30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+
+    .divider-double-basic {
+        border: 2px black double;
+        margin-top: 3px;
+        width: 90%;
+    }
+
+    .divider-exclusive-basic {
+        border: 1px black solid;
+        margin-top: 3px;
+        width: 92%;
+    }
+
+    .exclusive-text-main-story{
+        padding-right: 15px;
+    }
+
+    .text-main-story {
+        padding-right: 15px;
+    }
+    .stories .secondary-stories {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0;
+        border-top: none;
+        position: relative;
+        top: -20px;
+    }
+
+    .first-secondary-story {
+        display: flex;
+        flex: row;
+    }
+
+    .stories .secondary-stories .card-story {
+        flex-basis: 100%;
+    }
+
+    .first-secondary-story .card-story img {
+        width: 110%;
+    }
+
+    .stories .second-secondary-story {
+        max-width: 100%;
+    }
+
+    .secondary-stories .first-secondary-story .card-story {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        padding: 0;
+        margin-right: 20px;
+    }
+
+    .element-card-2 {
+        margin-top: 20px;
+    }
+    
+    .stories .secondary-stories .card-news {
+        border-top: 1px solid black;
+        margin-top: 2px;
+        padding-top: 20px;
+        font-size: 1.2rem;
+    }
+
+    .second-secondary-story .card-news {
+        padding-bottom: 0;
+    }
+
+
+ }
