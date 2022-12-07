@@ -27,7 +27,7 @@
     position: absolute;
     left: 0px;
     height: 285px;
-    font-family: "Graphik Semibold", sans-serif;
+    font-family: "graphik", sans-serif;
     font-size: 11px;
     display: flex;
 }
@@ -35,7 +35,7 @@
 
 
 .branded-content {
-    font-family: "Graphik Semibold", sans-serif;
+    font-family: "graphik", sans-serif;
     font-size: 15px;
     padding: 10px 24px 0px;
 }
