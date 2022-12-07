@@ -1,6 +1,6 @@
 .popup-subscribe-secondary,
 .popup-subscribe-primary {
-    display:none; /* uncomment */
+    display:none;
     position: absolute;
     background-color: white;
     top: 120%;
@@ -28,6 +28,7 @@
 }
 
 .popup-subscribe-img-container {
+    display: none;
     height: 100%;
     width: auto;
 }

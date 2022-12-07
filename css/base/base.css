@@ -30,6 +30,7 @@
 @import url("../components/footer/menu-desktop-tablet.css");
 @import url("../components/footer/bottom-footer.css");
 
+@import url("../components/functionalities.css");
 
 .wrap-you-might-also-like {
     max-width: 100%;

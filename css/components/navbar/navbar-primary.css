@@ -24,10 +24,18 @@
 
 .menu-primary {
     position: relative;
+    z-index: -1;
 }
 
 .menu_close {
-    display: none;
+    display:none;
+    position: absolute; 
+    top: -20px;
+}
+
+.menu_open {
+    position: absolute;
+    top: -20px;
 }
 
 .st0 {

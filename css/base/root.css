@@ -102,7 +102,6 @@ body {
 
 * {
   font-family: Georgia, Helvetica, sans-serif;
-  box-sizing: unset;
 }
 
 .navbar {
