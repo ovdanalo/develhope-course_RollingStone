@@ -10,6 +10,8 @@
 }
 
 input[type="search"] {
+    font-size: 0.7rem;
+    padding-left: 10px;
     height: 40px;
     border: 0;
     border-bottom: 1px solid black;
