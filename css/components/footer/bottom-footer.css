@@ -5,10 +5,7 @@
 
 }
 
-#rolling-wide,
-#legal-wide {
-  display: none;
-}
+
 
 .link-footer {
     text-decoration: none;
@@ -155,9 +152,3 @@ footer,
     color: gray;
   }
 
-  @media (min-width: 992px) {
-    #rolling-wide,
-#legal-wide {
-  display: flex;
-}
-  }

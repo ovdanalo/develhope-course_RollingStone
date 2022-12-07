@@ -1,5 +1,5 @@
 #wide-container {
-    width: 100%;
+    
     display: none;
 
     height: 501px;
@@ -30,3 +30,45 @@
     margin-right: 9px;
     padding-top: 15px;
 }
+@media (min-width: 992px) {
+   
+    
+
+    .you-might-also-like {
+        max-width: 60%;
+        display: flex;
+        align-items: center;
+    }
+    .wrap-you-might-also-like{
+        max-width: 100%;
+    }
+    .all-list-you-might-also-like{
+        max-width: 100%;
+    }
+    .img-386-183{
+        width: 202px;
+        height: 113px;
+    }
+    .more-specific-list-element{
+        width: 202px;
+        height: 263px;
+    }
+    
+
+    .buttons {
+        display: none;
+    }
+
+    #wide-container {
+        display: flex;
+    }
+
+    #hiddenindesk {
+        display: none;
+    }
+    .buttons-desktop{
+        display: flex;
+    }
+    
+}
+ 

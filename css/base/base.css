@@ -31,37 +31,3 @@
 @import url("../components/footer/bottom-footer.css");
 
 
-.wrap-you-might-also-like {
-    max-width: 100%;
-}
-
-.all-list-you-might-also-like {
-    max-width: 100%;
-}
-
-.img-386-183 {
-    width: 202px;
-    height: 113px;
-}
-
-.more-specific-list-element {
-    width: 202px;
-    height: 263px;
-}
-
-
-.buttons {
-    display: none;
-}
-
-#wide-container {
-    display: block;
-}
-
-#hiddenindesk {
-    display: none;
-}
-
-.buttons-desktop {
-    display: flex;
-}
