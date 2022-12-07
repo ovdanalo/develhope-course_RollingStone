@@ -30,6 +30,10 @@
     margin-right: 9px;
     padding-top: 15px;
 }
+#footerid{
+    padding: 0px;
+   margin: 0px;
+}
 @media (min-width: 992px) {
    
     
@@ -71,4 +75,5 @@
     }
     
 }
+
  
