@@ -254,11 +254,7 @@
   }
   
 
-  .more-specific-list-element {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  
   .link-to-also-like {
     display: flex;
     flex-direction: column;

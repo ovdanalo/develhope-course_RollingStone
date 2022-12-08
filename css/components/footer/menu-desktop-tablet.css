@@ -87,12 +87,16 @@
         max-width: 60%;
         display: flex;
         align-items: center;
+        height: auto;
+        margin: 0px;
     }
     .wrap-you-might-also-like{
         max-width: 100%;
+        height: auto;
     }
     .all-list-you-might-also-like{
         max-width: 100%;
+        height: auto;
     }
     .img-386-183{
         width: 202px;
@@ -100,7 +104,7 @@
     }
     .more-specific-list-element{
         width: 202px;
-        height: 263px;
+        height: auto;
     }
     
 
@@ -115,7 +119,10 @@
     #hiddenindesk {
         display: none;
     }
-    
+    .more-specific-list-element{
+        padding-top: 90px;
+        border-top: 3px solid black;
+    }
 }
 
  

@@ -37,6 +37,13 @@
 #ultimus{
   border: none;
 }
+.more-specific-list-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
 .img-386-183 {
   width: 326px;
   height: 183px;
@@ -132,6 +139,7 @@
 .section-1000px {
   display: flex;
   justify-content: space-between;
+  
 
 
 }
