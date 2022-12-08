@@ -6,6 +6,7 @@
 .svg-first-most-popular {
   height: 12px;
   padding: 6px 0;
+  box-sizing: unset;
 }
 
 .svg-also-like {
