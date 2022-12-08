@@ -26,8 +26,9 @@
 .upper-footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
 }
 
 .wrap-pmc-mostpopular {
@@ -56,25 +57,25 @@
   text-decoration: underline;
 }
 
-.first-popular-container:nth-child(1)::before {
+.first-popular-wrap:nth-child(2)::before {
   content: "1";
   font-weight: bold;
   font-size: 20px;
 }
 
-.first-popular-wrap:nth-child(2)::before {
+.first-popular-wrap:nth-child(3)::before {
   content: "2";
   font-weight: bold;
   font-size: 20px;
 }
 
-.first-popular-wrap:nth-child(3)::before {
+.first-popular-wrap:nth-child(4)::before {
   content: "3";
   font-weight: bold;
   font-size: 20px;
 }
 
-.first-popular-wrap:nth-child(4)::before {
+.first-popular-wrap:nth-child(5)::before {
   content: "4";
   font-weight: bold;
   font-size: 20px;
@@ -96,6 +97,7 @@
   display: flex;
   gap: 30px;
   overflow: auto;
+  
 }
 
 .wrap-you-might-also-like {
