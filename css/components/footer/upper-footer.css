@@ -28,6 +28,8 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  flex-grow: 0;
+  flex-shrink: 1;
   
 }
 
@@ -91,6 +93,7 @@
   display: flex;
   margin: auto;
   align-items: center;
+  flex-grow: 2;
 }
 
 .all-list-you-might-also-like {
