@@ -31,9 +31,16 @@
   justify-content: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
+  border: 2px solid black;
   
 }
-
+#ultimus{
+  border: none;
+}
+.img-386-183 {
+  width: 326px;
+  height: 183px;
+}
 .wrap-pmc-mostpopular {
   display: flex;
   flex-direction: column;
@@ -84,10 +91,6 @@
   font-size: 20px;
 }
 
-#ultimus {
-  padding-bottom: 30px;
-  border-bottom: 2px solid black;
-}
 
 .you-might-also-like {
   max-width: 96%;
@@ -99,6 +102,7 @@
 
 .all-list-you-might-also-like {
   display: flex;
+  align-items: flex-start;
   gap: 30px;
   overflow: auto;
   
