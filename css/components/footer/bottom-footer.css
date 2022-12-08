@@ -16,9 +16,7 @@
     text-decoration: underline;
     color: grey;
 }
-.boxsize-borderbox{
-    box-sizing: border-box;
-}
+
 footer,
 .backblack,
 .border3-padding050,
@@ -37,7 +35,7 @@ footer,
   
   .border3-padding050 {
     height: 430px;
-    width: 430px;
+    width: 98%;
     padding: 8px;
     border: 3px solid white;
   }
@@ -45,7 +43,7 @@ footer,
   .border1 {
     border: 1px solid white;
     height: 410px;
-    width: 410px;
+    width: 98%;
   }
   .wrap-final-button {
     display: flex;
@@ -53,6 +51,7 @@ footer,
     justify-content: center;
     align-items: center;
     gap: 15px;
+    width: 95%;
    
     
   }
@@ -83,20 +82,9 @@ footer,
   background-color: red;
 }
 
-#wrap-rolling,
-#wrap-legal {
-  border: 1px solid white;
-  height: 28px;
-  width: 347px;
-  padding: 6px 4px 6px 4px;
-}
 
-.list-button {
-    background-color: black;
-    color: white;
-    border: 1px solid white;
-    padding-bottom: 10px;
-  }
+
+
   #svs-down {
     width: 10px;
     height: 10px;
@@ -154,22 +142,40 @@ footer,
   .border-button {
     font-family: Georgia;
     color: black;
-    padding-top: 5px;
-    padding-bottom: 7px;
-    padding-left: 90px;
-    padding-right: 90px;
     border: 1px solid black;
     text-align: center;
     font-weight: 700;
     font-size: 13px;
     box-sizing: unset;
+    width: 99%;
+    height: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .list-button {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+   width: 99%;
+    height: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .final-button {
     text-decoration: none;
     background-color: white;
     height: 28px;
-    width: 347px;
+    width: 99%;
     padding: 6px 4px 8px 4px;
     box-sizing: unset;
   }
-
+  #wrap-rolling,
+  #wrap-legal {
+    border: 1px solid white;
+    height: 28px;
+    
+    padding: 6px 4px 6px 4px;
+  }
