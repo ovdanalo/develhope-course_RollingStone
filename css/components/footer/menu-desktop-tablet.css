@@ -4,18 +4,20 @@
 
     height: 501px;
     font-weight: 500;
+    box-sizing: unset;
 }
 
 #wide-container2 {
     border: 3px solid white;
     margin-left: 10px;
     margin-top: 10px;
+    box-sizing: unset;
 
 }
 
 #wide-container3 {
     border: 2px solid white;
-
+    box-sizing: unset;
     margin-top: 10px;
 
 }
@@ -23,16 +25,59 @@
 #upper-wide-section {
     margin-left: 9px;
     margin-right: 9px;
+    box-sizing: unset;
 }
 
 #bottom-wide-section {
     margin-left: 9px;
     margin-right: 9px;
     padding-top: 15px;
+    box-sizing: unset;
 }
 #footerid{
     padding: 0px;
    margin: 0px;
+   box-sizing: unset;
+}
+.bordered-button-white {
+    color: black;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    box-sizing: unset;
+}
+.bordered-button-black {
+    color: white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+    border: 1px solid white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    box-sizing: unset;
+}
+
+.white-button-bordered-anchor {
+    text-decoration: none;
+    background-color: white;
+    height: 34px;
+    width: 207px;
+    padding: 6px 4px 8px 4px;
+    box-sizing: unset;
+}
+
+.black-button-bordered-anchor {
+    text-decoration: none;
+    background-color: black;
+    height: 34px;
+    width: 207px;
+    padding: 6px 4px 8px 4px;
+    border: 1px solid white;
+    box-sizing: unset;
 }
 @media (min-width: 992px) {
    

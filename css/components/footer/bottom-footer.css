@@ -151,4 +151,25 @@ footer,
     text-decoration: none;
     color: gray;
   }
+  .border-button {
+    font-family: Georgia;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    box-sizing: unset;
+  }
+  .final-button {
+    text-decoration: none;
+    background-color: white;
+    height: 28px;
+    width: 347px;
+    padding: 6px 4px 8px 4px;
+    box-sizing: unset;
+  }
 

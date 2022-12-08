@@ -170,43 +170,9 @@
     width: 99%;
 }
 
-.bordered-button-white {
-    color: black;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    border: 1px solid black;
-    text-align: center;
-    font-weight: 600;
-    font-size: 14px;
-}
 
-.bordered-button-black {
-    color: white;
-    padding-top: 9px;
-    padding-bottom: 9px;
 
-    border: 1px solid white;
-    text-align: center;
-    font-weight: 600;
-    font-size: 14px;
-}
 
-.white-button-bordered-anchor {
-    text-decoration: none;
-    background-color: white;
-    height: 34px;
-    width: 207px;
-    padding: 6px 4px 8px 4px;
-}
-
-.black-button-bordered-anchor {
-    text-decoration: none;
-    background-color: black;
-    height: 34px;
-    width: 207px;
-    padding: 6px 4px 8px 4px;
-    border: 1px solid white;
-}
 
 .svg-followus {
     height: 16px;
@@ -324,25 +290,4 @@
     font-size: 16px;
   }
   /* fine elementi poco puliti upper-footer*/ 
-  /*elementi poco puliti bottom-footer*/ 
-  .border-button {
-    font-family: Georgia;
-    color: black;
-    padding-top: 5px;
-    padding-bottom: 7px;
-    padding-left: 90px;
-    padding-right: 90px;
-    border: 1px solid black;
-    text-align: center;
-    font-weight: 700;
-    font-size: 13px;
-  }
-  .final-button {
-    text-decoration: none;
-    background-color: white;
-    height: 28px;
-    width: 347px;
-    padding: 6px 4px 8px 4px;
-  }
-   /* fine elementi poco puliti bottom-footer*/ 
-  
+ 
