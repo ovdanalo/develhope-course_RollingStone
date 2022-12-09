@@ -5,8 +5,6 @@
 
 }
 
-
-
 .link-footer {
     text-decoration: none;
     color: white;
@@ -27,6 +25,7 @@ footer,
   justify-content: center;
   align-items: center;
 }
+
 .backblack {
     height: 450px;
     width: 100%;
@@ -45,6 +44,7 @@ footer,
     height: 410px;
     width: 98%;
   }
+
   .wrap-final-button {
     display: flex;
     flex-direction: column;
@@ -55,6 +55,7 @@ footer,
    
     
   }
+
   #customer-service,
 #give-a-gift {
   color: white;
@@ -82,25 +83,23 @@ footer,
   background-color: red;
 }
 
-
-
-
   #svs-down {
     width: 10px;
     height: 10px;
     font-size: 10px;
   }
-  
+
   .down {
     fill: white;
   }
+
   .pmc-footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  
+
   .flex-final-menu {
     display: flex;
     align-items: center;
@@ -109,18 +108,18 @@ footer,
     width: 360px;
     border: 1px solid black;
   }
-  
+
   #pmc-final-footer {
     height: 20px;
     width: 120px;
     padding-top: 40px;
     padding-bottom: 20px;
   }
-  
+
   #another-down {
     fill: black;
   }
-  
+
   .copyright {
     display: flex;
     flex-direction: column;
@@ -130,15 +129,16 @@ footer,
     color: gray;
     font-weight: 900;
   }
-  
+
   .copyright-p {
     margin: 10px 0px 0px 0px;
   }
-  
+
   .link-wordpress {
     text-decoration: none;
     color: gray;
   }
+
   .border-button {
     font-family: Georgia;
     color: black;
@@ -154,6 +154,7 @@ footer,
     align-items: center;
     
   }
+
   .list-button {
     background-color: black;
     color: white;
@@ -164,6 +165,7 @@ footer,
     justify-content: center;
     align-items: center;
   }
+
   .final-button {
     text-decoration: none;
     background-color: white;
@@ -172,6 +174,7 @@ footer,
     padding: 6px 4px 8px 4px;
     box-sizing: unset;
   }
+  
   #wrap-rolling,
   #wrap-legal {
     border: 1px solid white;
