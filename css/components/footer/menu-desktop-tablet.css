@@ -5,6 +5,7 @@
     height: 501px;
     font-weight: 500;
     box-sizing: unset;
+    background-color: black;
 }
 
 #wide-container2 {
@@ -12,14 +13,64 @@
     margin-left: 10px;
     margin-top: 10px;
     box-sizing: unset;
-
+    width: 98%;
+    height: 95%;
+    background-color: black;
 }
 
 #wide-container3 {
     border: 2px solid white;
     box-sizing: unset;
     margin-top: 10px;
+    width: 98%;
+    height: 95%;
+    background-color: black;
+}
+.title-padded {
+    color: white;
+    padding-bottom: 10px;
+    width: 100px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.text-white {
+    color: white;
+}
+.title-rollingfooter{
+    padding-right: 90px;
+    font-weight: 700;
+}
+.title-legalfooter{
+    padding-right: 150px;
+    font-weight: 700;
+}
 
+.border-bottom-1pxwhite {
+    border-bottom: 1px solid white;
+}
+
+.divfollowus {
+    padding-right: 40px;
+    padding-left: 40px;
+    height: 70%;
+}
+.svg-followus {
+    height: 16px;
+    width: 16px;
+    color: red;
+    fill: red;
+
+
+    line-height: 21.6px;
+    text-align: left;
+
+}
+.link-svg {
+    text-decoration: none;
+}
+
+.buttonhover:hover {
+    background-color: red;
 }
 
 #upper-wide-section {
@@ -27,10 +78,17 @@
     margin-right: 9px;
     box-sizing: unset;
     gap: 10px;
+    height: 70%;
+    width: 100%;
 }
 #bottom-wide{
     border-right: 1px solid white;
     gap: 20px;
+    width: 50%;
+    height: 70%;
+}
+.gap10{
+    gap: 10px;
 }
 
 #bottom-wide-section {
@@ -95,6 +153,8 @@
     border-left: 1px solid white;
     padding-left: 10px;
     gap: 40px;
+    width: 50%;
+    height: 70%;
 }
 #follow-wide{
     border-left: 1px solid white;
@@ -103,6 +163,8 @@
 }
 #rolling-wide{
     gap: 40px;
+    width: 50%;
+    height: 70%;
 }
 @media (min-width: 992px) {
    
