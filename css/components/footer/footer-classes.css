@@ -1,102 +1,26 @@
 
-.border-right-1pxwhite {
-    border-right: 1px solid white;
-}
 
 .border-bottom-1pxwhite {
     border-bottom: 1px solid white;
 }
 
-.border-top-1pxwhite {
-    border-top: 1px solid white;
-}
-/*flex-row*/
 
-.c-flex {
-    display: flex;
-    justify-content: center;
-}
 
-.c-flex-sb {
-    display: flex;
-    justify-content: space-between;
-}
 
-.c-flex-center-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
 
-.c-flex-jstart {
-    display: flex;
-    justify-content: flex-start;
 
-}
 
-.c-flex-wrap {
-    display: flex;
 
-    flex-wrap: wrap;
-}
 
-/* flex-column*/
-.c-flex-column {
-    display: flex;
-    justify-content: center;
 
-    flex-direction: column;
-}
 
-.c-flex-column-center {
-    display: flex;
-    align-items: center;
 
-    flex-direction: column;
-}
 
-.c-flex-column-jsstart-center {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-}
 
-.c-flex-column-center-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-}
 
-.c-flex-column-wrap {
-    display: flex;
-    flex-direction: column;
 
-    flex-wrap: wrap;
-}
-
-.c-flex-column-wrap-jstart {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
-/*single properties*/
-.gap10 {
-    gap: 10px;
-}
-
-.gap40 {
-    gap: 40px;
-}
-
-.gap20 {
-    gap: 20px;
-}
 .margintop-40 {
     margin-top: 40px;
 }

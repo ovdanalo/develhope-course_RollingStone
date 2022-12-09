@@ -26,6 +26,11 @@
     margin-left: 9px;
     margin-right: 9px;
     box-sizing: unset;
+    gap: 10px;
+}
+#bottom-wide{
+    border-right: 1px solid white;
+    gap: 20px;
 }
 
 #bottom-wide-section {
@@ -33,6 +38,10 @@
     margin-right: 9px;
     padding-top: 15px;
     box-sizing: unset;
+}
+#list-anchor{
+    gap: 40px;
+    padding-bottom: 50px;
 }
 #footerid{
     padding: 0px;
@@ -79,10 +88,28 @@
     border: 1px solid white;
     box-sizing: unset;
 }
+#bottom-wide-section{
+    border-top: 1px solid white;
+}
+#legal-wide{
+    border-left: 1px solid white;
+    padding-left: 10px;
+    gap: 40px;
+}
+#follow-wide{
+    border-left: 1px solid white;
+    padding-left: 10px;
+    gap: 40px;
+}
+#rolling-wide{
+    gap: 40px;
+}
 @media (min-width: 992px) {
    
     
-
+    .upper-footer{
+        border: none;
+    }
     .you-might-also-like {
         max-width: 60%;
         display: flex;
