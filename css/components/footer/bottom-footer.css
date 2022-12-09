@@ -102,11 +102,18 @@ footer,
 
   .flex-final-menu {
     display: flex;
-    align-items: center;
+    
     justify-content: space-between;
     height: 38px;
-    width: 360px;
+    width: 90%;
+    padding: 10px;
     border: 1px solid black;
+  }
+
+  .our-sites-menu{
+    font-size: 10px;
+    font-weight: 800;
+    text-align: center;
   }
 
   #pmc-final-footer {
@@ -114,6 +121,7 @@ footer,
     width: 120px;
     padding-top: 40px;
     padding-bottom: 20px;
+    box-sizing: unset;
   }
 
   #another-down {
@@ -133,6 +141,7 @@ footer,
   .copyright-p {
     margin: 10px 0px 0px 0px;
   }
+  
 
   .link-wordpress {
     text-decoration: none;
@@ -174,7 +183,7 @@ footer,
     padding: 6px 4px 8px 4px;
     box-sizing: unset;
   }
-  
+
   #wrap-rolling,
   #wrap-legal {
     border: 1px solid white;
