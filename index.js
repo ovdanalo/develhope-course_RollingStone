@@ -4,6 +4,7 @@ const dropdown = document.getElementById("dropdown").classList;
 const overlay = document.getElementById("overlay").classList;
 const overlay_tr = document.getElementById("overlay-transparent").classList;
 const subscribe = document.getElementById("popup-subscribe-container").classList;
+const subscribePr = document.getElementById("popup-subscribe-primary").classList;
 const search = document.getElementById("popup-search").classList;
 
 function showMenu() {
@@ -27,6 +28,11 @@ function closeDrop() {
 
 function showSub() {
     subscribe.toggle("show");
+    overlay_tr.toggle("show");
+}
+
+function showSubPr() {
+    subscribePr.toggle("show");
     overlay_tr.toggle("show");
 }
 
