@@ -34,6 +34,28 @@
   border-bottom: 2px solid black;
   
 }
+.text-of-first-most-popular {
+  font-family: Georgia,Helvetica,sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.first-most-popular-card {
+  padding-left: 20px;
+}
+.first-popular-wrap {
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+}
+.first-popular {
+  border-bottom: 1px dotted black;
+  text-decoration: none;
+  color: black;
+}
+
 #ultimus{
   border: none;
 }
@@ -123,6 +145,32 @@
   max-width: 100%;
 }
 
+.link-to-also-like {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+
+.content-of-also-like {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.text-content-of-also-like {
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+.no-margin-also-like-text {
+  margin: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-weight: 400;
+}
 .buttons {
   display: flex;
   justify-content: space-between;

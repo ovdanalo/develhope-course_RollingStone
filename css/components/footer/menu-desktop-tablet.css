@@ -128,6 +128,12 @@
     box-sizing: unset;
 }
 
+.fontcustom-button{
+    font-family: Georgia;
+    font-weight: 700;
+    font-size: 13px;
+}
+
 .white-button-bordered-anchor {
     text-decoration: none;
     background-color: white;
