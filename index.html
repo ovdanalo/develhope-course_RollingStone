@@ -25,7 +25,7 @@
 
 <body>
     <!-- navbar -->
-     <div id="overlay" class="overlay" onclick="overlayClick()">
+    <div id="overlay" class="overlay" onclick="overlayClick()">
     </div>
     <div id="overlay-transparent" class="overlay-transparent" onclick="overlayTrClick()">
     </div>
@@ -103,13 +103,14 @@
             </div>
         </div>
         <div class="divider-full mobile"></div>
-        <div class="navbar-primary container-fluid">
+        <div id="navbar-primary" class="navbar-primary container-fluid">
             <div class="container-navbar-primary container-lg d-flex flex-row">
                 <div class="left-nav-primary flex flex-justify-center">
                     <div class="menu-primary" onclick="showMenu()">
-                        <img id="menu_open" onclick="openDrop()"class="menu menu_open" src="assets/images/menu_open.png" alt="open-menu">
-                        <img id="menu_closed" onclick="closeDrop()"class="menu menu_close" src="assets/images/menu_close.png"
-                            alt="close-menu">
+                        <img id="menu_open" onclick="openDrop()" class="menu menu_open"
+                            src="assets/images/menu_open.png" alt="open-menu">
+                        <img id="menu_closed" onclick="closeDrop()" class="menu menu_close"
+                            src="assets/images/menu_close.png" alt="close-menu">
                         <div id="dropdown" class="dropdown flex flex-dir-col">
                             <div class="upper-dropdown up-dropdown-secondary flex flex-dir-col">
                                 <div class="dropdown-item menu-login">
@@ -292,14 +293,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="center-nav-secondary">
+                <div id="center-nav-secondary" class="center-nav-secondary">
                     <a class="center-nav-link" href="#">MUSIC</a>
                     <a class="center-nav-link" href="#">POLITICS</a>
                     <a class="center-nav-link" href="#">TV & MOVIES</a>
                     <a class="center-nav-link" href="#">(SUB)CULTURE</a>
                     <a class="center-nav-link" href="#">RS RECOMMENDS</a>
                 </div>
-                <div class="logo-primary flex flex-justify-center">
+                <div id="logo-primary" class="logo-primary flex flex-justify-center">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0"
                         viewBox="0 0 690.6 135.8" xml:space="preserve">
                         <path class="st0"
@@ -326,7 +327,7 @@
                 </div>
                 <div class="right-nav-primary">
                     <p id="subscribe" onclick="ShowSubPr()">SUBSCRIBE</p>
-                    <div  class="popup-subscribe-primary flex flex-justify-center">
+                    <div class="popup-subscribe-primary flex flex-justify-center">
                         <div id="popup-subscribe-primary" class="popup-subscribe-content">
                             <img src="assets/images/93df335561a502479180890528acb4521b4a2d67.gif" alt="subscribe">
                         </div>
@@ -336,6 +337,14 @@
                     <div class="parent-search">
                         <img class="search-icon" src="assets/images/search.png" alt="search icon"
                             onclick="showSearch()">
+                        <div id="sticky-addon" class="sticky-addon">
+                            <div class="vertical-line"></div>
+                            <p class="sticky-links">GOT A TIP?</p>
+                            <div class="vertical-line"></div>
+                            <p class="sticky-links">LOG IN</p>
+                            <div class="vertical-line"></div>
+                            <p class="sticky-links">SUBSCRIBE</p>
+                        </div>
                         <div id="popup-search" class="popup-search">
                             <input type="search" placeholder="SEARCH...">
                             <img class="search-icon" src="assets/images/search-active.png" alt="search icon">
@@ -346,7 +355,6 @@
         </div>
     </nav>
     <div class="divider-full divider-primary"></div>
-
     <!-- section 1 -->
     <div class="container-xl">
         <div class="row">
@@ -690,7 +698,8 @@
                         <div class="second-secondary-story">
                             <div class="card-news">
                                 <span class="publico-web-ultra"> Red Card </span>
-                                <a href="#" class="publico-web-ultra"> 'A World Cup Built on Modern Slavery': Stadium Workers Blow the Whistle on
+                                <a href="#" class="publico-web-ultra"> 'A World Cup Built on Modern Slavery': Stadium
+                                    Workers Blow the Whistle on
                                     Qatar’s
                                     'Coverup' of Migrant Deaths and Suffering </a>
                                 <span> By <a href="#"> Andy Greene</a> </span>
