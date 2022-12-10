@@ -33,9 +33,7 @@
     font-weight: 700;
     font-size: 14px;
 }
-.text-white {
-    color: white;
-}
+
 .title-rollingfooter{
     padding-right: 90px;
     font-weight: 700;
@@ -132,6 +130,9 @@
     font-family: Georgia;
     font-weight: 700;
     font-size: 13px;
+}
+#Newsletter-signup{
+    border-right: 1px solid white;
 }
 
 .white-button-bordered-anchor {
