@@ -1,4 +1,5 @@
 .dropdown {
+    display: none;
     position: absolute;
     width: 99vw;
     background-color: white;

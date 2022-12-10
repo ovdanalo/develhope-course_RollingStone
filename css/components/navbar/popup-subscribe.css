@@ -28,6 +28,7 @@
 }
 
 .popup-subscribe-img-container {
+    display: none;
     height: 100%;
     width: auto;
 }

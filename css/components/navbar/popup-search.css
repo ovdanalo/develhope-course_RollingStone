@@ -25,6 +25,6 @@ input[type="search"]:focus {
 
 @media (min-width: 768px) {
     .popup-search {
-        display: flex;
+        display: none;
     }
 }
