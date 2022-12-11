@@ -25,6 +25,10 @@
 
 <body>
     <!-- navbar -->
+    <div id="overlay" class="overlay" onclick="overlayClick()">
+    </div>
+    <div id="overlay-transparent" class="overlay-transparent" onclick="overlayTrClick()">
+    </div>
     <nav class="navbar flex container-fluid">
         <div class="navbar-secondary flex-justify-center">
             <div class="container-lg d-flex justify-content-around flex-row">
@@ -85,10 +89,10 @@
                     <a class="header-link">LOGIN </a>
                     <div class="divider-xs divider-right"></div>
                     <div class="right-nav-subscribe-secondary flex">
-                        <a class="header-link">SUBSCRIBE</a>
+                        <a class="header-link" onclick="showSub()">SUBSCRIBE</a>
                         <div class="popup-subscribe-secondary flex flex-justify-center">
                             <a href="#">
-                                <div class="popup-subscribe-img-container">
+                                <div id="popup-subscribe-container" class="popup-subscribe-img-container">
                                     <img src="assets/images/93df335561a502479180890528acb4521b4a2d67.gif"
                                         alt="subscribe">
                                 </div>
@@ -99,13 +103,15 @@
             </div>
         </div>
         <div class="divider-full mobile"></div>
-        <div class="navbar-primary container-fluid">
+        <div id="navbar-primary" class="navbar-primary container-fluid">
             <div class="container-navbar-primary container-lg d-flex flex-row">
                 <div class="left-nav-primary flex flex-justify-center">
-                    <div class="menu-primary">
-                        <img class="menu menu_open" src="assets/images/menu_open.png" alt="open-menu">
-                        <img class="menu menu_close" src="assets/images/menu_close.png" alt="close-menu">
-                        <div class="dropdown flex flex-dir-col">
+                    <div class="menu-primary" onclick="showMenu()">
+                        <img id="menu_open" onclick="openDrop()" class="menu menu_open"
+                            src="assets/images/menu_open.png" alt="open-menu">
+                        <img id="menu_closed" onclick="closeDrop()" class="menu menu_close"
+                            src="assets/images/menu_close.png" alt="close-menu">
+                        <div id="dropdown" class="dropdown flex flex-dir-col">
                             <div class="upper-dropdown up-dropdown-secondary flex flex-dir-col">
                                 <div class="dropdown-item menu-login">
                                     <a href="#" class="left-menu-primary">
@@ -287,14 +293,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="center-nav-secondary">
+                <div id="center-nav-secondary" class="center-nav-secondary">
                     <a class="center-nav-link" href="#">MUSIC</a>
                     <a class="center-nav-link" href="#">POLITICS</a>
                     <a class="center-nav-link" href="#">TV & MOVIES</a>
                     <a class="center-nav-link" href="#">(SUB)CULTURE</a>
                     <a class="center-nav-link" href="#">RS RECOMMENDS</a>
                 </div>
-                <div class="logo-primary flex flex-justify-center">
+                <div id="logo-primary" class="logo-primary flex flex-justify-center">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0"
                         viewBox="0 0 690.6 135.8" xml:space="preserve">
                         <path class="st0"
@@ -320,22 +326,27 @@
                     </svg>
                 </div>
                 <div class="right-nav-primary">
-                    <a id="subscribe" href="#">SUBSCRIBE</a>
+                    <p id="subscribe" onclick="ShowSubPr()">SUBSCRIBE</p>
                     <div class="popup-subscribe-primary flex flex-justify-center">
-                        <div class="popup-subscribe-img-container">
-                            <img class="popup-subscribe-img" src="assets/images/popup-subscribe-image.jpg"
-                                alt="subscribe image">
-                        </div>
-                        <div class="popup-subscribe-content">
+                        <div id="popup-subscribe-primary" class="popup-subscribe-content">
                             <img src="assets/images/93df335561a502479180890528acb4521b4a2d67.gif" alt="subscribe">
                         </div>
                     </div>
                 </div>
                 <div class="right-nav-secondary">
                     <div class="parent-search">
-                        <img class="search-icon" src="assets/images/search.png" alt="search icon">
-                        <div class="popup-search">
-                            <input type="search" placeholder="Search...">
+                        <img class="search-icon" src="assets/images/search.png" alt="search icon"
+                            onclick="showSearch()">
+                        <div id="sticky-addon" class="sticky-addon">
+                            <div class="vertical-line"></div>
+                            <p class="sticky-links">GOT A TIP?</p>
+                            <div class="vertical-line"></div>
+                            <p class="sticky-links">LOG IN</p>
+                            <div class="vertical-line"></div>
+                            <p class="sticky-links">SUBSCRIBE</p>
+                        </div>
+                        <div id="popup-search" class="popup-search">
+                            <input type="search" placeholder="SEARCH...">
                             <img class="search-icon" src="assets/images/search-active.png" alt="search icon">
                         </div>
                     </div>
@@ -344,7 +355,6 @@
         </div>
     </nav>
     <div class="divider-full divider-primary"></div>
-
     <!-- section 1 -->
     <div class="container-xl">
         <div class="row">
@@ -359,14 +369,14 @@
                     </div>
                 </div>
                 <div class="article-section">
-                    <h2 class="h2-section-big">The 100 Best Albums of 2022</h2>
+                    <h2 class="h2-section-big"><a href="#" class="link-section-1">The 100 Best Albums of 2022</a></h2>
                     <p class="p-section">
                         Beyoncé's dance-music ecstasy, Bad Bunny's latest world-conquering
                         smash, Taylor Swift's late nights, Harry Styles' song cycle, and
                         Pusha T's master class in metaphor were only some of the albums
                         that ruled our world this year
                     </p>
-                    <blockquote class="blockquote-section">By ROLLING STONE</blockquote>
+                    <blockquote class="blockquote-section1">By ROLLING STONE</blockquote>
                 </div>
             </div>
             <div class="container-section-small order-sm-2 col-sm-12 order-lg-3 col-lg-2 order-xl-3 col-xl-2">
@@ -374,8 +384,9 @@
                     <div class="border"></div>
                     <div class="article-section-small">
                         <img src="assets/images/pink-girl.jpeg" class="immagini" />
-                        <h2 class="h2-section">
-                            Dita Von Teese Is Having a Main Girl Pop Moment
+                        <h2 class="h2-section"><a href="#" class="link-section-1">
+                                Dita Von Teese Is Having a Main Girl Pop Moment
+                            </a>
                         </h2>
                         <p class="p-section">
                             The legendary performer talks about her surprise cameos in
@@ -390,9 +401,10 @@
                 <div class="contenuto-small">
                     <div class="article-section-small">
                         <img src="assets/images/people.jpg" class="immagini" />
-                        <h2 class="h2-section">
-                            Taylor Swift Tickets Are On Sale. Fans Say It&rsquo;s Their
-                            Hunger Games
+                        <h2 class="h2-section"><a href="#" class="link-section-1">
+                                Taylor Swift Tickets Are On Sale. Fans Say It&rsquo;s Their
+                                Hunger Games
+                            </a>
                         </h2>
                         <p class="p-section">
                             If you're still in line, please get out of it so I can see
@@ -416,16 +428,17 @@
                     </div>
                 </div>
                 <div class="article-section">
-                    <h2 class="h2-section">
-                        Make America Miserable Again: Trump Announces 2024 Presidential
-                        Run
+                    <h2 class="h2-section"><a href="#" class="link-section-1">
+                            Make America Miserable Again: Trump Announces 2024 Presidential
+                            Run
+                        </a>
                     </h2>
                     <p class="p-section">
                         The former president has thrown his garish red hat in the ring to
                         once again become the current president
                     </p>
                     <blockquote class="blockquote-section1">
-                        By Giuseppe Russo
+                        By James Odwell
                     </blockquote>
                     <div class="border"></div>
                 </div>
@@ -434,35 +447,41 @@
                 class="container-section2 order-sm-4 col-sm-12 order-lg-1 col-lg-2 order-xl-1 col-xl-2 justify-content-lg-between">
                 <div class="article-section2">
                     <p>EARLY AND OFTEN</p>
-                    <h2>
-                        Musk's Beloved Twitter Polls Are Bot-Driven Bullsh!t, Ex-Employees
-                        Say
+                    <h2><a href="#" class="link-section-1">
+                            Musk's Beloved Twitter Polls Are Bot-Driven Bullsh!t, Ex-Employees
+                            Say
+                        </a>
                     </h2>
                     <span>“Polls are more prone to manipulation than almost anything else
                         [on Twitter]. It’s interesting, given his [Musk’s] use of polls,”
                         Yoel Roth, the company’s former Head of Trust and Safety says
                     </span>
-                    <blockquote>By Noah Shachtman and Adam Rawnsley </blockquote>
+                    <blockquote class="blockquote-section1">By <a href="#" class="link-section-1">Noah Shachtman and
+                            Adam Rawnsley </a></blockquote>
                     <div class="border"></div>
                 </div>
                 <div class="article-section2">
                     <p>EXCLUSIVE</p>
-                    <h2>
-                        DeSantis Tells Allies to Stay Mum About Trump’s ‘Nazi’ Dinner.
-                        It’s Part of a Bigger Plan
+                    <h2><a href="#" class="link-section-1">
+                            DeSantis Tells Allies to Stay Mum About Trump’s ‘Nazi’ Dinner.
+                            It’s Part of a Bigger Plan
+                        </a>
                     </h2>
                     <span>Trump's response to accusations of antisemitism is to accuse his
                         Jewish conservative critics of being disloyal</span>
-                    <blockquote>By Asawin Suebsaeng</blockquote>
+                    <blockquote class="blockquote-section1">By <a href="#" class="link-section-1">Asawin Suebsaeng </a>
+                    </blockquote>
                     <div class="border"></div>
                 </div>
-                <div class="article-section2">
+                <div class="article-section2 tablet-no-show">
                     <p>SCHOOL SHOOTING</p>
-                    <h2>
-                        10-Year-Old Shoots Mom Dead, Orders Himself a VR Headset on Her
-                        Amazon Account
+                    <h2><a href="#" class="link-section-1">
+                            10-Year-Old Shoots Mom Dead, Orders Himself a VR Headset on Her
+                            Amazon Account
+                        </a>
                     </h2>
-                    <blockquote>By Andrea Marks</blockquote>
+                    <blockquote class="blockquote-section1">By <a href="#" class="link-section-1">Andrea Marks </a>
+                    </blockquote>
                 </div>
             </div>
             <div class="border-bottom"></div>
@@ -472,9 +491,10 @@
                 <img src="assets/images/1-card.jpg" class="image-card" />
                 <div class="card-text">
                     <span class="card-text-title">Rolling stone on twitch</span>
-                    <p>
-                        Jeff Goldblum Decodes the Holiday Cheer of New Jazz Single The
-                        Christmas Waltz&rsquo;
+                    <p><a href="#" class="link-section-1">
+                            Jeff Goldblum Decodes the Holiday Cheer of New Jazz Single The
+                            Christmas Waltz&rsquo;
+                        </a>
                     </p>
                 </div>
             </div>
@@ -483,9 +503,10 @@
                 <img src="assets/images/harry.jpg" class="image-card" />
                 <div class="card-text">
                     <span class="card-text-title">Sorry, Darling</span>
-                    <p>
-                        Harry Styles and Olivia Wilde Reportedly Break Up — and His Stans
-                        Are Weirdly Happy About It
+                    <p><a href="#" class="link-section-1">
+                            Harry Styles and Olivia Wilde Reportedly Break Up — and His Stans
+                            Are Weirdly Happy About It
+                        </a>
                     </p>
                 </div>
             </div>
@@ -494,9 +515,10 @@
                 <img src="assets/images/music-now.jpg" class="image-card" />
                 <div class="card-text">
                     <span class="card-text-title">Wicked Wisdom</span>
-                    <p>
-                        Willow Has a Dog Named Korn — and More of Her Hard-Rock
-                        Revelations
+                    <p><a href="#" class="link-section-1">
+                            Willow Has a Dog Named Korn — and More of Her Hard-Rock
+                            Revelations
+                        </a>
                     </p>
                 </div>
             </div>
@@ -505,7 +527,7 @@
                 <img src="assets/images/tv-show.jpg" class="image-card" />
                 <div class="card-text">
                     <span class="card-text-title">Best of the best</span>
-                    <p>The 100 Greatest TV Shows of All Time</p>
+                    <p><a href="#" class="link-section-1">The 100 Greatest TV Shows of All Time</a></p>
                 </div>
             </div>
         </div>
@@ -605,7 +627,6 @@
                         </div>
                         <div class="divider-full d-block d-lg-none d-xl-none"></div>
                     </div>
-
                 </div>
             </section>
 
@@ -696,9 +717,9 @@
                         </div>
                         <div class="rdc-story">
                             <div class="card-news">
-                                <span class="text-red-cn"> Red Card </span>
-                                <a class="link-news" href="#"> 'A World Cup Built on Modern Slavery': Stadium Workers
-                                    Blow the Whistle on
+                                <span class="publico-web-ultra"> Red Card </span>
+                                <a href="#" class="publico-web-ultra"> 'A World Cup Built on Modern Slavery': Stadium
+                                    Workers Blow the Whistle on
                                     Qatar’s
                                     'Coverup' of Migrant Deaths and Suffering </a>
                                 <span class="color-span-cn"> By <a class="link-news color-span-cn" href="#"> Andy
@@ -849,8 +870,9 @@
                     <div class="picks">
                         <div class="more-picks">
                             <a class="link-news" href="#">
-                                <p class="mb-0"> MORE EDITORS' PICKS <span> <img src="assets/images/input-triangle-inverse.png"
-                                            alt="little triangle"></span> </p>
+                                <p class="mb-0"> MORE EDITORS' PICKS <span> <img
+                                            src="assets/images/input-triangle-inverse.png" alt="little triangle"></span>
+                                </p>
                             </a>
                         </div>
                     </div>
@@ -1568,341 +1590,344 @@
             </section>
         </div>
     </div>
-        <footer class="container-xl" id="footerid">
-            <!--tabletsection-->
-            <div id="wide-container" class=" c-back-black c-flex ">
-                <div id="wide-container2" class="c-back-black c-flex c-height-width-boxinbox">
-                    <div id="wide-container3" class="c-back-black c-flex-wrap c-height-width-boxinbox">
-                        <div id="upper-wide-section"
-                            class="c-flex-center-center c-height70-width100 border-bottom-1pxwhite">
-                            <div id="bottom-wide"
-                                class="c-flex-column-center-center c-width30 gap20  border-right-1pxwhite">
-                                <a href="" class="white-button-bordered-anchor  buttonhover fontcustom-button">
-                                    <div class="bordered-button-white  ">
-                                        GET DIGITAL ACCESS
-                                    </div>
-                                </a>
-                                <a href="" class="black-button-bordered-anchor buttonhover fontcustom-button">
-                                    <div class="bordered-button-black ">
-                                        GIVE A GIFT
-                                    </div>
-                                </a>
-                                <a href="" class="black-button-bordered-anchor buttonhover fontcustom-button">
-                                    <div class="bordered-button-black">
-                                        CUSTOMER SERVICE
-                                    </div>
-                                </a>
+    <footer class="container-xl" id="footerid">
+        <!--tabletsection-->
+        <div id="wide-container" class=" c-back-black c-flex ">
+            <div id="wide-container2" class="c-back-black c-flex c-height-width-boxinbox">
+                <div id="wide-container3" class="c-back-black c-flex-wrap c-height-width-boxinbox">
+                    <div id="upper-wide-section"
+                        class="c-flex-center-center c-height70-width100 border-bottom-1pxwhite">
+                        <div id="bottom-wide"
+                            class="c-flex-column-center-center c-width30 gap20  border-right-1pxwhite">
+                            <a href="" class="white-button-bordered-anchor  buttonhover fontcustom-button">
+                                <div class="bordered-button-white  ">
+                                    GET DIGITAL ACCESS
+                                </div>
+                            </a>
+                            <a href="" class="black-button-bordered-anchor buttonhover fontcustom-button">
+                                <div class="bordered-button-black ">
+                                    GIVE A GIFT
+                                </div>
+                            </a>
+                            <a href="" class="black-button-bordered-anchor buttonhover fontcustom-button">
+                                <div class="bordered-button-black">
+                                    CUSTOMER SERVICE
+                                </div>
+                            </a>
+                        </div>
+                        <div id="rolling-wide" class="c-width30 c-flex-column-center gap40 border-right-1pxwhite">
+                            <div class="text-white  padding-bottom10 border-bottom-1pxwhite">
+                                <span class="border-bottom-1pxwhite padding-right90 font-weight700"> ROLLING
+                                    STONE</span>
                             </div>
-                            <div id="rolling-wide" class="c-width30 c-flex-column-center gap40 border-right-1pxwhite">
-                                <div class="text-white  padding-bottom10 border-bottom-1pxwhite">
-                                    <span class="border-bottom-1pxwhite padding-right90 font-weight700"> ROLLING
-                                        STONE</span>
+                            <div id="list-anchor" class="c-flex-jstart gap40">
+                                <div class="c-flex-column gap10">
+                                    <a href="" class="link-footer"><span>Music
+
+                                        </span></a>
+                                    <a href="" class="link-footer"><span>Politcs
+
+                                        </span></a>
+                                    <a href="" class="link-footer"><span>TV & Movies
+
+                                        </span></a>
+                                    <a href="" class="link-footer"><span>(Sub)Culture
+
+                                        </span></a>
                                 </div>
-                                <div id="list-anchor" class="c-flex-jstart gap40">
-                                    <div class="c-flex-column gap10">
-                                        <a href="" class="link-footer"><span>Music
+                                <div class="c-flex-column gap10"> <a href="" class="link-footer"><span>Advertise
 
-                                            </span></a>
-                                        <a href="" class="link-footer"><span>Politcs
+                                        </span></a>
+                                    <a href="" class="link-footer"><span>Contact
 
-                                            </span></a>
-                                        <a href="" class="link-footer"><span>TV & Movies
+                                        </span></a>
+                                    <a href="" class="link-footer"><span>Accessibility
 
-                                            </span></a>
-                                        <a href="" class="link-footer"><span>(Sub)Culture
+                                        </span></a>
+                                    <a href="" class="link-footer"><span>Shop
 
-                                            </span></a>
-                                    </div>
-                                    <div class="c-flex-column gap10"> <a href="" class="link-footer"><span>Advertise
-
-                                            </span></a>
-                                        <a href="" class="link-footer"><span>Contact
-
-                                            </span></a>
-                                        <a href="" class="link-footer"><span>Accessibility
-
-                                            </span></a>
-                                        <a href="" class="link-footer"><span>Shop
-
-                                            </span></a>
-                                    </div>
+                                        </span></a>
                                 </div>
-
                             </div>
-                            <div id="legal-wide" class="c-width30 c-flex-column-center gap40 border-right-1pxwhite">
-                                <div class="text-white  padding-bottom10 border-bottom-1pxwhite">
-                                    <span class="border-bottom-1pxwhite padding-right150 font-weight700">
-                                        LEGAL</span>
-                                </div>
-                                <div id="link-legal" class="c-flex-column gap10 ">
-                                    <a href="" class="link-footer"><span>Privacy Policy
 
-                                        </span></a>
-                                    <a href="" class="link-footer"><span>Term of Use
-
-                                        </span></a>
-                                    <a href="" class="link-footer"><span>AdChoices
-
-                                        </span></a>
-                                    <a href="" class="link-footer"><span>PMC Entertainment
-
-                                        </span></a>
-                                    <a href="" class="link-footer"><span>EU Privacy Preferences
-
-                                        </span></a>
-
-                                </div>
-
+                        </div>
+                        <div id="legal-wide" class="c-width30 c-flex-column-center gap40 border-right-1pxwhite">
+                            <div class="text-white  padding-bottom10 border-bottom-1pxwhite">
+                                <span class="border-bottom-1pxwhite padding-right150 font-weight700">
+                                    LEGAL</span>
                             </div>
-                            <div id="follow-wide"
-                                class="c-flex-column-jsstart-center c-height70 gap40 padding-right40 padding-left40 ">
-                                <div class="text-white   c-width100px padding-bottom10 border-bottom-1pxwhite ">
-                                    <span class="border-bottom-1pxwhite font-weight700 font-size14"> FOLLOW
-                                        US</span>
-                                </div>
-                                <div id="list-follow-us" class="c-flex-column gap10 ">
-                                    <div>
-                                        <a href="" class="link-svg"><svg viewBox="0 0 24 24" class="svg-followus">
-                                                <path
-                                                    d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.378 14.192 5 15.115 5H18V0h-3.808C10.596 0 9 1.583 9 4.615V8z">
-                                                </path>
+                            <div id="link-legal" class="c-flex-column gap10 ">
+                                <a href="" class="link-footer"><span>Privacy Policy
 
-                                            </svg>
-                                        </a>
-                                        <a href="" class="link-footer"> <span>Facebook
-                                            </span>
-                                        </a>
+                                    </span></a>
+                                <a href="" class="link-footer"><span>Term of Use
 
+                                    </span></a>
+                                <a href="" class="link-footer"><span>AdChoices
 
-                                    </div>
-                                    <div>
-                                        <a href="" class="link-svg"><svg viewBox="0 0 24 24" class="svg-followus">
-                                                <path class="path-followus"
-                                                    d="M24 4.557a9.83 9.83 0 01-2.828.775 4.932 4.932 0 002.165-2.724 9.864 9.864 0 01-3.127 1.195 4.916 4.916 0 00-3.594-1.555c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 3.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 19.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 4.557z">
-                                                </path>
+                                    </span></a>
+                                <a href="" class="link-footer"><span>PMC Entertainment
 
-                                            </svg>
-                                        </a>
-                                        <a href="" class="link-footer"> <span>Twitter
-                                            </span>
-                                        </a>
+                                    </span></a>
+                                <a href="" class="link-footer"><span>EU Privacy Preferences
 
-
-                                    </div>
-                                    <div>
-                                        <a href="" class="link-svg"><svg viewBox="0 0 19 14" class="svg-followus">
-                                                <path
-                                                    d="M7.538 9.582V3.989l5.133 2.806-5.133 2.787zM18.81 3.02s-.186-1.372-.755-1.976C17.332.251 16.522.248 16.15.202 13.492 0 9.504 0 9.504 0h-.008S5.508 0 2.849.202c-.372.046-1.181.05-1.904.842C.375 1.648.19 3.02.19 3.02S0 4.63 0 6.24v1.51c0 1.612.19 3.222.19 3.222s.185 1.372.755 1.976c.723.793 1.672.768 2.095.85C4.56 13.954 9.5 14 9.5 14s3.992-.006 6.651-.208c.371-.046 1.181-.05 1.904-.843.57-.604.755-1.976.755-1.976s.19-1.61.19-3.221v-1.51c0-1.611-.19-3.222-.19-3.222z"
-                                                    fill-rule="evenodd"></path>
-
-                                            </svg>
-                                        </a>
-                                        <a href="" class="link-footer"> <span>Youtube
-                                            </span>
-                                        </a>
-
-
-                                    </div>
-                                    <div>
-                                        <a href="" class="link-svg"><svg viewBox="0 0 19 19" class="svg-followus">
-                                                <path
-                                                    d="M9.5 0c2.58 0 2.904.01 3.917.057 1.011.046 1.702.207 2.306.442a4.657 4.657 0 011.683 1.095A4.657 4.657 0 0118.5 3.277c.235.604.396 1.295.442 2.306C18.989 6.596 19 6.92 19 9.5s-.01 2.904-.057 3.917c-.046 1.011-.207 1.702-.442 2.306a4.657 4.657 0 01-1.095 1.683 4.657 4.657 0 01-1.683 1.095c-.604.235-1.295.396-2.306.442-1.013.046-1.337.057-3.917.057s-2.904-.01-3.917-.057c-1.011-.046-1.702-.207-2.306-.442a4.657 4.657 0 01-1.683-1.095A4.657 4.657 0 01.5 15.723c-.235-.604-.396-1.295-.442-2.306C.011 12.404 0 12.08 0 9.5s.01-2.904.057-3.917C.103 4.572.264 3.881.5 3.277a4.657 4.657 0 011.095-1.683A4.657 4.657 0 013.277.5C3.881.264 4.572.103 5.583.057 6.596.011 6.92 0 9.5 0zm0 1.712c-2.537 0-2.837.01-3.839.055-.926.042-1.43.197-1.764.327-.443.173-.76.378-1.092.71a2.943 2.943 0 00-.71 1.093c-.13.335-.286.838-.328 1.764-.046 1.002-.055 1.302-.055 3.839s.01 2.837.055 3.839c.042.926.197 1.43.327 1.764.173.443.378.76.71 1.092.333.333.65.538 1.093.71.335.13.838.286 1.764.328 1.002.046 1.302.055 3.839.055s2.837-.01 3.839-.055c.926-.042 1.43-.197 1.764-.327.443-.173.76-.378 1.092-.71.333-.333.538-.65.71-1.093.13-.335.286-.838.328-1.764.046-1.002.055-1.302.055-3.839s-.01-2.837-.055-3.839c-.042-.926-.197-1.43-.327-1.764a2.943 2.943 0 00-.71-1.092 2.943 2.943 0 00-1.093-.71c-.335-.13-.838-.286-1.764-.328-1.002-.046-1.302-.055-3.839-.055zm0 2.91a4.878 4.878 0 110 9.756 4.878 4.878 0 010-9.756zm0 8.045a3.167 3.167 0 100-6.334 3.167 3.167 0 000 6.334zm6.211-8.238a1.14 1.14 0 11-2.28 0 1.14 1.14 0 012.28 0z"
-                                                    fill-rule="evenodd"></path>
-
-                                            </svg>
-                                        </a>
-                                        <a href="" class="link-footer"> <span>Instagram
-                                            </span>
-                                        </a>
-
-
-                                    </div>
-                                    <div>
-                                        <a href="" class="link-svg"><svg viewBox="0 0 50 50" class="svg-followus">
-                                                <path
-                                                    d="M41 4H9C6.243 4 4 6.243 4 9v32c0 2.757 2.243 5 5 5h32c2.757 0 5-2.243 5-5V9c0-2.757-2.243-5-5-5zm-3.994 18.323a7.482 7.482 0 01-.69.035 7.492 7.492 0 01-6.269-3.388v11.537a8.527 8.527 0 11-8.527-8.527c.178 0 .352.016.527.027v4.202c-.175-.021-.347-.053-.527-.053a4.351 4.351 0 100 8.704c2.404 0 4.527-1.894 4.527-4.298l.042-19.594h4.016a7.488 7.488 0 006.901 6.685v4.67z">
-                                                </path>
-
-                                            </svg>
-                                        </a>
-                                        <a href="" class="link-footer"> <span>Tiktok
-                                            </span>
-                                        </a>
-
-
-                                    </div>
-                                    <div>
-                                        <a href="" class="link-svg"><svg viewBox="0 0 50 50" class="svg-followus">
-                                                <path
-                                                    d="M5.313 1L2 9.813V43h11v6h7.406l6-6h9L48 30.437V1zM11 6h32v22l-6 6H25l-6 6v-6h-8zm9 7v14h6V13zm10 0v14h6V13z">
-                                                </path>
-
-                                            </svg>
-                                        </a>
-                                        <a href="" class="link-footer"> <span>Twitch
-                                            </span>
-                                        </a>
-
-
-                                    </div>
-
-                                </div>
+                                    </span></a>
 
                             </div>
 
                         </div>
-                        <div id="-wrap-bottom-wide-section" class="c-width100">
-                            <div id="bottom-wide-section" class="border-top-1pxwhite c-flex-sb">
-                                <div id="Newsletter-signup">
-                                    <div class="text-white">
-                                        NEWSLETTER SIGNUP
-                                    </div>
-                                    <form>
-                                        <div>
-                                            <div>
-                                                <label for=""></label>
-                                                <input type="text">
-                                            </div>
-                                            <button>
-                                                <span>Subscribe</span>
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div id="got-a-hot-news-tip" class="text-white">
-                                    <p>
-                                        Got a Hot News Tip?
-                                    <p>
-                                    <p>
-                                        We Want to hear it.Send us a tip using our anonymous form
-                                    </p>
-                                    <a href="">
-                                        <span>
-                                            Send us a tip
+                        <div id="follow-wide"
+                            class="c-flex-column-jsstart-center c-height70 gap40 padding-right40 padding-left40 ">
+                            <div class="text-white   c-width100px padding-bottom10 border-bottom-1pxwhite ">
+                                <span class="border-bottom-1pxwhite font-weight700 font-size14"> FOLLOW
+                                    US</span>
+                            </div>
+                            <div id="list-follow-us" class="c-flex-column gap10 ">
+                                <div>
+                                    <a href="" class="link-svg"><svg viewBox="0 0 24 24" class="svg-followus">
+                                            <path
+                                                d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.378 14.192 5 15.115 5H18V0h-3.808C10.596 0 9 1.583 9 4.615V8z">
+                                            </path>
+
+                                        </svg>
+                                    </a>
+                                    <a href="" class="link-footer"> <span>Facebook
                                         </span>
                                     </a>
 
 
-                                    -
+                                </div>
+                                <div>
+                                    <a href="" class="link-svg"><svg viewBox="0 0 24 24" class="svg-followus">
+                                            <path class="path-followus"
+                                                d="M24 4.557a9.83 9.83 0 01-2.828.775 4.932 4.932 0 002.165-2.724 9.864 9.864 0 01-3.127 1.195 4.916 4.916 0 00-3.594-1.555c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 3.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 19.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 4.557z">
+                                            </path>
+
+                                        </svg>
+                                    </a>
+                                    <a href="" class="link-footer"> <span>Twitter
+                                        </span>
+                                    </a>
+
+
+                                </div>
+                                <div>
+                                    <a href="" class="link-svg"><svg viewBox="0 0 19 14" class="svg-followus">
+                                            <path
+                                                d="M7.538 9.582V3.989l5.133 2.806-5.133 2.787zM18.81 3.02s-.186-1.372-.755-1.976C17.332.251 16.522.248 16.15.202 13.492 0 9.504 0 9.504 0h-.008S5.508 0 2.849.202c-.372.046-1.181.05-1.904.842C.375 1.648.19 3.02.19 3.02S0 4.63 0 6.24v1.51c0 1.612.19 3.222.19 3.222s.185 1.372.755 1.976c.723.793 1.672.768 2.095.85C4.56 13.954 9.5 14 9.5 14s3.992-.006 6.651-.208c.371-.046 1.181-.05 1.904-.843.57-.604.755-1.976.755-1.976s.19-1.61.19-3.221v-1.51c0-1.611-.19-3.222-.19-3.222z"
+                                                fill-rule="evenodd"></path>
+
+                                        </svg>
+                                    </a>
+                                    <a href="" class="link-footer"> <span>Youtube
+                                        </span>
+                                    </a>
+
+
+                                </div>
+                                <div>
+                                    <a href="" class="link-svg"><svg viewBox="0 0 19 19" class="svg-followus">
+                                            <path
+                                                d="M9.5 0c2.58 0 2.904.01 3.917.057 1.011.046 1.702.207 2.306.442a4.657 4.657 0 011.683 1.095A4.657 4.657 0 0118.5 3.277c.235.604.396 1.295.442 2.306C18.989 6.596 19 6.92 19 9.5s-.01 2.904-.057 3.917c-.046 1.011-.207 1.702-.442 2.306a4.657 4.657 0 01-1.095 1.683 4.657 4.657 0 01-1.683 1.095c-.604.235-1.295.396-2.306.442-1.013.046-1.337.057-3.917.057s-2.904-.01-3.917-.057c-1.011-.046-1.702-.207-2.306-.442a4.657 4.657 0 01-1.683-1.095A4.657 4.657 0 01.5 15.723c-.235-.604-.396-1.295-.442-2.306C.011 12.404 0 12.08 0 9.5s.01-2.904.057-3.917C.103 4.572.264 3.881.5 3.277a4.657 4.657 0 011.095-1.683A4.657 4.657 0 013.277.5C3.881.264 4.572.103 5.583.057 6.596.011 6.92 0 9.5 0zm0 1.712c-2.537 0-2.837.01-3.839.055-.926.042-1.43.197-1.764.327-.443.173-.76.378-1.092.71a2.943 2.943 0 00-.71 1.093c-.13.335-.286.838-.328 1.764-.046 1.002-.055 1.302-.055 3.839s.01 2.837.055 3.839c.042.926.197 1.43.327 1.764.173.443.378.76.71 1.092.333.333.65.538 1.093.71.335.13.838.286 1.764.328 1.002.046 1.302.055 3.839.055s2.837-.01 3.839-.055c.926-.042 1.43-.197 1.764-.327.443-.173.76-.378 1.092-.71.333-.333.538-.65.71-1.093.13-.335.286-.838.328-1.764.046-1.002.055-1.302.055-3.839s-.01-2.837-.055-3.839c-.042-.926-.197-1.43-.327-1.764a2.943 2.943 0 00-.71-1.092 2.943 2.943 0 00-1.093-.71c-.335-.13-.838-.286-1.764-.328-1.002-.046-1.302-.055-3.839-.055zm0 2.91a4.878 4.878 0 110 9.756 4.878 4.878 0 010-9.756zm0 8.045a3.167 3.167 0 100-6.334 3.167 3.167 0 000 6.334zm6.211-8.238a1.14 1.14 0 11-2.28 0 1.14 1.14 0 012.28 0z"
+                                                fill-rule="evenodd"></path>
+
+                                        </svg>
+                                    </a>
+                                    <a href="" class="link-footer"> <span>Instagram
+                                        </span>
+                                    </a>
+
+
+                                </div>
+                                <div>
+                                    <a href="" class="link-svg"><svg viewBox="0 0 50 50" class="svg-followus">
+                                            <path
+                                                d="M41 4H9C6.243 4 4 6.243 4 9v32c0 2.757 2.243 5 5 5h32c2.757 0 5-2.243 5-5V9c0-2.757-2.243-5-5-5zm-3.994 18.323a7.482 7.482 0 01-.69.035 7.492 7.492 0 01-6.269-3.388v11.537a8.527 8.527 0 11-8.527-8.527c.178 0 .352.016.527.027v4.202c-.175-.021-.347-.053-.527-.053a4.351 4.351 0 100 8.704c2.404 0 4.527-1.894 4.527-4.298l.042-19.594h4.016a7.488 7.488 0 006.901 6.685v4.67z">
+                                            </path>
+
+                                        </svg>
+                                    </a>
+                                    <a href="" class="link-footer"> <span>Tiktok
+                                        </span>
+                                    </a>
+
+
+                                </div>
+                                <div>
+                                    <a href="" class="link-svg"><svg viewBox="0 0 50 50" class="svg-followus">
+                                            <path
+                                                d="M5.313 1L2 9.813V43h11v6h7.406l6-6h9L48 30.437V1zM11 6h32v22l-6 6H25l-6 6v-6h-8zm9 7v14h6V13zm10 0v14h6V13z">
+                                            </path>
+
+                                        </svg>
+                                    </a>
+                                    <a href="" class="link-footer"> <span>Twitch
+                                        </span>
+                                    </a>
+
+
                                 </div>
 
                             </div>
 
                         </div>
+
                     </div>
-                </div>
-            </div>
-            <div class="backblack boxsize-borderbox" id="hiddenindesk">
-                <div class="border3-padding050">
-                    <div class="border1">
-                        <div class="wrap-final-button">
-
-
-
-                            <a class="final-button"
-                                href="https://rollingstonesubscriptions.com/pubs/FR/RLS/NAT_Slf_1_PrintPlus_001_Totebag_May20.jsp?cds_page_id=250586&amp;cds_mag_code=RLS&amp;id=1606937602844&amp;lsid=33371302186069416&amp;vid=7&amp;cds_response_key=I2008NET1"
-                                title="GET THE MAGAZINE">
-                                <div class="border-button">
+                    <div id="-wrap-bottom-wide-section" class="c-width100">
+                        <div id="bottom-wide-section" class="border-top-1pxwhite c-flex-sb">
+                            <div id="Newsletter-signup">
+                                <div class="text-white">
+                                    NEWSLETTER SIGNUP
+                                </div>
+                                <form>
+                                    <div>
+                                        <div>
+                                            <label for=""></label>
+                                            <input type="text">
+                                        </div>
+                                        <button>
+                                            <span>Subscribe</span>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div id="got-a-hot-news-tip" class="text-white">
+                                <p>
+                                    Got a Hot News Tip?
+                                <p>
+                                <p>
+                                    We Want to hear it.Send us a tip using our anonymous form
+                                </p>
+                                <a href="">
                                     <span>
-                                        GET THE MAGAZINE </span>
-
-                                </div>
-                            </a>
-                            <a class="final-button" title="GET DIGITAL ACCESS" id="cXLinkIdlaiezjdi48jxvwhw"
-                                href="https://subscribe.rollingstone.com/">
-                                <span class="digital-acces">
-                                    <div class="border-button">
-
-                                        GET DIGITAL ACCESS
-                                </span>
+                                        Send us a tip
+                                    </span>
+                                </a>
 
 
-                        </div> </a>
-                        <a class="final-button" id="wrap-give-gift"
-                            href="https://rollingstonesubscriptions.com/pubs/FR/RLS/rs-gift-4995.jsp?cds_page_id=234059&amp;cds_mag_code=RLS&amp;id=1602275626611&amp;lsid=32831533466068422&amp;vid=1"
-                            title="GIVE A GIFT" target="" rel="">
-                            <div id="give-a-gift" class="border-button">
-
-                                <span>
-                                    GIVE A GIFT </span>
-
-
+                                -
                             </div>
-                        </a>
-                        <a id="wrap-customer" class="final-button"
-                            href="https://www.rollingstone.com/customer-service-subscriptions/" title="CUSTOMER SERVICE"
-                            target="" rel="">
-                            <div class="border-button" id="customer-service">
 
-
-
-                                <span> CUSTOMER SERVICE</span>
-
-                            </div>
-                        </a>
-
-
-                        <div class="border-button" id="wrap-rolling">
-                            <div class="list-button">
-                                ROLLING STONE<svg id="svs-down" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 512 512">
-                                    <path class="down"
-                                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
-                                </svg>
-                                <!--aggiungere freccia con after-->
-                            </div>
                         </div>
-                        <div class="border-button" id="wrap-legal">
-                            <div class="list-button" id="legal">
-
-                                LEGAL <svg id="svs-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                    <path class="down"
-                                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
-                                </svg>
-                                <!--aggiungere freccia con after-->
-                            </div>
-                        </div>
-
-
-
-
-
-
-
 
                     </div>
                 </div>
             </div>
-
-
-        </footer>
-        <div class="pmc-footer container-xl">
-            <svg class="c-icon  lrv-u-max-width-150 lrv-u-max-height-50 lrv-u-color-black" id="pmc-final-footer">
-                <use xlink:href="#pmclogo"></use>
-            </svg>
-            <div class="flex-final-menu">
-                <h4>
-                    OUR SITES
-                </h4> <svg id="svs-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <path class="down" id="another-down"
-                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
-                </svg>
-            </div>
-            <div class="copyright">
-
-                <p class="copyright-p">Copyright © 2022 Penske Business Media, LLC. All Rights reserved.</p>
-
-
-                <a class="link-wordpress"
-                    href="https://vip.wordpress.com/?utm_source=vip_powered_wpcom&amp;utm_medium=web&amp;utm_campaign=VIP%20Footer%20Credit">
-                    Powered by WordPress.com VIP</a>
-            </div>
-
         </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
+        <div class="backblack boxsize-borderbox" id="hiddenindesk">
+            <div class="border3-padding050">
+                <div class="border1">
+                    <div class="wrap-final-button">
+
+
+
+                        <a class="final-button"
+                            href="https://rollingstonesubscriptions.com/pubs/FR/RLS/NAT_Slf_1_PrintPlus_001_Totebag_May20.jsp?cds_page_id=250586&amp;cds_mag_code=RLS&amp;id=1606937602844&amp;lsid=33371302186069416&amp;vid=7&amp;cds_response_key=I2008NET1"
+                            title="GET THE MAGAZINE">
+                            <div class="border-button">
+                                <span>
+                                    GET THE MAGAZINE </span>
+
+                            </div>
+                        </a>
+                        <a class="final-button" title="GET DIGITAL ACCESS" id="cXLinkIdlaiezjdi48jxvwhw"
+                            href="https://subscribe.rollingstone.com/">
+                            <span class="digital-acces">
+                                <div class="border-button">
+
+                                    GET DIGITAL ACCESS
+                            </span>
+
+
+                    </div> </a>
+                    <a class="final-button" id="wrap-give-gift"
+                        href="https://rollingstonesubscriptions.com/pubs/FR/RLS/rs-gift-4995.jsp?cds_page_id=234059&amp;cds_mag_code=RLS&amp;id=1602275626611&amp;lsid=32831533466068422&amp;vid=1"
+                        title="GIVE A GIFT" target="" rel="">
+                        <div id="give-a-gift" class="border-button">
+
+                            <span>
+                                GIVE A GIFT </span>
+
+
+                        </div>
+                    </a>
+                    <a id="wrap-customer" class="final-button"
+                        href="https://www.rollingstone.com/customer-service-subscriptions/" title="CUSTOMER SERVICE"
+                        target="" rel="">
+                        <div class="border-button" id="customer-service">
+
+
+
+                            <span> CUSTOMER SERVICE</span>
+
+                        </div>
+                    </a>
+
+
+                    <div class="border-button" id="wrap-rolling">
+                        <div class="list-button">
+                            ROLLING STONE<svg id="svs-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path class="down"
+                                    d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                            </svg>
+                            <!--aggiungere freccia con after-->
+                        </div>
+                    </div>
+                    <div class="border-button" id="wrap-legal">
+                        <div class="list-button" id="legal">
+
+                            LEGAL <svg id="svs-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path class="down"
+                                    d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                            </svg>
+                            <!--aggiungere freccia con after-->
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+    <div class="pmc-footer container-xl">
+        <svg class="c-icon  lrv-u-max-width-150 lrv-u-max-height-50 lrv-u-color-black" id="pmc-final-footer">
+            <use xlink:href="#pmclogo"></use>
+        </svg>
+        <div class="flex-final-menu">
+            <h4>
+                OUR SITES
+            </h4> <svg id="svs-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path class="down" id="another-down"
+                    d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+            </svg>
+        </div>
+        <div class="copyright">
+
+            <p class="copyright-p">Copyright © 2022 Penske Business Media, LLC. All Rights reserved.</p>
+
+
+            <a class="link-wordpress"
+                href="https://vip.wordpress.com/?utm_source=vip_powered_wpcom&amp;utm_medium=web&amp;utm_campaign=VIP%20Footer%20Credit">
+                Powered by WordPress.com VIP</a>
+        </div>
+
+    </div>
+    <<<<<<< HEAD=======</div>
+
+
+        <script src="index.js" type="application/javascript"></script>
+        >>>>>>> origin/develop
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

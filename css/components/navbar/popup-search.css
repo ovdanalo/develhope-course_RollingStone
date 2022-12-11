@@ -1,3 +1,7 @@
+.parent-search {
+    display: flex;
+    align-items: center;
+}
 .popup-search {
     display: none;
     position: absolute;
@@ -6,10 +10,12 @@
     padding: 10px;
     background-color: white;
     border: 2px solid black;
-    z-index: 3;
+    z-index: 4;
 }
 
 input[type="search"] {
+    font-size: 0.7rem;
+    padding-left: 10px;
     height: 40px;
     border: 0;
     border-bottom: 1px solid black;
@@ -21,10 +27,12 @@ input[type="search"]:focus {
 .search-icon {
     width: 40px;
     height: 40px;
+    margin-right: 10px;
+    display:none;
 }
 
 @media (min-width: 768px) {
-    .popup-search {
-        display: flex;
+    .search-icon {
+        display:block;
     }
 }

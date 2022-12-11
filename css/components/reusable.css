@@ -19,6 +19,12 @@
     margin: 0;
 }
 
+.vertical-line {
+    border-right: 1px solid black;
+    width: 1px;
+    height: 30px;
+}
+
 .flex {
     display: flex;
 }
@@ -172,12 +178,12 @@
 }
 
 .publico-head {
-    font-family: "publico-headline", sans-serif;
+    font-family: "public-headline", sans-serif;
     margin-top: 10px;
 }
 
 .publico-web-ultra {
-    font-family: "publico-banner-web-ultra", san;
+    font-family: "public-banner-web-ultra", sans-serif;
 }
 
 .publico-head-main-stories {
