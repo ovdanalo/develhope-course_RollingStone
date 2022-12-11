@@ -1,95 +1,62 @@
-@font-face {
-    font-family: 'Publico Headline Bold';
-    src: url('https://www.rollingstone.com/wp-content/themes/vip/pmc-rollingstone-2022/assets/public/fonts/PublicoHeadline-Bold-Web.woff2') format('woff2');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+:root {
+  font-size: 16px;
 }
 
-@font-face {
-    font-family: 'Publico Headline Bold';
-    src: url('https://www.rollingstone.com/wp-content/themes/vip/pmc-rollingstone-2022/assets/public/fonts/PublicoHeadline-BoldItalic-Web.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Publico Headline Roman';
-    src: url('https://www.rollingstone.com/wp-content/themes/vip/pmc-rollingstone-2022/assets/public/fonts/PublicoHeadline-Roman-Web.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Publico Banner Ultra';
-    src: url('https://www.rollingstone.com/wp-content/themes/vip/pmc-rollingstone-2022/assets/public/fonts/PublicoBanner-Ultra-Web.woff2') format('woff2');
-
-}
-
-@font-face {
-    font-family: 'Publico Banner Ultra';
-    src: url('https://www.rollingstone.com/wp-content/themes/vip/pmc-rollingstone-2022/assets/public/fonts/PublicoBanner-UltraItalic-Web.woff2') format('woff2');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Graphik Semibold";
-    src: url('https://www.rollingstone.com/wp-content/themes/vip/pmc-rollingstone-2022/assets/public/fonts/Graphik-Semibold-Web.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "Graphik Semibold";
-    src: url('https://www.rollingstone.com/wp-content/themes/vip/pmc-rollingstone-2022/assets/public/fonts/Graphik-Semibold-Web.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
+html,
 body {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  line-height: unset;
+}
 
+@font-face {
+  font-family: "graphik";
+  src: url("../../assets/font/graphik-bold/Graphik-Black-Trial.otf") format("opentype");
+}
 
-  :root {
-    font-size: 16px;
+@font-face {
+  font-family: "Public-Banner-Web-Ultra";
+  src: url("../../assets/font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.eot");
+  src: url("../../assets/font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.woff") format("woff"),
+    url("../../assets/font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.otf") format("opentyp../e"),
+    url("../../assets/font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.svg") format("svg");
+}
+
+@font-face {
+  font-family: "Public-Headline-Web-Bold";
+  src: url("../../assets/font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.eot");
+  src: url("../../assets/font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.woff") format("woff"),
+    url("../../assets/font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.otf") format("opentype"),
+    url("../../assets/font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.svg") format("svg");
+}
+
+* {
+  font-family: Georgia, Helvetica, sans-serif;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.second-container {
+  padding: 0;
+}
+
+.contenuto-1,
+.square-contain,
+.article-section,
+.contenuto-small,
+.immagini-sq,
+.container-section-small,
+.container-section2 {
+  box-sizing: border-box;
+}
+
+@media (min-width: 1300px) {
+
+  .container-navbar-secondary,
+  .container-navbar-primary {
+    width: 1300px;
   }
-  
-  html,
-  body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    line-height: unset;
-  }
-  
-  @font-face {
-    font-family: "graphik";
-    src: url("../../assets/font/graphik-bold/Graphik-Black-Trial.otf") format("opentype");
-  }
-  
-  @font-face {
-    font-family: "Public-Banner-Web-Ultra";
-    src: url("../../assets/font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.eot");
-    src: url("../../assets/font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.woff") format("woff"),
-      url("../../assets/font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.otf") format("opentyp../e"),
-      url("../../assets/font/publico-banner-web-ultra/4b034aa42968984e20335429f8370be8.svg") format("svg");
-  }
-  
-  @font-face {
-    font-family: "Public-Headline-Web-Bold";
-    src: url("../../assets/font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.eot");
-    src: url("../../assets/font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.woff") format("woff"),
-      url("../../assets/font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.otf") format("opentype"),
-      url("../../assets/font/publico-headline/18388ffae47d04063d2b24fc4a9cff60.svg") format("svg");
-  }
-  
-  * {
-    font-family: Georgia, Helvetica, sans-serif;
-  }
-  
+}
