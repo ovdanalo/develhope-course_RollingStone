@@ -2,6 +2,7 @@
 .more-news-section{
     display: flex;
     flex-direction: column;
+    padding-top: 75px;
  }
 
  .news-content{
@@ -22,8 +23,8 @@
  }
 
 .news-img{
-    width: 327px;
-    height: 213px;
+    width: 100%;
+    
     display: flex;
     border: 1px solid grey;
     margin-bottom: 6px;
@@ -40,13 +41,19 @@
  }
 
  .news-link{
-    font-family: Publico Headline Bold;
+    font-family: 'Publico Headline Bold';
     font-size: 23px;
     text-decoration: none;
     color: black;
 }
 
 .news-para{
+    font-family:Georgia, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+ }
+ .news-para-imp{
     font-family:Georgia, Helvetica, sans-serif;
     font-size: 14px;
     padding-bottom: 10px;
@@ -65,11 +72,12 @@
     border-bottom: 1px solid;
     margin-top: 15px;
     position: relative;
+    padding-left: 15px;
+    padding-right: 12px;
 }
  
  .news-img-imp{
-    width: 375px;
-    height:375.2px;
+    width: 100%;
     object-fit: cover;
    border-width: 0px;
    padding-bottom: 10px;
@@ -81,30 +89,38 @@
     font-size: 12px;
     color: black;
     margin-left: 30px;
-    padding-left: 12px;
-    padding-right: 12px;
     position: absolute;
-    top: 355px;
+    bottom: -5%;
+    background-color: white;
+    border-bottom: 3px solid black;
+    box-shadow: 0 1px 0 black;
+    padding: 8px;
+}
+.news-title-imp-xl{
+    font-family:Graphik Semibold,sans-serif;
+    font-size: 12px;
+    color: black;
+    border-bottom: 3px solid black;
+    width: fit-content;
+}
+.news-title-imp-2{
+    font-family:Graphik Semibold,sans-serif;
+    font-size: 12px;
+    color: black;
+    margin-left: 30px;
+    position: absolute;
+    bottom: 16%;
     background-color: white;
     border-bottom: 3px solid black;
     box-shadow: 0 1px 0 black;
     padding: 8px;
 }
 
-.news-link-imp{
-    font-family: Publico Banner Ultra, serif;
-    font-size: 32px;
-    text-decoration: none;
-    color: black;
-    margin: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-inline-start: 20px;
-}
+
 
 .link-imp {
-    font-family: Publico Banner Ultra, serif;
-            font-size: 32px;
+    font-family: 'Publico Banner Ultra', serif;
+            font-size: 1.2rem;
             text-decoration: none;
             color: black
 }
@@ -123,6 +139,7 @@
     text-decoration: none; 
     white-space: nowrap;
     font-size: 13px;
+    padding-bottom: 10px;
 
 }
 .read-more-img{
@@ -135,4 +152,67 @@
 }
  .read-more-container{
     display: flex;
+    padding-top: 10px;
  }
+
+ .news-img-and-p{
+    position: relative;
+ }
+
+ @media(min-width:768px){
+    .hidden-more-news-image{
+        display: none;
+    }
+    .news-title-imp{
+        display: none;
+    }
+    .news-title-imp-2{
+        display: none;
+    }
+ }
+ @media(min-width:1000px){
+    .hidden-more-news-image{
+        display: block;
+    }
+    .news-content{
+        display: flex;
+        
+    }
+    .news-img{
+        width: 298.4px;
+        height: 198.93px;
+    }
+    .more-news-section{
+        padding: 75px 112px;
+        margin: 0px 0px 56px;
+    }
+    .news-text{
+        padding: 0px 0px 0px 28px;
+    }
+    .news-img-imp{
+        width: 421.59px;
+        height: 281.05px;
+    }
+    .news-content-imp{
+        display: flex;
+    }
+    .news-text-imp{ 
+        padding: 0px 0px 0px 28px;
+
+    }
+    .link-imp{
+        font-family: 'Publico Banner Ultra' , serif;
+        font-size: 35px;
+    }
+    .news-para-imp{
+        display: none;
+    }
+
+    .news-title-imp{
+        display: none;
+    }
+    .news-title-imp-2{
+        display: none;
+    }
+ }
+ 

@@ -60,3 +60,12 @@ hr-more{
     background-color: black;
     margin-bottom: 24px;
 }
+.reset-padding-rl{
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.a-reports-content:hover, .link-imp:hover, .news-link:hover, .articles-link:hover, .report-more-link:hover, .read-more-link:hover, .rs-more-link:hover, .rs-more-link-desktop:hover { color: gray;
+    
+}
