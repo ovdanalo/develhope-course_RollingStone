@@ -1,6 +1,6 @@
 .popup-subscribe-secondary,
 .popup-subscribe-primary {
-    display:none; /* uncomment */
+    display:none;
     position: absolute;
     background-color: white;
     top: 120%;
@@ -11,20 +11,6 @@
 
 .popup-subscribe-secondary {
     display:none;
-}
-
-.popup-subscribe-title {
-    font-family: "publico banner web ultra";
-    font-size: 1.5rem;
-}
-.popup-subscribe-subtitle {
-    font-size: 1rem;
-}
-
-.popup-subscribe-button-central {
-    color: white;
-    padding: 5px;
-    border: 0.5px solid white;
 }
 
 .popup-subscribe-img-container {

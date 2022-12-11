@@ -27,6 +27,7 @@
 
 }
 
+<<<<<<< HEAD
 .blockquote-section1{
   font-size: 11px;
   text-transform: uppercase;
@@ -35,6 +36,8 @@
 .square-text-1 > span ::after {
   box-sizing: content-box;
 } */
+=======
+>>>>>>> origin/develop
 .immagini-sq {
   width: 100%;
   margin: 0;
@@ -180,4 +183,10 @@ blockquote:hover{
 
 .card-text > span {
   margin-left: 8px;
+}
+
+@media (max-width: 1400px) {
+  .tablet-no-show {
+    display: none;
+  }
 }
