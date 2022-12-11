@@ -1,6 +1,6 @@
 @import url("root.css");
 @import url("../components/reusable.css");
-@import url("../components/reports.css");
-@import url("../components/adverts.css");
-@import url("../components/more-news.css");
-@import url("../components/content-by-rs.css");
+@import url("../components/section-3/reports.css");
+@import url("../components/section-3/adverts.css");
+@import url("../components/section-3/more-news.css");
+@import url("../components/section-3/content-by-rs.css");
