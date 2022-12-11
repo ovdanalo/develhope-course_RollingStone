@@ -9,16 +9,18 @@
 
 .first-title {
     color: rgb(236, 28, 36);
-    font-family: "Publico Banner Ultra", serif;
+    font-family: "Public-Banner-Web-Ultra", serif;
     font-size: 34px;
+    font-weight: bold;
     margin-bottom: 0;
 
 }
 
 .second-title {
     color: black;
-    font-family: "Publico Banner Ultra", serif;
+    font-family: "Public-Banner-Web-Ultra", serif;
     font-size: 34px;
+    font-weight: bold;
     margin-top: 0;
     margin-bottom: 20px;
     ;
@@ -47,7 +49,7 @@
 }
 
 a.a-reports-content {
-    font-family: "Publico Headline Bold";
+    font-family: "Public-Headline-Web-Bold";
     font-size: 18px;
     text-decoration: none;
     color: black;

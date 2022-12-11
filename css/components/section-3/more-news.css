@@ -12,7 +12,7 @@
 }
 
 .more-news-title {
-    font-family: "Publico Banner Ultra", serif;
+    font-family: "Public-Banner-Web-Ultra", serif;
     font-size: 20px;
     text-decoration: none;
     color: black;
@@ -28,7 +28,7 @@
 }
 
 .news-title {
-    font-family: "Graphik Semibold", sans-serif;
+    font-family: "graphik", sans-serif;
     font-size: 11px;
     color: black;
     width: fit-content;
@@ -38,7 +38,7 @@
 }
 
 .news-link {
-    font-family: "Publico Headline Bold";
+    font-family: "Public-Headline-Web-Bold";
     font-size: 23px;
     text-decoration: none;
     color: black;
@@ -75,7 +75,7 @@
 }
 
 .news-title-imp {
-    font-family: "Graphik Semibold", sans-serif;
+    font-family: "graphik", sans-serif;
     font-size: 12px;
     color: black;
     margin-left: 30px;
@@ -90,18 +90,18 @@
 }
 
 .news-link-imp {
-    font-family: "Publico Banner Ultra", serif;
+    font-family: "Public-Banner-Web-Ultra", serif;
     font-size: 32px;
     text-decoration: none;
     color: black;
-    margin: 10px;
+    margin: 30px 0;
     padding-left: 10px;
     padding-right: 10px;
     padding-inline-start: 20px;
 }
 
 .link-imp {
-    font-family: "Publico Banner Ultra", serif;
+    font-family: "Public-Banner-Web-Ultra", serif;
     font-size: 32px;
     text-decoration: none;
     color: black
@@ -137,4 +137,11 @@
 
 .read-more-container {
     display: flex;
+}
+
+@media (min-width: 768px) {
+    .news-link {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
 }

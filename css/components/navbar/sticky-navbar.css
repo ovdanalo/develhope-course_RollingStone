@@ -1,0 +1,32 @@
+.sticky-addon {
+    display:none;
+}
+
+.sticky-navbar {
+    display:none;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 2;
+    top: 0;
+}
+
+.sticky-links {
+    margin: 0;
+    padding: 5px;
+    color: #8c8c8c;
+    font-size: 0.7rem;
+}
+
+.sticky-mar-left {
+    margin-left: 10%;
+}
+
+@media (min-width: 1300px) {
+    .sticky-navbar {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+}
