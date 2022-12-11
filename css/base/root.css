@@ -10,7 +10,6 @@ body {
   line-height: unset;
 }
 
-
 @font-face {
   font-family: "graphik";
   src: url("../../assets/font/graphik-bold/Graphik-Black-Trial.otf") format("opentype");

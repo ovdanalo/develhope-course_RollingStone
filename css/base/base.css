@@ -6,6 +6,7 @@
 @import url("../components/navbar/navbar-primary.css");
 @import url("../components/navbar/dropdown.css");
 @import url("../components/navbar/navbar-secondary.css");
+@import url("../components/navbar/sticky-navbar.css");
 @import url("../components/navbar/popup-search.css");
 
 /*section 1*/
@@ -30,4 +31,5 @@
 @import url("../components/footer/menu-desktop-tablet.css");
 @import url("../components/footer/bottom-footer.css");
 
+@import url("../components/functionalities.css");
 
