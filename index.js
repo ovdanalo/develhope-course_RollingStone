@@ -68,14 +68,13 @@ function overlayTrClick() {
 
 window.addEventListener("scroll", function (event) {
     let top = window.scrollY;
-    console.log(top);
-    if (top == 300 || top == 350 || top == 400) {
+    if (top == 300 || top == 350 || top == 400 || top == 500) {
         navbar_primary.add("sticky", "sticky-navbar");
         sticky_addon.add("show");
         center_nav_secondary.add("hide");
         subscribe_link.add("hide");
         logo_primary.add("show", "sticky-mar-left");
-    } else if (top == 200 || top == 100 || top == 0) {
+    } else if (top == 250 || top == 200 || top == 100 || top == 0) {
         navbar_primary.remove("sticky", "sticky-navbar");
         sticky_addon.remove("show");
         center_nav_secondary.remove("hide");

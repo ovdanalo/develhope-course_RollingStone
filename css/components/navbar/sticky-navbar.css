@@ -1,9 +1,9 @@
 .sticky-addon {
-    display:none;
+    display: none;
 }
 
 .sticky-navbar {
-    display:none;
+    display: none;
     height: 60px;
     width: 100%;
     position: fixed;
@@ -19,14 +19,21 @@
     font-size: 0.7rem;
 }
 
+.sticky-desktop {
+    display: none;
+}
+
 .sticky-mar-left {
     margin-left: 10%;
 }
 
 @media (min-width: 1300px) {
     .sticky-navbar {
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
+    }
+
+    .sticky-desktop {
+        display: flex;
     }
 
 }
