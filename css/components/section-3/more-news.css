@@ -51,8 +51,6 @@
     padding-top: 10px;
 }
 
-}
-
 .news-para-imp {
     font-family: Georgia, Helvetica, sans-serif;
     font-size: 14px;
@@ -130,7 +128,7 @@
 }
 
 .link-imp {
-    font-family: 'Publico Banner Ultra', serif;
+    font-family: "Public-Banner-Web-Ultra", serif;
     font-size: 1.2rem;
     text-decoration: none;
     color: black
@@ -170,7 +168,7 @@
     padding-top: 10px;
 }
 
-<<<<<<< HEAD @media (min-width: 768px) {
+@media (min-width: 768px) {
     .news-link {
         font-size: 1.5rem;
         font-weight: bold;
@@ -235,7 +233,7 @@
     }
 
     .link-imp {
-        font-family: 'Publico Banner Ultra', serif;
+        font-family: "Public-Banner-Web-Ultra", serif;
         font-size: 35px;
     }
 
