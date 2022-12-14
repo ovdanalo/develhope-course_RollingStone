@@ -41,6 +41,7 @@
     display: flex;
     width: 100%;
     padding-bottom: 15px;
+    justify-content: space-around;
 }
 
 .content-by-rs-article .rs-article-img {
