@@ -27,13 +27,11 @@ footer,
 }
 
 .backblack {
-    height: 450px;
     width: 100%;
     padding: 20px 24px;
   }
   
   .border3-padding050 {
-    height: 430px;
     width: 98%;
     padding: 8px;
     border: 3px solid white;
@@ -41,8 +39,8 @@ footer,
   
   .border1 {
     border: 1px solid white;
-    height: 410px;
     width: 98%;
+    padding: 10px;
   }
 
   .wrap-final-button {
@@ -171,6 +169,7 @@ footer,
    width: 99%;
     height: 99%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -187,8 +186,6 @@ footer,
   #wrap-rolling,
   #wrap-legal {
     border: 1px solid white;
-    height: 28px;
-    
     padding: 6px 4px 6px 4px;
   }
   
@@ -220,4 +217,20 @@ footer,
   #got-a-hot-news-tip{
     border-left: 1px solid white;
     padding-left: 10px;
+  }
+
+  .rolling-stone-button-list,
+  .legal-button-list {
+    display: none;
+    flex-direction: column;
+  }
+
+  .rl-list-link {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .rl-list-link:hover {
+    color: gray;
   }

@@ -13,6 +13,9 @@ const center_nav_secondary = document.getElementById("center-nav-secondary").cla
 const subscribe_link = document.getElementById("subscribe").classList;
 const logo_primary = document.getElementById("logo-primary").classList;
 
+const rlList = document.getElementById("rolling-stone-button").classList;
+const legalList = document.getElementById("legal-button").classList;
+
 function showMenu() {
     menuClosed.toggle("show");
     menuOpen.toggle("hide");
@@ -45,6 +48,14 @@ function showSubPr() {
 function showSearch() {
     search.toggle("show");
     overlay_tr.toggle("show");
+}
+
+function rlButton() {
+    rlList.toggle("show");
+}
+
+function legalButton() {
+    legalList.toggle("show");
 }
 
 // Close the dropdown menu if the user clicks outside of it
