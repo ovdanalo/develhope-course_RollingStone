@@ -219,6 +219,10 @@ footer,
     padding-left: 10px;
   }
 
+  .list-button {
+    cursor: pointer;
+  }
+
   .rolling-stone-button-list,
   .legal-button-list {
     display: none;
