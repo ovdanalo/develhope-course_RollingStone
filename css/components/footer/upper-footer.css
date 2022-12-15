@@ -22,7 +22,7 @@
 .upper-footer-container {
   display: flex;
   flex-direction: column;
- align-items: center;
+  align-items: center;
 }
 
 .upper-footer {
@@ -34,10 +34,10 @@
   flex-shrink: 1;
   width: 90%;
   border-bottom: 2px solid black;
-  
 }
+
 .text-of-first-most-popular {
-  font-family: Georgia,Helvetica,sans-serif;
+  font-family: Georgia, Helvetica, sans-serif;
   font-size: 13px;
   font-weight: 400;
   margin-top: 0px;
@@ -46,6 +46,7 @@
 .first-most-popular-card {
   padding-left: 20px;
 }
+
 .first-popular-wrap {
   display: flex;
   padding-top: 12px;
@@ -53,6 +54,7 @@
   padding-left: 12px;
   width: 100%;
 }
+
 .first-popular {
   border-bottom: 1px dotted black;
   text-decoration: none;
@@ -60,20 +62,21 @@
   width: 100%;
 }
 
-#ultimus{
+#ultimus {
   border: none;
 }
+
 .more-specific-list-element {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .img-386-183 {
   width: 326px;
   height: 183px;
 }
+
 .wrap-pmc-mostpopular {
   display: flex;
   flex-direction: column;
@@ -125,7 +128,6 @@
   font-size: 20px;
 }
 
-
 .you-might-also-like {
   max-width: 96%;
   display: flex;
@@ -139,7 +141,6 @@
   align-items: flex-start;
   gap: 30px;
   overflow: auto;
-  
 }
 
 .wrap-you-might-also-like {
@@ -164,39 +165,38 @@
   flex-direction: column;
   gap: 10px;
 }
+
 .text-content-of-also-like {
   display: flex;
   flex-direction: column;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
 }
+
 .no-margin-also-like-text {
   margin: 0px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
   font-weight: 400;
 }
+
 .buttons {
   display: flex;
   justify-content: space-between;
 }
 
 .buttons-desktop {
-
   padding-top: 10px;
   display: none;
   gap: 40px;
-
 }
 
 .section-1000px {
   display: flex;
   justify-content: space-between;
- 
-
-
 }
-.title-you-might-also-like{
+
+.title-you-might-also-like {
   font-weight: 900;
   font-family: Georgia, Helvetica, sans-serif;
   padding-top: 10px;
@@ -210,14 +210,14 @@
   .upper-footer-container {
     flex-direction: row;
   }
-
   .upper-footer {
     flex-direction: column;
     gap: 30px;
   }
-
   .you-might-also-like {
     max-width: 65%;
     padding-left: 30px;
   }
 }
+
+/*# sourceMappingURL=upper-footer.css.map */

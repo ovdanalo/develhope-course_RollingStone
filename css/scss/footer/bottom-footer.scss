@@ -1,0 +1,240 @@
+.path-followus {
+    height: 10px;
+    width: 10px;
+    font-size: 8px;
+
+}
+
+.link-footer {
+    text-decoration: none;
+    color: white;
+}
+
+.link-footer:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+footer,
+.backblack,
+.border3-padding050,
+.border1 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.backblack {
+    width: 100%;
+    padding: 20px 24px;
+  }
+  
+  .border3-padding050 {
+    width: 98%;
+    padding: 8px;
+    border: 3px solid white;
+  }
+  
+  .border1 {
+    border: 1px solid white;
+    width: 98%;
+    padding: 10px;
+  }
+
+  .wrap-final-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 95%;
+   
+    
+  }
+
+  #customer-service,
+#give-a-gift {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+#wrap-give-gift,
+#wrap-customer {
+  background-color: black;
+  border: 1px solid white;
+}
+
+.final-button:hover {
+  background-color: red;
+}
+
+#wrap-give-gift:hover,
+#wrap-customer:hover {
+  background-color: red;
+}
+
+#customer-service:hover,
+#give-a-gift:hover {
+  background-color: red;
+}
+
+  #svs-down {
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+  }
+
+  .down {
+    fill: white;
+  }
+
+  .pmc-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex-final-menu {
+    display: flex;
+    
+    justify-content: space-between;
+    height: 38px;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  .our-sites-menu{
+    font-size: 10px;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  #pmc-final-footer {
+    height: 20px;
+    width: 120px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    box-sizing: unset;
+  }
+
+  #another-down {
+    fill: black;
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    justify-content: center;
+    color: gray;
+    font-weight: 900;
+  }
+
+  .copyright-p {
+    margin: 10px 0px 0px 0px;
+  }
+  
+
+  .link-wordpress {
+    text-decoration: none;
+    color: gray;
+  }
+
+  .border-button {
+    font-family: Georgia;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    box-sizing: unset;
+    width: 99%;
+    height: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .list-button {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+   width: 99%;
+    height: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .final-button {
+    text-decoration: none;
+    background-color: white;
+    height: 28px;
+    width: 99%;
+    padding: 6px 4px 8px 4px;
+    box-sizing: unset;
+  }
+
+  #wrap-rolling,
+  #wrap-legal {
+    border: 1px solid white;
+    padding: 6px 4px 6px 4px;
+  }
+  
+  .text-newsletter{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+  }
+  .div-form-mail{
+    gap: 10px;
+  }
+  .input-mail-footer{
+   background-color: black;
+   color: white;
+   border: none;
+   padding-bottom: 10px;
+   border-bottom: 1px solid white;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .button-subscribe{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 0px;
+    border: 1px solid white ;
+    border-right: none;
+    border-left: none;
+    font-size: 12px;
+  }
+  #got-a-hot-news-tip{
+    border-left: 1px solid white;
+    padding-left: 10px;
+  }
+
+  .list-button {
+    cursor: pointer;
+  }
+
+  .rolling-stone-button-list,
+  .legal-button-list {
+    display: none;
+    flex-direction: column;
+  }
+
+  .rl-list-link {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .rl-list-link:hover {
+    color: gray;
+  }
