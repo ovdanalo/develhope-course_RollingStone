@@ -1,0 +1,131 @@
+.content-by-rs-heading {
+    display: flex;
+    padding-top: 15px;
+    border-top: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-by-rs {
+    border: 1px solid black;
+
+    .content-by-rs-parental-box {
+        background-color: rgb(223 223 223 / 57%);
+        margin: 10px;
+        height: 367px;
+        padding-top: 15px;
+
+        .container-title-rs {
+            display: flex;
+
+            .content-by-rs-title {
+                color: black;
+                margin: 5px;
+                font-family: "graphik";
+                margin-left: 12px;
+                font-size: 15px;
+                padding-bottom: 12px;
+                width: 100%;
+            }
+
+            .whats-this-p {
+                font-size: 10px;
+                white-space: nowrap;
+                margin-top: 8px;
+                margin-left: 35px;
+                font-family: "graphik", sans-serif;
+            }
+        }
+
+        .articles {
+            overflow: auto;
+            display: flex;
+            width: 100%;
+            padding-bottom: 15px;
+
+            .content-by-rs-article {
+                display: flex;
+                flex-direction: column;
+                margin: 0 10px;
+                width: 234px;
+
+                .content-by-rs-article .rs-article-img {
+                    height: 148.5px;
+                    margin-top: 15px;
+                    margin-bottom: 3px;
+
+
+                }
+            }
+        }
+    }
+}
+
+.articles-link {
+    font-family: "graphik", sans-serif;
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.rs-more {
+    margin-top: 10px;
+    position: relative;
+
+    .rs-more-box {
+        left: 45%;
+        width: 100px;
+        position: relative;
+        height: 30px;
+        justify-content: center;
+
+        .rs-more-link {
+            background-color: white;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            align-items: center;
+            padding: 4px;
+            color: black;
+            bottom: 12px;
+            text-decoration: none;
+            border: 1px solid black;
+        }
+
+    }
+}
+
+.rs-more-img {
+    margin: 7px;
+    height: 10px
+}
+
+.rs-more-desktop {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: space-between;
+    margin-right: 10px;
+
+
+}
+
+.rs-more-link-desktop {
+    padding: 4px;
+    color: black;
+    text-decoration: none;
+}
+
+@media(max-width:768px) {
+    .hidden-more-desktop {
+        display: none;
+    }
+}
+
+
+@media(min-width:768px) {
+    .hidden-more {
+        display: none;
+    }
+}
