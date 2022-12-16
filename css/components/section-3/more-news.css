@@ -88,7 +88,7 @@
     color: black;
     margin-left: 30px;
     position: absolute;
-    bottom: -5%;
+    bottom: 0px;
     background-color: white;
     border-bottom: 3px solid black;
     box-shadow: 0 1px 0 black;
@@ -109,7 +109,7 @@
     color: black;
     margin-left: 30px;
     position: absolute;
-    bottom: 16%;
+    bottom: 0px;
     background-color: white;
     border-bottom: 3px solid black;
     box-shadow: 0 1px 0 black;
@@ -176,7 +176,7 @@
 }
 
 
-.news-img-and-p {
+.news-img-and-imp {
     position: relative;
 }
 
