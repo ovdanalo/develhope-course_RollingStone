@@ -1,0 +1,174 @@
+.container-xl{
+    padding:0;
+   }
+   .row{
+     margin: 0;
+   }
+   .immagini {
+     width: 100%;
+     margin: 0;
+     margin-top: 12px;
+   }
+   .contenuto-1{
+    padding:0;
+    margin: 0;
+  }
+   .square-contain{
+     position: relative;
+   }
+   
+   .square-text-1 {
+     position: absolute;
+     bottom: -3%;
+     left: 5%;
+     background-color: white;
+     padding: 15px;
+   }
+   .square-text-1 > span{
+       font-family: "Graphik Semibold", sans-serif;
+       font-weight: bold;
+   
+   }
+   
+   .immagini-sq {
+     width: 100%;
+     margin: 0;
+   }
+   
+   .article-section {
+     padding-top: 1rem;
+     padding-left: 1rem;
+     padding-right: 1rem;
+     margin-left:5%;
+     margin-right: 5%;
+     margin-top: 8px;
+   }
+
+   .contenuto {
+     padding-top: 1rem;
+   }
+   
+   .border-desktop{
+     display: none;
+   }
+   .border-desktop-square{
+     display: none;
+   }
+   .border-desktop-bottom{
+     display: none;
+   }
+   
+   .border-desktop-small{
+     display: none;
+   }
+   
+   
+   .contenuto-small{
+     margin-left:2%;
+     margin-top:2%;
+     margin-right: 2%;
+   }
+   .contenuto-trump{
+     padding-top: 1rem;
+     width: 100%;
+     padding-left: 0;
+     padding-right: 0;
+   }
+   blockquote{
+     margin:10px 0;
+     text-transform: uppercase;
+     font-size: 11px;
+   }
+   
+   .article-section-small{
+     width: 100%;
+   }
+   .container-section2 {
+     display: flex;
+     flex-direction: column;
+     padding-left: 2.25rem;
+     padding-right: 2.25rem;
+   }
+   
+   .article-section2 {
+   
+     padding-bottom: 1rem;
+     font-size: 0.8rem;
+   }
+   
+   .article-section2 > p {
+     border-bottom: 1px solid black;
+     display: inline;
+     font-weight: bold;
+     font-size: 0.6875rem;
+     
+   }
+   
+   .article-section2 > h2 {
+     margin-top: 3px;
+     font-size: 16px;
+     font-weight: 700;
+     letter-spacing: normal;
+     line-height: 17px;
+   }
+   
+   .h2-section-big {
+     font-family: "Public-Banner-Web-Ultra", serif;
+     font-size: 2.375rem;
+   }
+   
+   .h2-section{
+    font-family: "Public-Headline-Web-Bold", serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 12px;
+   }
+   
+   .p-section {
+     font-family: Georgia, Arial, Helvetica, sans-serif;
+     font-size: 1rem;
+   }
+   
+   .section3 {
+     display: flex;
+     flex-direction: row;
+     overflow: auto;
+     height: 120px;
+     padding:10px 0;
+   
+   }
+   .image-card {
+     width: 100px;
+     height: 100px;
+   }
+   
+   .card-general {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     flex-shrink: 0;
+     width: 300px;
+     align-items: center;
+     font-size: 13px;
+   }
+   
+   .card-text > p {
+     margin: 7px;
+     margin-right: 0;
+   }
+   
+   .card-text-title {
+     font-weight: bold;
+     border-bottom: 1px solid black;
+   }
+   
+   .card-text > span {
+     margin-left: 8px;
+   }
+   
+   @media (max-width: 1400px) {
+     .tablet-no-show {
+       display: none;
+     }
+   }
+   

@@ -1,32 +1,39 @@
 .sticky-addon {
-    display:none;
+  display: none;
 }
 
 .sticky-navbar {
-    display:none;
-    height: 60px;
-    width: 100%;
-    position: fixed;
-    background-color: white;
-    z-index: 2;
-    top: 0;
+  display: none;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 2;
+  top: 0;
 }
 
 .sticky-links {
-    margin: 0;
-    padding: 5px;
-    color: #8c8c8c;
-    font-size: 0.7rem;
+  margin: 0;
+  padding: 5px;
+  color: #8c8c8c;
+  font-size: 0.7rem;
+}
+
+.sticky-desktop {
+  display: none;
 }
 
 .sticky-mar-left {
-    margin-left: 10%;
+  margin-left: 10%;
 }
 
 @media (min-width: 1300px) {
-    .sticky-navbar {
-        width: 80%;
-        margin-left: 10%;
-    }
-
+  .sticky-navbar {
+    width: 100%;
+  }
+  .sticky-desktop {
+    display: flex;
+  }
 }
+
+/*# sourceMappingURL=sticky-navbar.css.map */

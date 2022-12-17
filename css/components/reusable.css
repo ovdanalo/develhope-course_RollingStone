@@ -28,81 +28,91 @@
 .flex {
     display: flex;
 }
+
 .flex-justify-center {
     justify-content: center;
 }
+
 .flex-align-center {
     align-items: center;
 }
+
 .flex-dir-col {
     flex-direction: column;
 }
+
 .mobile {
-    display:none;
+    display: none;
 }
 
 @media (min-width: 768px) {
     .divider-primary {
-        display:none;
+        display: none;
     }
+
     .mobile {
         display: block;
     }
 }
+
 /*section 1*/
 .border-xl {
     margin-top: 3px;
     border-bottom: 4px solid black;
     width: 100%;
-  }
-  .border-bottom {
+}
+
+.border-bottom {
     margin-top: 2px;
     border: 1px solid #dee2e6;
     width: 95%;
     margin-bottom: 5px;
     justify-self: center;
-  }
-  .border-bottom2 {
+}
+
+.border-bottom2 {
     margin-top: 2px;
     border: 1px solid #dee2e6;
     width: 99%;
     margin-bottom: 5px;
     justify-self: center;
-  }
-  .border {
+}
+
+.border {
     margin-top: 2px;
     border: 1px solid black;
     width: 100%;
     margin-bottom: 5px;
-  }
+}
 
-  .border-right {
+.border-right {
     border-right: 1px solid black;
     margin-right: 0.8rem;
     padding-left: 1.5rem;
     margin-top: 7px;
-  }
-  
-
-.border-desktop{
-  margin-top: 10px;
-  border-top:1px solid black;
-  
 }
 
-.border-desktop-small{
-  border-top:1px solid black;
+
+.border-desktop {
+    margin-top: 10px;
+    border-top: 1px solid black;
 
 }
 
-.border-desktop-bottom{
-  border-top:1px solid black;
-  padding-bottom: 10px;
+.border-desktop-small {
+    border-top: 1px solid black;
+
 }
 
-.border-desktop-square{
-  border:1px solid black;
+.border-desktop-bottom {
+    border-top: 1px solid black;
+    padding-bottom: 10px;
 }
+
+.border-desktop-square {
+    border: 1px solid black;
+}
+
 /*section 2*/
 
 .divider-double-basic {
@@ -121,56 +131,45 @@
     margin-top: 3px;
 }
 
-.border-double {
+.divider-double {
     border: 3px black solid;
-    margin-top: 10px;
-}
-
-.border-caption {
-    border-bottom: 0.015rem solid;
-    padding-bottom: 4px;
 }
 
 .divider-bottom {
     border-bottom: 1px solid black;
     padding: 16px 0;
 }
-small {
+
+.title-caption-news {
+    border-bottom: 1px solid;
+    padding-bottom: 4px;
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-time {
+.publication-date {
     font-size: 12px;
     color: gray;
     font-weight: bold;
 }
 
-#hidden {
-    display: none;
-}
-
-a {
+.link-news {
     color: black;
     text-decoration: none;
 }
 
-a:hover {
+.link-news:hover {
     color: gray;
 }
 
-#author {
-    display: flex;
-}
-
-#author * {
+.writtenByAuthor {
     margin-right: 4px;
     margin-top: 4px;
     font-size: 15px;
 }
 
-#author > a:hover {
+.writtenByAuthor a:hover {
     color: gray;
     text-decoration: underline;
 }
@@ -179,7 +178,7 @@ a:hover {
     width: 100%;
 }
 
-.text-spacing {
+.text-marg-unset {
     margin-top: unset;
     margin-bottom: unset;
 }
@@ -189,7 +188,7 @@ a:hover {
 }
 
 .publico-head {
-    font-family: "public-headline", sans-serif;
+    font-family: "Public-Headline-Web-Bold", sans-serif;
     margin-top: 10px;
 }
 
@@ -205,38 +204,41 @@ a:hover {
 
 /*section 3*/
 
-.divider-1px{
+.divider-1px {
     height: 1px;
     background-color: black;
     margin-bottom: 0px;
     width: 100%;
 }
-.divider-3px{
-    height:3px; 
-    background-color:black; 
+
+.divider-3px {
+    height: 3px;
+    background-color: black;
     margin-bottom: 2px;
 }
-.divider-5px{
-    width: 100%;height:5px; 
-    background-color:black; 
-    margin-bottom:5px; 
+
+.divider-5px {
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    margin-bottom: 5px;
     margin-top: 15px;
 }
 
-.reports-heading-line{
-    width:49.08px;
-    height:1px;
-    background-color:black;
+.reports-heading-line {
+    width: 49.08px;
+    height: 1px;
+    background-color: black;
     margin-bottom: 20px;
 }
 
-.reports-line{
-    height:1px; 
-    background-color:black; 
+.reports-line {
+    height: 1px;
+    background-color: black;
     margin-bottom: 20px;
 }
 
-.more-divider{
+.more-divider {
     height: 1px;
     background-color: black;
     margin-bottom: 0px;
@@ -246,7 +248,7 @@ a:hover {
     margin-top: 18px;
 }
 
-.adv-divider-3px{
+.adv-divider-3px {
     height: 3px;
     background-color: black;
     margin-bottom: 2px;
@@ -254,17 +256,36 @@ a:hover {
     margin-top: 20px;
 }
 
-.adv-divider-1px{
+.adv-divider-1px {
     height: 1px;
     background-color: black;
     margin-bottom: 2px;
     width: 178%;
 }
-.hr-more{
+
+.hr-more {
     display: flex;
     position: relative;
     height: 30px;
     justify-content: center;
     margin-bottom: 24px;
     justify-self: center;
+}
+
+.reset-padding-rl {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.a-reports-content:hover,
+.link-imp:hover,
+.news-link:hover,
+.articles-link:hover,
+.report-more-link:hover,
+.read-more-link:hover,
+.rs-more-link:hover,
+.rs-more-link-desktop:hover {
+    color: gray;
+
 }

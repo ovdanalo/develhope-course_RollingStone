@@ -48,8 +48,8 @@
     margin-top: 15px;
 }
 
-a.a-reports-content {
-    font-family: "Public-Headline-Web-Bold";
+ a.a-reports-content{
+    font-family: "Public-Headline-Web-Bold", sans-serif;
     font-size: 18px;
     text-decoration: none;
     color: black;
@@ -67,7 +67,10 @@ a.a-reports-content {
     padding-bottom: 8px;
     padding-left: 12px;
     padding-right: 9px;
-    margin-left: 222px;
+    margin-left: 81%;
+    background-color: white;
+    z-index: 1;
+
 }
 
 .triangle-right-img {
@@ -78,5 +81,48 @@ a.a-reports-content {
 
 .more-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;  
+}
+
+@media(min-width:768px){
+    .reports{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .reports-heading{
+        display: flex;
+        flex-direction: column;
+    }
+    .reports-content{
+        border-bottom: none;
+        display: flex;
+        margin-right: 5px;
+        
+    }
+    .heading-adv{
+        width: 125px;
+    height: 37px;
+    margin: 0;
+    }
+    .first-title{
+        font-size: 34px;
+        margin-right: 10px;
+    }
+    .second-title{
+        font-size: 34px;
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+
+}
+@media(min-width:1000px){
+    .reports-content{
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        border-right: 1px solid black;
+        height: fit-content;
+        width: 235px;
+    }
 }

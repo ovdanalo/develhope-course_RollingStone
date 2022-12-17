@@ -5,11 +5,6 @@
 
 }
 
-#rolling-wide,
-#legal-wide {
-  display: none;
-}
-
 .link-footer {
     text-decoration: none;
     color: white;
@@ -19,9 +14,7 @@
     text-decoration: underline;
     color: grey;
 }
-.boxsize-borderbox{
-    box-sizing: border-box;
-}
+
 footer,
 .backblack,
 .border3-padding050,
@@ -32,6 +25,7 @@ footer,
   justify-content: center;
   align-items: center;
 }
+
 .backblack {
     height: 450px;
     width: 100%;
@@ -40,7 +34,7 @@ footer,
   
   .border3-padding050 {
     height: 430px;
-    width: 430px;
+    width: 98%;
     padding: 8px;
     border: 3px solid white;
   }
@@ -48,17 +42,20 @@ footer,
   .border1 {
     border: 1px solid white;
     height: 410px;
-    width: 410px;
+    width: 98%;
   }
+
   .wrap-final-button {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 15px;
+    width: 95%;
    
     
   }
+
   #customer-service,
 #give-a-gift {
   color: white;
@@ -86,56 +83,51 @@ footer,
   background-color: red;
 }
 
-#wrap-rolling,
-#wrap-legal {
-  border: 1px solid white;
-  height: 28px;
-  width: 347px;
-  padding: 6px 4px 6px 4px;
-}
-
-.list-button {
-    background-color: black;
-    color: white;
-    border: 1px solid white;
-    padding-bottom: 10px;
-  }
   #svs-down {
     width: 10px;
     height: 10px;
     font-size: 10px;
   }
-  
+
   .down {
     fill: white;
   }
+
   .pmc-footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  
+
   .flex-final-menu {
     display: flex;
-    align-items: center;
+    
     justify-content: space-between;
     height: 38px;
-    width: 360px;
+    width: 90%;
+    padding: 10px;
     border: 1px solid black;
   }
-  
+
+  .our-sites-menu{
+    font-size: 10px;
+    font-weight: 800;
+    text-align: center;
+  }
+
   #pmc-final-footer {
     height: 20px;
     width: 120px;
     padding-top: 40px;
     padding-bottom: 20px;
+    box-sizing: unset;
   }
-  
+
   #another-down {
     fill: black;
   }
-  
+
   .copyright {
     display: flex;
     flex-direction: column;
@@ -145,19 +137,87 @@ footer,
     color: gray;
     font-weight: 900;
   }
-  
+
   .copyright-p {
     margin: 10px 0px 0px 0px;
   }
   
+
   .link-wordpress {
     text-decoration: none;
     color: gray;
   }
 
-  @media (min-width: 992px) {
-    #rolling-wide,
-#legal-wide {
-  display: flex;
-}
+  .border-button {
+    font-family: Georgia;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    box-sizing: unset;
+    width: 99%;
+    height: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .list-button {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+   width: 99%;
+    height: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .final-button {
+    text-decoration: none;
+    background-color: white;
+    height: 28px;
+    width: 99%;
+    padding: 6px 4px 8px 4px;
+    box-sizing: unset;
+  }
+
+  #wrap-rolling,
+  #wrap-legal {
+    border: 1px solid white;
+    height: 28px;
+    
+    padding: 6px 4px 6px 4px;
+  }
+  
+  .text-newsletter{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+  }
+  .div-form-mail{
+    gap: 10px;
+  }
+  .input-mail-footer{
+   background-color: black;
+   color: white;
+   border: none;
+   padding-bottom: 10px;
+   border-bottom: 1px solid white;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .button-subscribe{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 0px;
+    border: 1px solid white ;
+    border-right: none;
+    border-left: none;
+    font-size: 12px;
+  }
+  #got-a-hot-news-tip{
+    border-left: 1px solid white;
+    padding-left: 10px;
   }
