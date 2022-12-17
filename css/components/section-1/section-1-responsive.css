@@ -36,6 +36,19 @@
   .contenuto-1{
     padding-top:40px;
   }
+  .square-text-1{
+    position: absolute;
+    top:95%;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin-left: 40%;
+    width: 110px;
+    height: 20px;
+    text-align: center;
+    box-sizing: content-box;
+    }
+ 
   .container-section-small{
     padding-left: 0;
     padding-right: 0;
