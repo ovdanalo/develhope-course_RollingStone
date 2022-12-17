@@ -1,5 +1,6 @@
 
 .dropdown {
+    display: none;
     position: absolute;
     display:none;
     width: 99vw;
